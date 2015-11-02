@@ -1,0 +1,18 @@
+{
+	"name": "Erik Magnusson",
+	"github": "em222iv",
+	"projectrepo": "",
+	"projectdesc": "",
+	"slack": "em222iv",
+	"presentation": "25 år från Norrtälje. Pluggar från Campus i Kalmar. I like turtles",
+	"icon": "drakes$slasher",
+	"blogposts": [
+		{
+			"when": "2/11-15",
+			"url": "em222iv.blogspot.se",
+			"title": "Min första post"
+		}
+	],
+	"pullrequests": [
+	]
+}
