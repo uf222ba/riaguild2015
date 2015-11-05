@@ -21,6 +21,11 @@
 		"when": "2015-11-04 21:57",
 		"url": "https://jesperh.se/2015/11/04/using-waffle-for-project-management/",
 		"title": "Using Waffle for project management"
+	},
+	{
+		"when": "2015-11-05 22:50",
+		"url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
+		"title": "Why all you non-TypeScripters are non-enlightened fools"
 	}
     ],
     "pullrequests": [
