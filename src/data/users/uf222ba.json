@@ -1,0 +1,33 @@
+{
+    "name": "Ulrika Falk",
+    "github": "uf222ba",
+    "projectrepo": "",
+    "projectdesc": "",
+    "slack": "ulrika_falk",
+    "presentation": "I'm 41 year old with husband, daughter, house and small zoo. Two dogs, two tame cockatiels and an aquarium. I'm passionate about programming and have been working as developer for some years. Right now on leave from my employment as a Systems Engineer at Saab AB to be able to get my bachelor degree.",
+    "icon": "goblins$pillager",
+    "blogposts": [
+        {
+            "when": "2015-11-02 09:44",
+            "url": "https://github.com/uf222ba/blog/blob/master/entry01.md",
+            "title": "First post - Presentation"
+        },
+	{
+            "when": "2015-11-04 11:00",
+            "url": "https://github.com/uf222ba/blog/blob/master/entry02.md",
+            "title": "Developing environment"
+        },
+        {
+            "when": "2015-11-06 10:30",
+            "url": "https://github.com/uf222ba/blog/blob/master/entry03.md",
+            "title": "The installation"
+        },
+	{
+            "when": "2015-11-06 11:00",
+            "url": "https://github.com/uf222ba/blog/blob/master/entry04.md",
+            "title": "A bit overhwelmed"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

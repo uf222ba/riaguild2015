@@ -1,0 +1,1 @@
+This is the member roster for the [RIA course](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript) at [Linnaeus university](http://lnu.se). Read more about it [here](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/about-the-guild/), and visit the published version [here](http://blog.krawaller.se/riaguild2015/).

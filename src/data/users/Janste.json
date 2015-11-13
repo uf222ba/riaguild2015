@@ -1,0 +1,23 @@
+{
+    "name": "Jan Steczko",
+    "github": "Janste",
+    "projectrepo": "Janste.github.io",
+    "projectdesc": "Not available yet",
+    "slack": "jansteczko",
+    "presentation": "A student at LNU from Vaxjo.",
+    "icon": "dwarves$gryphon-master",
+    "blogposts": [
+        {
+            "when": "2015-11-07 11:35",
+            "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry01.md",
+            "title": "Introduction"
+        },
+        {
+            "when": "2015-11-11 10:40",
+            "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry02.md",
+            "title": "Hello World with React"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

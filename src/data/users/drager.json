@@ -1,0 +1,33 @@
+{
+    "name": "Jesper Håkansson",
+    "github": "drager",
+    "projectrepo": "cetti",
+    "projectdesc": "n/a",
+    "slack": "jesperhakansson",
+    "presentation": "21 year old Nybro resident. Dart, JavaScript and opensource lover.",
+    "icon": "monsters$yeti",
+    "blogposts": [
+	{
+		"when": "2015-11-02 13:20",
+		"url": "https://jesperh.se/2015/11/02/ria-introduction/",
+		"title": "RIA introduction"
+	},
+	{
+		"when": "2015-11-04 16:43",
+		"url": "https://jesperh.se/2015/11/04/webpack-hot-reloading-with-react-and-typescript/",
+		"title": "Using Webpack with hot reload for React and TypeScript"
+	},
+	{
+		"when": "2015-11-04 21:57",
+		"url": "https://jesperh.se/2015/11/04/using-waffle-for-project-management/",
+		"title": "Using Waffle for project management"
+	},
+	{
+		"when": "2015-11-05 22:50",
+		"url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
+		"title": "Why all you non-TypeScripters are non-enlightened fools"
+	}
+    ],
+    "pullrequests": [
+    ]
+}

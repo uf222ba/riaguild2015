@@ -1,8 +1,8 @@
 {
 	"name": "David Strömbom",
-	"github": "dagashi",
-	"projectrepo": "",
-	"projectdesc": "",
+	"github": "Dagashi",
+	"projectrepo": "ria-2015",
+	"projectdesc": "Unknown",
 	"slack": "david.strombom",
 	"presentation": "28 year old father of 3, living the life in Italy. Programming is da bomb! Nice to meet you.",
 	"icon": "drakes$blademaster",
@@ -11,6 +11,11 @@
 			"when": "2015-10-30 15:33",
 			"url": "http://www.2dv607.davidstrombom.se/information/introduction/",
 			"title": "Introduction"
+		},
+		{
+			"when": "2015-11-05 17:40",
+			"url": "http://www.2dv607.davidstrombom.se/react/react-with-bootstrap/",
+			"title": "React with Bootstrap"
 		}
 	],
 	"pullrequests": [

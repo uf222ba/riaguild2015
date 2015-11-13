@@ -1,0 +1,23 @@
+{
+  "name": "Sherief Badran",
+  "github": "SheriefBadran",
+  "projectrepo": "riastart2015",
+  "projectdesc": "Sherief Badran, 36 years old.",
+  "slack": "sherief",
+  "presentation": "",
+  "icon": "goblins$knight",
+  "blogposts": [
+    {
+      "when": "2015-11-01 15:45",
+      "url": "http://sheriefbadran.blogspot.se/2015/11/introduktionsinlagg.html",
+      "title": "Presentation"
+    },
+    {
+      "when": "2015-11-04 20:44",
+      "url": "http://sheriefbadran.blogspot.se/2015/11/setup-and-build-process.html",
+      "title": "Setup and build process"
+    }
+  ],
+  "pullrequests": [
+  ]
+}

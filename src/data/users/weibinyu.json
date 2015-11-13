@@ -1,0 +1,18 @@
+{
+  "name": "WeiBin Yu",
+  "github": "weibinyu",
+  "projectrepo": "",
+  "projectdesc": "",
+  "slack": "weibin",
+  "presentation": "21 years old, studying Software Technology at LNU Växjö.",
+  "icon": "undead$bloodbat-se-3",
+  "blogposts": [
+    {
+      "when": "2015-11-12 13:58",
+      "url": "https://github.com/weibinyu/RIA-with-Javascripte/blob/master/blog/entry01.md",
+      "title": "First Blog"
+    }
+  ],
+  "pullrequests": [
+  ]
+}

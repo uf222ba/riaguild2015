@@ -1,0 +1,18 @@
+{
+    "name": "Jesper Holmström",
+    "github": "JesperHolmstrom",
+    "projectrepo": "RIA_project",
+    "projectdesc": "A small project to try out React/Redux. Code stolen shamelessly from Andreas Fridlund's example.",
+    "slack": "jesperholmstrom",
+    "presentation": "25 year old guy from Värnamo, currently living in Växjö where I am studying Software Technology.",
+    "icon": "ninjas$monk",
+    "blogposts": [
+        {
+            "when": "2015-11-03 13:00",
+            "url": "http://jh222xd.hol.es/ria-javascript/update/first-blog-entry/",
+            "title": "First blog entry"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

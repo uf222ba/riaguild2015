@@ -1,8 +1,54 @@
+td {
+	padding-right: 1em;
+}
+
 .icon {
 	display: inline-block;
 }
 
 .chosen {
-    opacity: 0.6;
-    background-color: red;
+	opacity: 0.6;
+}
+
+.badge {
+	position: relative;
+	margin-right: 10px;
+}
+p.badge-name {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-weight: bold;
+	color: #000;
+	background-color: rgba(255, 255,255, .7);
+	font-size: 0.9em;
+}
+p.badge-name:hover {
+	color: #666;
+}
+
+ul.nav > li > a.active {
+	font-weight: bold;
+}
+ul.nav:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+ul.nav li {
+	float: left;
+	margin-left: 1em;
+}
+ul.nav {
+	list-style-type: none;
+	-webkit-padding-start: 0;
+	background-color: #CCC;
+}
+
+form label {
+	margin-right: 10px;
+}
+form label input[type="radio"], 
+form label input[type="checkbox"] {
+	margin-left: 5px;
 }

@@ -1,0 +1,18 @@
+{
+    "name": "Daniel Lundström",
+    "github": "diggo16",
+    "projectrepo": "",
+    "projectdesc": "",
+    "slack": "daniel_l",
+    "presentation": "21 years old from Kalmar but currently living in Växjö. Have some basic knowledge in html, css, php and javascript",
+    "icon": "human-magi$elder-mage",
+    "blogposts": [
+        {
+            "when": "2015-11-06 20:42",
+            "url": "https://github.com/diggo16/jsProject/blob/master/public_html/blog/introduction.md",
+            "title": "Introduction"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

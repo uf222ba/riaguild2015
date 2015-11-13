@@ -1,0 +1,37 @@
+{
+    "name": "Maria Nygren",
+    "github": "mn22nw",
+    "slack": "@mia",
+    "presentation": "27 year old Örebro resident, love to learn new stuff, especially within the subjects of programming, music (piano/guitar/bass), 3D-modeling and design/art.",
+    "icon": "ninjas$yohei",
+    "blogposts": [
+        {
+            "when": "2015-11-03 14:50",
+            "url": "http://mianygren.nu/RIA/Blog/aboutMe/",
+            "title": "About me - Presentation"
+        }, 
+        {
+            "when": "2015-11-03 23:44",
+            "url": "http://mianygren.nu/RIA/Blog/45/#the-guild-overview-etc",
+            "title": "The guild, Overview, etc."
+        },
+         {
+            "when": "2015-11-04 11:50",
+            "url": "http://mianygren.nu/RIA/Blog/45/#looking-at-the-demo-app-etc",
+            "title": "Looking at the demo-app etc."
+        },  
+        {
+            "when": "2015-11-05 18:15",
+            "url": "http://mianygren.nu/RIA/Blog/45/#webpack-and-reactjs-basics",
+            "title": "Webpack and React.js basics"
+        },  
+        {
+            "when": "2015-11-06 22:50",
+            "url": "http://mianygren.nu/RIA/Blog/45/#webpack-jsx-problem-and-solution",
+            "title": "Webpack - jsx problem - and solution!"
+        } 
+
+    ],
+    "pullrequests": [
+    ]
+}

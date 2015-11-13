@@ -1,0 +1,25 @@
+{
+    "name": "Emil Karlsson",
+    "github": "ek222mw",
+    "projectrepo": "RiaProject",
+    "projectdesc": "The project repo for ria course",
+    "slack": "emilk",
+    "presentation": "28 year old Blomstermåla resident, likes php.",
+    "icon": "drakes$inferno",
+    "blogposts": [
+        {
+            "when": "2015-11-03 13:03",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry01.md",
+			"title": "Introduction for RIA"
+        },
+		{
+            "when": "2015-11-11 15:07",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry02.md",
+			"title": "Created the hello world program"
+        }
+    ],
+    "pullrequests": [
+		
+		
+    ]
+}

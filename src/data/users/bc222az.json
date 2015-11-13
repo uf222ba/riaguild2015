@@ -1,0 +1,23 @@
+{
+    "name": "Benny Carlsson",
+    "github": "bc222az",
+    "projectrepo": "Ria-development-2dv607",
+    "projectdesc": "",
+    "slack": "benny",
+    "presentation": "My name is benny, 22 years old living in kalmar. Giving javascript a chance..",
+    "icon": "ninjas$monomi",
+    "blogposts": [
+        {
+            "when": "2015-11-04 16:00",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry01.md",
+            "title": "Entry01"
+        },
+	{
+            "when": "2015-11-12 17:00",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry02.md",
+            "title": "Entry02"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

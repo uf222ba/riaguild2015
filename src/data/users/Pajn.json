@@ -1,0 +1,33 @@
+{
+    "name": "Rasmus Eneman",
+    "github": "Pajn",
+    "projectrepo": "Culinam",
+    "projectdesc": "n/a",
+    "slack": "rasmus",
+    "presentation": "21 year old from Nyköping, Dart and JavaScript lover.",
+    "icon": "monsters$direwolf",
+    "blogposts": [
+      {
+      	"when": "2015-11-02 14:00",
+      	"url": "https://rasmus.eneman.eu/ria-introduction/",
+      	"title": "RIA introduction"
+      },
+      {
+      	"when": "2015-11-03 21:58",
+      	"url": "https://rasmus.eneman.eu/hot_loading_react_components_with_typescript/",
+      	"title": "Hot loading React components with Typescript"
+      },
+      {
+      	"when": "2015-11-04 19:33",
+      	"url": "https://rasmus.eneman.eu/continuous-integration-and-deployment-to-gh-pages/",
+      	"title": "Continuous Integration and Deployment to gh-pages"
+      },
+      {
+      	"when": "2015-11-10 22:33",
+      	"url": "https://rasmus.eneman.eu/the-dark-spots-in-typescript/",
+      	"title": "The dark spots in Typescript"
+      },
+    ],
+    "pullrequests": [
+    ]
+}

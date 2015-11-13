@@ -1,18 +1,38 @@
 {
     "name": "Ioseff Griffith",
     "github": "MoombaDS",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "2DV607",
+    "projectdesc": "TBD!",
     "slack": "ioseff",
     "presentation": "Programmer/composer hailing from the UK with a strong love for video games.",
     "icon": "undead$spectre",
     "blogposts": [
         {
             "when": "2015-11-01 14:00",
-            "url": "https://github.com/MoombaDS/2DV607/blob/master/blog/entry01.md",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry01.md",
             "title": "Introduction"
+        },
+        {
+            "when": "2015-11-09 22:00",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry02.md",
+            "title": "First Steps"
         }
     ],
     "pullrequests": [
+        {
+            "when": "2015-11-09 22:15",
+            "url": "https://github.com/krawaller/riaguild2015/pull/61",
+            "description": "Added ability to filter deeds by name"
+        },
+        {
+            "when": "2015-11-10 11:15",
+            "url": "https://github.com/krawaller/riaguild2015/pull/65",
+            "description": "Added various filters to the deeds page"
+        },
+        {
+            "when": "2015-11-10 12:30",
+            "url": "https://github.com/krawaller/riaguild2015/pull/66",
+            "description": "Refactored filter code to remove hidden state"
+        }
     ]
 }

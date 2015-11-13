@@ -1,32 +1,20 @@
 
 var React = require("react"),
-	_ = require("lodash"),
-	Link = require("react-router").Link,
-	members = require("../data/members");
+	Heroes = require("./heroes");
 
 var Home = React.createClass({
 	render: function(){
-		var rows = _.map(members,function(info,id){
-			return (
-				<tr key={id}>
-					<td><img src={"http://units.wesnoth.org/1.10/pics/core$images$units$"+info.icon+".png"} alt={info.icon} title={info.icon} /></td>
-					<td><Link to={"/member/"+id}>{info.name}</Link></td>
-					<td>{info.blogposts.length}</td>
-					<td>{info.pullrequests.length}</td>
-				</tr>
-			);
-		});
 		return (
 			<div>
-				<p>Ria guild! To join, find your preferred icon in the <Link to="/gallery">gallery</Link>!</p>
-				<table>
-					<thead>
-						<tr><th>Pic</th><th>Name</th><th>Posts</th><th>PR:s</th></tr>
-					</thead>
-					<tbody>
-						{rows}
-					</tbody>
-				</table>
+				<h3>Welcome!</h3>
+				<p>
+This is the student roster for the <a href="https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/" target="_blank">RIA JavaScript course</a> at <a href="http://lnu.se" target="_blank">Linnaeus University</a>. Github repo is <a href="https://github.com/krawaller/riaguild2015" target="_blank">here</a>.
+				</p>
+				<p>
+The purpose of the guild is to easily find the classmates' projects, and also see their blog posts and pull requests.
+				</p>
+				<h3>Heroes</h3>
+				<Heroes />
 			</div>
 		);
 	}

@@ -1,0 +1,43 @@
+{
+	"name": "Mattias Wikström",
+	"github": "mw222rs",
+	"projectrepo": "itendsinspace",
+	"projectdesc": "It's your choice.",
+	"slack": "mattiaswikstroem",
+	"presentation": "28 year old person.",
+	"icon": "ninjas$sumo",
+	"blogposts": [
+		{
+			"when": "2015-11-02 16:59",
+			"url": "http://mattias.rocks/my-respiration-and-inspiration/",
+			"title": "Song of Myself"
+		},
+		{
+			"when": "2015-11-05 23:45:29",
+			"url": "http://mattias.rocks/using-eslint-to-lint-your-react-code/",
+			"title": "Linting your React code with ESLint"
+		},
+		{
+			"when": "2015-11-09 00:22:17",
+			"url": "http://mattias.rocks/setting-up-sublime/",
+			"title": "Setting up Sublime Text for React developmentt"
+		}
+	],
+	"pullrequests": [
+		{
+			"when": "2015-11-02 14:00",
+		    "url": "https://github.com/krawaller/riaguild2015/pull/13",
+		    "description": "Added ninja delight! <3"
+		},
+		{
+			"when": "2015-11-03 14:00",
+		    "url": "https://github.com/krawaller/riaguild2015/pull/18",
+		    "description": "Added DEMONS!"
+		},
+		{
+			"when": "2015-11-03 20:06",
+		    "url": "https://github.com/krawaller/riaguild2015/pull/24",
+		    "description": "Badger badger!"
+		}
+	]
+}

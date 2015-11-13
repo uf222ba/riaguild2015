@@ -1,0 +1,48 @@
+{
+	"name": "Elin Nilsson",
+	"github": "swoot1",
+	"projectrepo": "ria2015",
+	"projectdesc": "Magic",
+	"slack": "en222by",
+	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
+	"icon": "human-outlaws$thief",
+	"blogposts": [
+		{
+			"when": "2015-11-03 21:20",
+			"url": "https://github.com/Swoot1/ria2015/blob/master/blog/2015-11-03-presentation.markdown",
+			"title": "Presentation"
+		},
+        {
+			"when": "2015-11-08 17:00",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-the-script-tag.markdown",
+			"title": "The script tag in package.json"
+		},
+        {
+			"when": "2015-11-08 17:01",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-es6.markdown",
+			"title": "ECMAScript6"
+		},
+        {
+			"when": "2015-11-08 17:02",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-syncing-fork.markdown",
+			"title": "How do I sync my fork with the riaguild2015?"
+		},
+        {
+			"when": "2015-11-08 17:03",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-when-you-mess-up-your-fork.markdown",
+			"title": "When you mess up your fork"
+		},
+        {
+			"when": "2015-11-08 21:43",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-added-watches.markdown",
+			"title": "Watch .css and .js files"
+		}
+	],
+	"pullrequests": [
+		{
+			"when": "2015-11-09 21:00",
+			"url": "https://github.com/krawaller/riaguild2015/pull/62",
+			"description": "Added filter function for gallery."
+		}
+	]
+}

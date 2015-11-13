@@ -1,0 +1,21 @@
+{
+    "name": "Annie Sahlberg",
+    "github": "as223my",
+    "slack": "as223my",
+    "presentation": "I'm a 24 year old WP13 student, currently living outside of gothenburg who would like to improve my skills in Javascript.",
+    "icon": "elves-wood$shyde",
+    "blogposts": [
+        {
+            "when": "2015-11-07 19:15",
+            "url": "https://github.com/as223my/blog/blob/master/entry01.md",
+            "title": "First blogpost - Presentation"
+        }, 
+        {
+            "when": "2015-11-08 22:00",
+            "url": "https://github.com/as223my/blog/blob/master/entry02.md",
+            "title": "First week - a lot of confusing moments"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

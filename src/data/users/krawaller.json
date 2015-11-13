@@ -14,5 +14,14 @@
 		}
 	],
 	"pullrequests": [
+		{
+			"when": "2015-11-06 12:40",
+			"url": "https://github.com/Dagashi/ria-2015/pull/1",
+			"description": "Extracted Sidebar from Wrapper"
+		},{
+			"when": "2015-11-12 09:50",
+			"url": "https://github.com/Dagashi/ria-2015/pull/2",
+			"description": "Made component work before Firebase data received"
+		}
 	]
 }

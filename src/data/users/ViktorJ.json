@@ -1,0 +1,23 @@
+{
+	"name": "Viktor Jansson",
+	"github": "ViktorJ",
+	"projectrepo": "ria-project",
+	"projectdesc": "tbd",
+	"slack": "viktorjansson",
+	"presentation": "3rd year web-programming student living in Södertälje, Sweden.",
+	"icon": "undead-skeletal$skeleton",
+	"blogposts": [
+		{
+			"when": "2015-11-04 16:20",
+			"url": "http://viktorj.github.io/notes/first/",
+			"title": "First post"
+		},
+        {
+            "when": "2015-11-12 20:10",
+            "url": "http://viktorj.github.io/notes/react/",
+            "title": "Getting to know React"
+        }
+	],
+	"pullrequests": [
+	]
+}
