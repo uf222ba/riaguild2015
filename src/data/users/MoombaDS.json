@@ -16,6 +16,11 @@
             "when": "2015-11-09 22:00",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry02.md",
             "title": "First Steps"
+        },
+        {
+            "when": "2015-11-17 19:00",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry03.md",
+            "title": "Bootstrap"
         }
     ],
     "pullrequests": [
