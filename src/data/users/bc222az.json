@@ -16,6 +16,11 @@
             "when": "2015-11-12 17:00",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry02.md",
             "title": "Entry02"
+        },
+	{
+            "when": "2015-11-17 16:30",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/3-Steps-Of-Hello-World.md",
+            "title": "3 Simple Steps of Hello World!"
         }
     ],
     "pullrequests": [
