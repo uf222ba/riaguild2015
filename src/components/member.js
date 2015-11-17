@@ -21,6 +21,9 @@ var Member = React.createClass({
 					</tr>
 				);
 			}),
+			snippets = (data.snippets || []).map(function(snippet,n){
+				return <li key={n}><a target="_blank" href={snippet.url}>{snippet.description+" ("+snippet.when+")"}</a></li>;
+			}),
 			received = (data.received || []).map(function(pr,n){
 				var authoruser = members[pr.by];
 				return (
@@ -55,6 +58,12 @@ var Member = React.createClass({
 				)}
 				<h3>Blog posts:</h3>
 				<ul>{posts}</ul>
+				{snippets.length && (
+					<div>
+						<h3>Code snippets</h3>
+						<ul>{snippets}</ul>
+					</div>
+				) || ""}
 				{pullrequests.length && (
 					<div>
 						<h3>Pull requests</h3>

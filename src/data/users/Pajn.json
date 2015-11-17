@@ -34,5 +34,15 @@
         "url": "https://github.com/drager/cetti/pull/15",
         "description": "feat: Add initial dashboard component"
       },
+      {
+        "when": "2015-11-16 12:15",
+        "url": "https://github.com/drager/cetti/pull/22",
+        "description": "feat: Add ChartWidget"
+      },
+      {
+        "when": "2015-11-17 12:50",
+        "url": "https://github.com/drager/cetti/pull/23",
+        "description": "feat: Add support for smoothing a line chart fix: Fix the axis calclulation and placement"
+      },
     ]
 }

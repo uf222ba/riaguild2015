@@ -27,5 +27,22 @@
 			"url": "https://github.com/Dagashi/ria-2015/pull/4",
 			"description": "Fixed form default value population by delaying render until data received"
 		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-06 18:32",
+			"url": "https://jsbin.com/niwumu/edit?js,console",
+			"description": "Understanding JS function context"
+		},
+		{
+			"when": "2015-11-06 18:32",
+			"url": "http://jsbin.com/vapomo/edit?js,output",
+			"description": "React component rendering depending on prop values"
+		},
+		{
+			"when": "2015-11-07 12:16",
+			"url": "https://jsbin.com/cimoke/edit?js,console",
+			"description": "Different syntaxes for defining a method"
+		}
 	]
 }

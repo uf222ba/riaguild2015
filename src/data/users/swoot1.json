@@ -69,5 +69,12 @@
 			"url": "https://github.com/krawaller/riaguild2015/pull/100",
 			"description": "Changed the menu to the react bootstrap menu."
 		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-16 15:55",
+			"url": "https://jsbin.com/soyobe/edit?html,js,output",
+			"description": "2-way databinding in React"
+		}
 	]
 }

@@ -67,7 +67,8 @@ var sageadvice = [
 	["mw222rs",1], // Mattias W, ESLint
 	["swoot1",1], // Elin, build script
 	["swoot1",2], // Elin, ES6
-	["mw222rs",2] // Mattias W, Sublime
+	["mw222rs",2], // Mattias W, Sublime
+	["swoot1",7], // Elin, state vs props vs static
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
@@ -86,27 +87,21 @@ members = _.mapValues(members,function(data){
 
 // lift out action log
 
-var numposts = 0, numpr = 0;
+var counter = {post:0,pr:0,snippet:0},
+	typeToKey = {post:"blogposts",pr:"pullrequests",snippet:"snippets"}
 
 var actions = _.reduce(members,function(ret,data,id){
-	ret = ret.concat(_.map(data.blogposts,function(post,n){
-		numposts++;
-		return Object.assign({
-			type:"post",
-			description:post.title,
-			by:id,
-			number:n+1
-		},post);
-	}));
-	ret = ret.concat(_.map(data.pullrequests || [],function(pr,n){
-		numpr++;
-		return Object.assign({
-			type:"pr",
-			by:id,
-			number:n+1
-		},pr);
-	}));
-	return ret;
+	return _.reduce(typeToKey,function(mem,jsonkey,type){
+		return mem.concat(_.map(data[jsonkey]||[],function(obj,n){
+			counter[type]++;
+			return Object.assign({
+				type: type,
+				description: obj.description || obj.title,
+				by: id,
+				number: n+1
+			},obj);
+		}));
+	},ret);
 },[]);
 
 
@@ -114,6 +109,7 @@ var actions = _.reduce(members,function(ret,data,id){
 
 var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
+		user[aspect] = user[aspect] || [];
 		if (user[aspect].length > current[0]){
 			return [user[aspect].length,[user.id]];
 		} else if (user[aspect].length === current[0]){
@@ -122,7 +118,7 @@ var heroes = _.reduce(members,function(ret,user){
 			return current;
 		}
 	});
-},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]]});
+},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]],snippets:[0,[]]});
 
 //console.log("MEMBERS",members);
 
@@ -131,6 +127,7 @@ module.exports = {
 	actions: _.sortBy(actions,"when").reverse(),
 	heroes: heroes,
 	sageadvice: sageadvice,
-	numberofposts: numposts,
-	numberofprs: numpr
+	numberofposts: counter.post,
+	numberofprs: counter.pr,
+	numberofsnippets: counter.snippet
 };
