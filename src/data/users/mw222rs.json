@@ -21,6 +21,11 @@
 			"when": "2015-11-09 00:22:17",
 			"url": "http://mattias.rocks/setting-up-sublime/",
 			"title": "Setting up Sublime Text for React developmentt"
+		},
+		{
+			"when": "2015-11-18 15:00:44",
+			"url": "http://mattias.rocks/automatic-pre-build-linting/",
+			"title": "Automatic pre-build linting with npm scripts"
 		}
 	],
 	"pullrequests": [
