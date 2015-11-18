@@ -2,7 +2,7 @@
 	"name": "Elin Nilsson",
 	"github": "swoot1",
 	"projectrepo": "ria2015",
-	"projectdesc": "Magic",
+	"projectdesc": "A co-worker tracker that shows you where your co-workers are located.",
 	"slack": "en222by",
 	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
 	"icon": "human-outlaws$thief",
@@ -56,6 +56,11 @@
 			"when": "2015-11-16 21:37",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-16-two-way-form-binding.markdown",
 			"title": "Two-way form binding"
+		},
+        {
+			"when": "2015-11-17 21:57",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-17-the-project.markdown",
+			"title": "The Project"
 		}
 	],
 	"pullrequests": [
