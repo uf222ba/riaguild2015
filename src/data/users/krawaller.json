@@ -8,9 +8,14 @@
 	"icon": "human-magi$elder-mage",
 	"blogposts": [
 		{
-			"when": "2015-10-29 20:30",
-			"url": "https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/",
-			"title": "Course page"
+			"when": "2015-11-16 10:30",
+			"url": "https://youtu.be/E8jHa5J4o74",
+			"title": "Vlog 1: Starting the project"
+		},
+		{
+			"when": "2015-11-17 11:20",
+			"url": "https://youtu.be/pKJDVUyvXhg",
+			"title": "Vlog 2: Tools & snippets"
 		}
 	],
 	"pullrequests": [
