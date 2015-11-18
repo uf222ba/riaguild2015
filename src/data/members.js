@@ -1,4 +1,4 @@
-/*
+﻿/*
 To join the guild, add yourself to this object using github id as key and requiring your json as value.
 Check users/krawaller.json for an example on what your file should look like!
 */
@@ -38,7 +38,8 @@ var members = {
 	carlpagelsLNU: require("./users/carlpagelsLNU.json"),
 	GamingCrewX: require("./users/GamingCrewX.json"),
 	ch222kv: require("./users/ch222kv.json"),
-	spackis: require("./users/spackis.json")
+	spackis: require("./users/spackis.json"),
+	ludwigj: require("./users/ludwigj.json")
 };
 
 var _ = require("lodash");

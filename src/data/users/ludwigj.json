@@ -1,0 +1,18 @@
+{
+  "name": "Ludwig Jönsson",
+  "github": "Ludwigj",
+  "projectrepo": "JavascriptRIA",
+  "projectdesc": "Repo for the course RIA-development with Javascript",
+  "slack": "lj222jv",
+  "presentation": "22 year old student at LNU, växjö, third year at the software technology programme!",
+  "icon": "drakes$fire",
+  "blogposts": [
+    {
+      "when": "2015-11-15 16.15",
+      "url": "https://github.com/ludwigj/JavascriptRIA/blob/master/Blog/Entry01.md",
+      "title": "First blog entry"
+    }
+  ],
+  "pullrequest": [
+    ]
+}
