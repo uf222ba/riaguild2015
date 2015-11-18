@@ -1,6 +1,6 @@
 {
   "name": "Ludwig Jönsson",
-  "github": "Ludwigj",
+  "github": "ludwigj",
   "projectrepo": "JavascriptRIA",
   "projectdesc": "Repo for the course RIA-development with Javascript",
   "slack": "lj222jv",
@@ -14,5 +14,5 @@
     }
   ],
   "pullrequest": [
-    ]
+  ]
 }
