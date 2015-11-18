@@ -3,12 +3,9 @@ var React = require('react'),
     _ = require('lodash')
     NavBar = require('react-bootstrap').Navbar,
     NavBrand = require('react-bootstrap').NavBrand,
-    Nav = require('react-bootstrap').Nav,
-    History = require('react-router').History;
+    Nav = require('react-bootstrap').Nav;
 
 var Menu = React.createClass({
-    
-    mixins: [History],
     
     getDefaultProps: function(){
         return {
@@ -49,13 +46,11 @@ var Menu = React.createClass({
     
 	render: function(){
         
-    var isActive,
-        self = this,
+    var self = this,
         pathRoot,
         menuItems = this.props.menuItems.map(function(menuItem){
             pathRoot = (/^(\/{1}(\w+)?)\/?/i).exec(menuItem.path)[0];
-            isActive = self.history.isActive(pathRoot, {}, menuItem.isIndexLink); 
-            return React.createElement(MenuItem, _.merge({isActive: isActive}, menuItem))
+            return React.createElement(MenuItem, _.merge({isIndexLink: menuItem.isIndexLink}, menuItem))
         });
         
     return (
