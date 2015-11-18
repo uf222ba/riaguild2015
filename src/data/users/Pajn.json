@@ -27,6 +27,11 @@
       	"url": "https://rasmus.eneman.eu/the-dark-spots-in-typescript/",
       	"title": "The dark spots in Typescript"
       },
+      {
+      	"when": "2015-11-17 22:06",
+      	"url": "https://rasmus.eneman.eu/math-problems-and-reasuing-code/",
+      	"title": "Unexpected math problems and code reuse"
+      },
     ],
     "pullrequests": [
       {
