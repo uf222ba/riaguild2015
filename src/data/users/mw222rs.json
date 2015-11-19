@@ -26,6 +26,11 @@
 			"when": "2015-11-18 15:00:44",
 			"url": "http://mattias.rocks/automatic-pre-build-linting/",
 			"title": "Automatic pre-build linting with npm scripts"
+		},
+		{
+			"when": "2015-11-19 13:59:35",
+			"url": "http://mattias.rocks/promises-an-introduction/",
+			"title": "Promises, an introduction"
 		}
 	],
 	"pullrequests": [
