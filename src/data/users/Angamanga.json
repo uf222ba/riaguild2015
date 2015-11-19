@@ -21,6 +21,11 @@
       "when": "2015-11-14 23-20",
       "url": "http://blog.angamanga.se/2015/11/14/HelloWorld.html",
       "title": "Hello World!"
+    },
+    {
+      "when": "2015-11-19 12-10",
+      "url": "http://blog.angamanga.se/2015/11/19/Conquering-the-world.html",
+      "title": "Conquering the world!!"
     }
   ],
   "pullrequests": [
