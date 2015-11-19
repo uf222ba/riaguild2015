@@ -26,6 +26,11 @@
         	"when": "2015-11-18 16:40",
         	"url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry04.md",
         	"title": "Different methods of linking with Bootstrap"
+        },
+        {
+            "when": "2015-11-19 17:00",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry05.md",
+            "title": "Build Calculator Progress"
         }
     ],
     "pullrequests": [
