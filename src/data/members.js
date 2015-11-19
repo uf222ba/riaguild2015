@@ -114,14 +114,18 @@ var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
 		user[aspect] = user[aspect] || [];
 		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id]];
+			return [user[aspect].length,[user.id],current[0],current[1]];
 		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id)];
+			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
+		} else if (user[aspect].length === current[2]){
+			return [current[0],current[1],current[2],current[3].concat(user.id)];
+		} else if (user[aspect].length > current[2]) {
+			return [current[0],current[1],user[aspect].length,[user.id]];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]],snippets:[0,[]]});
+},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
 
 //console.log("MEMBERS",members);
 
