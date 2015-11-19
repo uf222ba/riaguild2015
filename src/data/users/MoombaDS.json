@@ -58,6 +58,11 @@
             "when": "2015-11-18 20:50",
             "url": "https://github.com/ek222mw/RiaProject/pull/1",
             "description": "Made it so that the answer is passed as a parameter to the reducer"
+        },
+        {
+            "when": "2015-11-19 18:10",
+            "url": "https://github.com/krawaller/riaguild2015/pull/136",
+            "description": "Added a silver tier of Heroes to the Heroes section"
         }
     ]
 }
