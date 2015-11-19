@@ -2,7 +2,7 @@
 	"name": "Mikael Edberg",
 	"github": "me222rs",
 	"projectrepo": "RIA-Project",
-	"projectdesc": "n/a",
+	"projectdesc": "A quiz where you get points from picking the correct answer and lose points if you pick the wrong one. I will also allow users to add questions.",
 	"slack": "me222rs",
 	"presentation": "23 years old and living just outside of Kalmar. It was a long time ago since i coded javascript.",
 	"icon": "drakes$flameheart",
@@ -16,6 +16,11 @@
 			"when": "2015-11-13 11:03",
             		"url": "https://github.com/me222rs/blog/blob/master/entry02.md",
             		"title": "Second blogpost"
+		},
+		{				
+			"when": "2015-11-19 10:55",
+            		"url": "https://github.com/me222rs/blog/blob/master/entry03.md",
+            		"title": "I have decided what i'll do for my project"
 		}
 	],
 	"pullrequests": [
