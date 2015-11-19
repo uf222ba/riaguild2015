@@ -21,7 +21,10 @@ module.exports = (
             <IndexRoute component={Roster} />
             <Route path="/member/:name" component={Member} />
         </Route>
-        <Route path="/gallery" component={Gallery} />
+        <Route path="/gallery">
+            <IndexRoute component={Gallery} />
+            <Route path="/gallery/:filter" component={Gallery} />
+        </Route>
         <Route path="/actions" component={Actions} />
         <Route path="/advice" component={Advice} />
     </Route>

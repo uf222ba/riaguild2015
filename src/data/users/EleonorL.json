@@ -1,8 +1,8 @@
 {
     "name": "Eleonor Lagerkrants",
     "github": "EleonorL",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "RIA-Development-with-JavaScript",
+    "projectdesc": "The repository consists all my applications for the course",
     "slack": "eleonor",
     "presentation": "24 years old from Växjö Studying Software Technology at LNU Växjö",
     "icon": "trolls$troll-hero",
@@ -11,6 +11,11 @@
             "when": "2015-11-03",
             "url": "https://github.com/EleonorL/RIA-Development-with-JavaScript/blob/master/blog/entry01.md",
             "title": "First Blog Entry"
+        },
+        {
+            "when": "2015-11-14",
+            "url": "https://github.com/EleonorL/RIA-Development-with-JavaScript/blob/master/blog/entry02.md",
+            "title": "Week 46"
         }
     ],
     "pullrequests": [

@@ -11,6 +11,11 @@
             "when": "2015-10-31 09:00",
             "url": "http://2dv607.oskarklintrot.se/first-post/",
             "title": "First post"
+        },
+        {
+            "when": "2015-11-11 17:20",
+            "url": "http://2dv607.oskarklintrot.se/failure/",
+            "title": "Failure is not an option, have to keep on trying"
         }
     ],
     "pullrequests": [

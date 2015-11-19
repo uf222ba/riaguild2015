@@ -1,7 +1,7 @@
 {
     "name": "Andreas Fridlund",
     "github": "afrxx09",
-    "projectrepo": "https://github.com/afrxx09/2dv607-project",
+    "projectrepo": "2dv607-project",
     "projectdesc": "",
     "slack": "andreasfridlund",
     "presentation": "30 y-o Växjö-lad living in Kalmar.",
@@ -16,8 +16,18 @@
             "when": "2015-11-04 16:00",
             "url": "http://afrxx09.blogspot.se/2015/11/simple-react-redux-example.html",
             "title": "Simple React Redux example"
+        },
+        {
+            "when": "2015-11-13 14:47",
+            "url": "http://afrxx09.blogspot.se/2015/11/mostly-idle.html",
+            "title": "Mostly idle, but one guild bugfix"
         }
     ],
     "pullrequests": [
+        {
+          "when": "2015-11-13 13:40",
+          "url": "https://github.com/krawaller/riaguild2015/pull/92",
+          "description": "Fixed issue where a guild members pull requests to repos from non-guild members caused guild to crach."
+        }
     ]
 }

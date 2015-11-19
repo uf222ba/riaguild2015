@@ -1,8 +1,8 @@
 {
 	"name": "Mikael Edberg",
 	"github": "me222rs",
-	"projectrepo": "",
-	"projectdesc": "",
+	"projectrepo": "RIA-Project",
+	"projectdesc": "n/a",
 	"slack": "me222rs",
 	"presentation": "23 years old and living just outside of Kalmar. It was a long time ago since i coded javascript.",
 	"icon": "drakes$flameheart",
@@ -11,6 +11,11 @@
 			"when": "2015-11-02 13:03",
             		"url": "https://github.com/me222rs/blog/blob/master/entry01.md",
             		"title": "First blogpost"
+		},
+		{				
+			"when": "2015-11-13 11:03",
+            		"url": "https://github.com/me222rs/blog/blob/master/entry02.md",
+            		"title": "Second blogpost"
 		}
 	],
 	"pullrequests": [

@@ -1,16 +1,22 @@
 {
     "name": "Daniel Lundström",
     "github": "diggo16",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "jsProject",
+    "projectentry": "public_html",
+    "projectdesc": "Hello world",
     "slack": "daniel_l",
     "presentation": "21 years old from Kalmar but currently living in Växjö. Have some basic knowledge in html, css, php and javascript",
-    "icon": "human-magi$elder-mage",
+    "icon": "drakes$burner",
     "blogposts": [
         {
             "when": "2015-11-06 20:42",
             "url": "https://github.com/diggo16/jsProject/blob/master/public_html/blog/introduction.md",
             "title": "Introduction"
+        },
+	{
+            "when": "2015-11-12 15:11",
+            "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/React_redux_and_router.md",
+            "title": "React, Redux, and React router"
         }
     ],
     "pullrequests": [

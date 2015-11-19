@@ -28,6 +28,10 @@ var Heroes = React.createClass({
 							<td>Our <strong>wisest members</strong> have <br/> written {heroes.sageadvice[0]} sage advice:</td>
 							<td>{ _.map(heroes.sageadvice[1],function(id){ return <Badge key={id} id={id} />}) }</td>
 						</tr>
+						<tr>
+							<td>Our <strong>most generous coders</strong> have <br/> written {heroes.snippets[0]} code snippets:</td>
+							<td>{ _.map(heroes.snippets[1],function(id){ return <Badge key={id} id={id} />}) }</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
