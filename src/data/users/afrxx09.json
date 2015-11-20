@@ -2,7 +2,7 @@
     "name": "Andreas Fridlund",
     "github": "afrxx09",
     "projectrepo": "2dv607-project",
-    "projectdesc": "",
+    "projectdesc": "Navigation component. Using React Router to create navigation for applications through a Node module.",
     "slack": "andreasfridlund",
     "presentation": "30 y-o Växjö-lad living in Kalmar.",
     "icon": "dwarves$fighter",
@@ -21,6 +21,11 @@
             "when": "2015-11-13 14:47",
             "url": "http://afrxx09.blogspot.se/2015/11/mostly-idle.html",
             "title": "Mostly idle, but one guild bugfix"
+        },
+        {
+            "when": "2015-11-20 11:20",
+            "url": "http://afrxx09.blogspot.se/2015/11/project-implementation-start.html",
+            "title": "Project implementation start"
         }
     ],
     "pullrequests": [
