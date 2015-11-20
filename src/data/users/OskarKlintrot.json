@@ -16,6 +16,11 @@
             "when": "2015-11-11 17:20",
             "url": "http://2dv607.oskarklintrot.se/failure/",
             "title": "Failure is not an option, have to keep on trying"
+        },
+        {
+            "when": "2015-11-19 18:00",
+            "url": "http://2dv607.oskarklintrot.se/redux-devtools/",
+            "title": "Understanding Redux with Redux DevTools"
         }
     ],
     "pullrequests": [
