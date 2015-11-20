@@ -16,6 +16,11 @@
             "when": "2015-11-12 20:10",
             "url": "http://viktorj.github.io/notes/react/",
             "title": "Getting to know React"
+        },
+        {
+            "when": "2015-11-20 11:07",
+            "url": "http://viktorj.github.io/notes/project/",
+            "title": "The project"
         }
 	],
 	"pullrequests": [
