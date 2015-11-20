@@ -1,8 +1,8 @@
 {
     "name": "Florian Schiedt",
     "github": "Eldraev",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "RIAProject",
+    "projectdesc": "It's going to be a character creator but is only a hello world at the moment.",
     "slack": "florian",
     "presentation": "Software Technology student from Germany with an interest in indie game development",
     "icon": "monsters$fireghost",
