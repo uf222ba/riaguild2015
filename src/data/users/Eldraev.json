@@ -11,6 +11,11 @@
             "when": "2015-11-04 15:06",
             "url": "https://eldraev.wordpress.com/2015/11/04/introduction/",
             "title": "Introduction"
+        },
+        {
+            "when": "2015-11-20",
+            "url": "https://eldraev.wordpress.com/2015/11/20/first-steps-finally/",
+            "title": "First Steps (Finally)"
         }
     ],
     "pullrequests": [
