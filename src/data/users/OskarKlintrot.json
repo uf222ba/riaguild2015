@@ -21,6 +21,11 @@
             "when": "2015-11-19 18:00",
             "url": "http://2dv607.oskarklintrot.se/redux-devtools/",
             "title": "Understanding Redux with Redux DevTools"
+        },
+        {
+            "when": "2015-11-20 16:00",
+            "url": "http://2dv607.oskarklintrot.se/BYOB/",
+            "title": "Adding bombs to the demo app"
         }
     ],
     "pullrequests": [
