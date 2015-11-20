@@ -1,0 +1,18 @@
+{
+    "name": "Emelie Bondeson",
+    "github": "spackis",
+    "projectrepo": "RIA-development-with-JavaScript",
+    "projectdesc": "-",
+    "slack": "emeliebondeson",
+    "presentation": "21 year old, Stockholm",
+    "icon": "monsters$mudcrawler",
+    "blogposts": [
+        {
+            "when": "2015-11-18 13:00",
+            "url": "https://github.com/spackis/RIA-development-with-JavaScript/blob/master/blog/entry01.md",
+            "title": "First blog post!"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

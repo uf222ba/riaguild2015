@@ -1,11 +1,11 @@
-/*
+﻿/*
 To join the guild, add yourself to this object using github id as key and requiring your json as value.
 Check users/krawaller.json for an example on what your file should look like!
 */
 
 var members = {
 	krawaller: require("./users/krawaller.json"),
-	Dagashi: require("./users/Dagashi.json"),
+	Dagashi: require("./users/dagashi.json"),
 	OskarKlintrot: require("./users/OskarKlintrot.json"),
 	MoombaDS: require("./users/MoombaDS.json"),
 	uf222ba: require("./users/uf222ba.json"),
@@ -29,10 +29,17 @@ var members = {
     Eldraev: require("./users/Eldraev.json"),
 	bc222az: require("./users/bc222az.json"),
     js22gz: require("./users/js22gz.json"),
-	diggo16: require("./users/diggo16.json"), 
+	diggo16: require("./users/diggo16.json"),
 	Janste: require("./users/Janste.json"),
 	as223my: require("./users/as223my.json"),
 	mattiaslj: require("./users/mattiaslj.json"),
+	ea222pu: require("./users/ea222pu.json"),
+	weibinyu: require("./users/weibinyu.json"),
+	carlpagelsLNU: require("./users/carlpagelsLNU.json"),
+	GamingCrewX: require("./users/GamingCrewX.json"),
+	ch222kv: require("./users/ch222kv.json"),
+	spackis: require("./users/spackis.json"),
+	ludwigj: require("./users/ludwigj.json")
 };
 
 var _ = require("lodash");
@@ -62,7 +69,9 @@ var sageadvice = [
 	["mw222rs",1], // Mattias W, ESLint
 	["swoot1",1], // Elin, build script
 	["swoot1",2], // Elin, ES6
-	["mw222rs",2] // Mattias W, Sublime
+	["mw222rs",2], // Mattias W, Sublime
+	["swoot1",7], // Elin, state vs props vs static
+	["mw222rs",4], // Mattias, promises
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
@@ -81,27 +90,21 @@ members = _.mapValues(members,function(data){
 
 // lift out action log
 
-var numposts = 0, numpr = 0;
+var counter = {post:0,pr:0,snippet:0},
+	typeToKey = {post:"blogposts",pr:"pullrequests",snippet:"snippets"}
 
 var actions = _.reduce(members,function(ret,data,id){
-	ret = ret.concat(_.map(data.blogposts,function(post,n){
-		numposts++;
-		return Object.assign({
-			type:"post",
-			description:post.title,
-			by:id,
-			number:n+1
-		},post);
-	}));
-	ret = ret.concat(_.map(data.pullrequests || [],function(pr,n){
-		numpr++;
-		return Object.assign({
-			type:"pr",
-			by:id,
-			number:n+1
-		},pr);
-	}));
-	return ret;
+	return _.reduce(typeToKey,function(mem,jsonkey,type){
+		return mem.concat(_.map(data[jsonkey]||[],function(obj,n){
+			counter[type]++;
+			return Object.assign({
+				type: type,
+				description: obj.description || obj.title,
+				by: id,
+				number: n+1
+			},obj);
+		}));
+	},ret);
 },[]);
 
 
@@ -109,15 +112,20 @@ var actions = _.reduce(members,function(ret,data,id){
 
 var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
+		user[aspect] = user[aspect] || [];
 		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id]];
+			return [user[aspect].length,[user.id],current[0],current[1]];
 		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id)];
+			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
+		} else if (user[aspect].length === current[2]){
+			return [current[0],current[1],current[2],current[3].concat(user.id)];
+		} else if (user[aspect].length > current[2]) {
+			return [current[0],current[1],user[aspect].length,[user.id]];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]]});
+},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
 
 //console.log("MEMBERS",members);
 
@@ -126,6 +134,7 @@ module.exports = {
 	actions: _.sortBy(actions,"when").reverse(),
 	heroes: heroes,
 	sageadvice: sageadvice,
-	numberofposts: numposts,
-	numberofprs: numpr
+	numberofposts: counter.post,
+	numberofprs: counter.pr,
+	numberofsnippets: counter.snippet
 };

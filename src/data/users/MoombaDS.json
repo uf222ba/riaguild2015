@@ -16,6 +16,21 @@
             "when": "2015-11-09 22:00",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry02.md",
             "title": "First Steps"
+        },
+        {
+            "when": "2015-11-17 19:00",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry03.md",
+            "title": "Bootstrap"
+        },
+        {
+        	"when": "2015-11-18 16:40",
+        	"url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry04.md",
+        	"title": "Different methods of linking with Bootstrap"
+        },
+        {
+            "when": "2015-11-19 17:00",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry05.md",
+            "title": "Build Calculator Progress"
         }
     ],
     "pullrequests": [
@@ -33,6 +48,16 @@
             "when": "2015-11-10 12:30",
             "url": "https://github.com/krawaller/riaguild2015/pull/66",
             "description": "Refactored filter code to remove hidden state"
+        },
+        {
+        	"when": "2015-11-17 22:00",
+        	"url": "https://github.com/krawaller/riaguild2015/pull/118",
+        	"description": "Made the nav bar use react-router-bootstrap"
+        },
+        {
+            "when": "2015-11-18 20:50",
+            "url": "https://github.com/ek222mw/RiaProject/pull/1",
+            "description": "Made it so that the answer is passed as a parameter to the reducer"
         }
     ]
 }

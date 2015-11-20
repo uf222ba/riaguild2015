@@ -8,9 +8,14 @@
 	"icon": "human-magi$elder-mage",
 	"blogposts": [
 		{
-			"when": "2015-10-29 20:30",
-			"url": "https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/",
-			"title": "Course page"
+			"when": "2015-11-16 10:30",
+			"url": "https://youtu.be/E8jHa5J4o74",
+			"title": "Vlog 1: Starting the project"
+		},
+		{
+			"when": "2015-11-17 11:20",
+			"url": "https://youtu.be/pKJDVUyvXhg",
+			"title": "Vlog 2: Tools and snippets"
 		}
 	],
 	"pullrequests": [
@@ -18,6 +23,31 @@
 			"when": "2015-11-06 12:40",
 			"url": "https://github.com/Dagashi/ria-2015/pull/1",
 			"description": "Extracted Sidebar from Wrapper"
+		},{
+			"when": "2015-11-12 09:50",
+			"url": "https://github.com/Dagashi/ria-2015/pull/2",
+			"description": "Made component work before Firebase data received"
+		},{
+			"when": "2015-11-13 15:25",
+			"url": "https://github.com/Dagashi/ria-2015/pull/4",
+			"description": "Fixed form default value population by delaying render until data received"
+		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-06 18:32",
+			"url": "https://jsbin.com/niwumu/edit?js,console",
+			"description": "Understanding JS function context"
+		},
+		{
+			"when": "2015-11-06 18:32",
+			"url": "http://jsbin.com/vapomo/edit?js,output",
+			"description": "React component rendering depending on prop values"
+		},
+		{
+			"when": "2015-11-07 12:16",
+			"url": "https://jsbin.com/cimoke/edit?js,console",
+			"description": "Different syntaxes for defining a method"
 		}
 	]
 }

@@ -2,7 +2,7 @@
 	"name": "Elin Nilsson",
 	"github": "swoot1",
 	"projectrepo": "ria2015",
-	"projectdesc": "Magic",
+	"projectdesc": "A co-worker tracker that shows you where your co-workers are located.",
 	"slack": "en222by",
 	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
 	"icon": "human-outlaws$thief",
@@ -36,6 +36,36 @@
 			"when": "2015-11-08 21:43",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-added-watches.markdown",
 			"title": "Watch .css and .js files"
+		},
+        {
+			"when": "2015-11-14 16:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-active-menu-item-in-react-bootstrap.markdown",
+			"title": "Active menu item in react-bootstrap"
+		},
+        {
+			"when": "2015-11-14 19:32",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-static-and-the-difference-between-props-and-state.markdown",
+			"title": "Static and the difference between props and state"
+		},
+        {
+			"when": "2015-11-14 21:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-a-simple-redirect-how-hard-can-it-be.markdown",
+			"title": "A Simple Redirect, How Hard Can It Be"
+		},
+        {
+			"when": "2015-11-16 21:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-16-two-way-form-binding.markdown",
+			"title": "Two-way form binding"
+		},
+        {
+			"when": "2015-11-17 21:57",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-17-the-project.markdown",
+			"title": "The Project"
+		},
+        {
+			"when": "2015-11-18 22:23",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-18-active-links-y-all.markdown",
+			"title": "Active links ya'll"
 		}
 	],
 	"pullrequests": [
@@ -43,6 +73,23 @@
 			"when": "2015-11-09 21:00",
 			"url": "https://github.com/krawaller/riaguild2015/pull/62",
 			"description": "Added filter function for gallery."
+		},
+        {
+			"when": "2015-11-14 15:37",
+			"url": "https://github.com/krawaller/riaguild2015/pull/100",
+			"description": "Changed the menu to the react bootstrap menu."
+		},
+        {
+            "when": "2015-11-14 21:23",
+            "url": "https://github.com/krawaller/riaguild2015/pull/104",
+            "description": "Changed the filtering of the gallery to be part of the url."
+ 		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-16 15:55",
+			"url": "https://jsbin.com/soyobe/edit?html,js,output",
+			"description": "2-way databinding in React"
 		}
 	]
 }

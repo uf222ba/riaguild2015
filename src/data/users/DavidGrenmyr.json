@@ -1,9 +1,9 @@
 {
   "name": "David Grenmyr",
   "github": "Grenmyr",
-  "projectrepo": "",
-  "projectdesc": "",
-  "slack": "dg222cs",
+  "projectrepo": "2DV607-ria",
+  "projectdesc": "Not decided what to do yet. Just started to implement login functionality",
+  "slack": "davidgrenmyr",
   "presentation": "33 years old, 2 kids and 1 wife. I am campus student in Kalmar and i have really been looking foward to this course.",
   "icon": "trolls$grunt",
   "blogposts": [
@@ -16,8 +16,23 @@
       "when": "2015-11-04 15:25",
       "url": "http://www.davidgrenmyr.blogspot.se/2015/11/hello-world.html",
       "title": "Hello World "
+    },
+    {
+      "when": "2015-11-12 11:20",
+      "url": "http://davidgrenmyr.blogspot.se/2015/11/es2015-and-lazy-week.html",
+      "title": "ES2015 and a lazy week "
+    },
+    {
+      "when": "2015-11-19 10:40",
+      "url": "http://davidgrenmyr.blogspot.se/2015/11/hidden-dependencies-at-combinerreducers.html",
+      "title": "Vabb and combineReducer()"
     }
   ],
   "pullrequests": [
+    {
+      "when": "2015-11-06 13:02",
+      "url": "https://github.com/afridlund85/React-Redux-example/pull/1",
+      "description": "ES2015 example added to Andreas Fridlunds repo."
+    }
   ]
 }

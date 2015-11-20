@@ -4,23 +4,14 @@ contained in `this.props.children` and rendered out.
 */
 
 var React = require('react'),
-	Router = require("react-router"),
-	Link = Router.Link,
-	IndexLink = Router.IndexLink;
+    Menu = require("./menu");
 
 var Wrapper = React.createClass({
 	render: function() {
 		return (
 			<div className="wrapper">
-				<h2>RIA course member guild 2015</h2>
-				<ul className="nav">
-					<li><IndexLink activeClassName="active" to="/">Home</IndexLink></li>
-					<li><Link activeClassName="active" to="/members/">Roster</Link></li>
-					<li><Link activeClassName="active" to="/actions/">Deeds</Link></li>
-					<li><Link activeClassName="active" to="/advice/">Advice</Link></li>
-					<li><Link activeClassName="active" to="/gallery/">Gallery</Link></li>
-				</ul>
-				{this.props.children}
+				<Menu />
+                {this.props.children}
 			</div>
 		);
 	}
