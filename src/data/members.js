@@ -72,6 +72,7 @@ var sageadvice = [
 	["mw222rs",2], // Mattias W, Sublime
 	["swoot1",7], // Elin, state vs props vs static
 	["mw222rs",4], // Mattias, promises
+	["OskarKlintrot",3], // Oskar, bomber
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
