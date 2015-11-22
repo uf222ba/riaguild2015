@@ -2,9 +2,9 @@
   "name": "Sherief Badran",
   "github": "SheriefBadran",
   "projectrepo": "riastart2015",
-  "projectdesc": "Sherief Badran, 36 years old.",
+  "projectdesc": "Probably an intruder in other projects...",
   "slack": "sherief",
-  "presentation": "",
+  "presentation": "Sherief Badran, 36 years old.",
   "icon": "goblins$knight",
   "blogposts": [
     {
@@ -16,8 +16,23 @@
       "when": "2015-11-04 20:44",
       "url": "http://sheriefbadran.blogspot.se/2015/11/setup-and-build-process.html",
       "title": "Setup and build process"
+    },
+    {
+      "when": "2015-11-21 20:56",
+      "url": "http://sheriefbadran.blogspot.se/2015/11/react-framework-with-redux-and.html",
+      "title": "React framework with Redux and Typescript"
     }
   ],
   "pullrequests": [
+    {
+      "when": "2015-11-19",
+      "url": "https://github.com/Pajn/Culinam/pull/7",
+      "description": "feat: Dispatch a created order action at cashier that is red from Redux at kitchen side."
+    },
+    {
+      "when": "2015-11-20",
+      "url": "https://github.com/Pajn/Culinam/pull/11",
+      "description": "feat: Creating logic for cashier, putting items from restaurant menu in cashier cart, and improvements on how cart handle items."
+    }
   ]
 }

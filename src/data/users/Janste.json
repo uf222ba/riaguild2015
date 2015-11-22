@@ -16,6 +16,11 @@
             "when": "2015-11-11 10:40",
             "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry02.md",
             "title": "Hello World with React"
+        },
+        {
+            "when": "2015-11-22 13:25",
+            "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry03.md",
+            "title": "Third blog post"
         }
     ],
     "pullrequests": [
