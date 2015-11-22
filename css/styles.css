@@ -60,3 +60,6 @@ form label input[type="radio"],
 form label input[type="checkbox"] {
 	margin-left: 5px;
 }
+.cursor-click{
+	cursor: pointer;
+}
