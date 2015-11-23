@@ -58,6 +58,11 @@
 			"when": "2015-11-20 14:23",
 			"url": "http://jsbin.com/xunujo/edit?js,console",
 			"description": "Using bind for currying"
+		},
+		{
+			"when": "2015-11-23",
+			"url": "https://jsbin.com/foneri/edit?js,output",
+			"description": "React stateless component syntax"
 		}
 	]
 }
