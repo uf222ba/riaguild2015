@@ -1,48 +1,48 @@
 var React = require("react"),
     _ = require("lodash"),
     Badge = require("./badge"),
-// transform to array and sort by name
     members = require("../data/members").members;
-
-var orderings = {
-    bi: 1,
-    ni: -1, //
-    pi: 1,
-    getBPIndex(){
-        this.bi *= (-1);
-        return this.bi;
-    },
-    getPRIndex(){
-        this.pi *= (-1);
-        return this.pi;
-    },
-    getNameIndex(){
-        this.ni *= (-1);
-        return this.ni;
-    }
-};
 
 var Roster = React.createClass({
     getInitialState(){
-        return {orderBy: "name"};
+        return {
+            orderBy: "name",
+            bi: 1,
+            ni: -1,
+            pi: 1
+        };
+    },
+    getBPIndex(){
+        this.state.bi *= (-1);
+        return this.state.bi;
+    },
+    getPRIndex(){
+        this.state.pi *= (-1);
+        return this.state.pi;
+    },
+    getNameIndex(){
+        this.state.ni *= (-1);
+        return this.state.ni;
     },
     getOrderedMembers(){
         var index;
         switch (this.state.orderBy) {
             case "name":
-                index = orderings.getNameIndex();
+                index = this.getNameIndex();
                 var order = _.sortBy(members, "name");
                 if (index < 0) {
                     order.reverse();
                 }
                 return order;
+            //We could of couse do the reversal of the arrays by first sorting,
+            // and then just call reverse on it, but that isn't fun is it?
             case "blogposts":
-                index = orderings.getBPIndex();
+                index = this.getBPIndex();
                 return _.sortBy(members, (n)=> {
                     return index * n.blogposts.length;
                 });
             case "prs":
-                index = orderings.getPRIndex();
+                index = this.getPRIndex();
                 return _.sortBy(members, (n)=> {
                     return index * n.pullrequests.length;
                 });
@@ -70,17 +70,18 @@ var Roster = React.createClass({
         var prTH = "PR:s";
         switch (this.state.orderBy) {
             case "name":
-                nameTH = `Name${orderings.ni < 0 ? '↓' : '↑'}`;
+                nameTH = `Name${this.state.ni < 0 ? '↓' : '↑'}`;
                 break;
             case "blogposts":
-                blogpostTH = `Posts${orderings.bi < 0 ? '↓' : '↑'}`;
+                blogpostTH = `Posts${this.state.bi < 0 ? '↓' : '↑'}`;
                 break;
             case "prs":
-                prTH = `PR:s${orderings.pi < 0 ? '↓' : '↑'}`;
+                prTH = `PR:s${this.state.pi < 0 ? '↓' : '↑'}`;
                 break;
         }
 
-        var nameRow = <th className="cursor-click" style={{width: 25+"%"}} onClick={this.setOrderBy.bind(null, "name")}>{nameTH}</th>;
+        var nameRow = <th className="cursor-click" style={{width: 25+"%"}}
+                          onClick={this.setOrderBy.bind(null, "name")}>{nameTH}</th>;
         var blogpostRow = <th className="cursor-click" style={{width: 25+"%"}}
                               onClick={this.setOrderBy.bind(null, "blogposts")}>{blogpostTH}</th>;
         var prRow = <th className="cursor-click" onClick={this.setOrderBy.bind(null, "prs")}>{prTH}</th>;

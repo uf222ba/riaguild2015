@@ -37,6 +37,11 @@
       	"url": "https://rasmus.eneman.eu/flux-vs-redux/",
       	"title": "Flux vs Redux"
       },
+      {
+      	"when": "2015-11-23 12:12",
+      	"url": "https://rasmus.eneman.eu/performance-and-react/",
+      	"title": "Performance and React"
+      },
     ],
     "pullrequests": [
       {
