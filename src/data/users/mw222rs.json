@@ -20,7 +20,7 @@
 		{
 			"when": "2015-11-09 00:22:17",
 			"url": "http://mattias.rocks/setting-up-sublime/",
-			"title": "Setting up Sublime Text for React developmentt"
+			"title": "Setting up Sublime Text for React development"
 		},
 		{
 			"when": "2015-11-18 15:00:44",
@@ -31,6 +31,11 @@
 			"when": "2015-11-19 13:59:35",
 			"url": "http://mattias.rocks/promises-an-introduction/",
 			"title": "Promises, an introduction"
+		},
+		{
+			"when": "2015-11-23 14:09:47",
+			"url": "http://mattias.rocks/exchanging-browserify-for-webpack/",
+			"title": "Exchanging Browserify for Webpack in the Superhero Demo app"
 		}
 	],
 	"pullrequests": [
