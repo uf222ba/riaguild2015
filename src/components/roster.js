@@ -7,39 +7,25 @@ var Roster = React.createClass({
     getInitialState(){
         return {
             orderBy: "name",
-            bi: -1,
-            ni: 1,
-            pi: -1
+            blogposts: -1,
+            name: 1,
+            prs: -1
         };
     },
-    getBPIndex(){
-        return this.state.bi;
-    },
-    getPRIndex(){
-        return this.state.pi;
-    },
-    getNameIndex(){
-        return this.state.ni;
-    },
     getOrderedMembers(){
-        var index;
+        var index = this.state[this.state.orderBy];
         switch (this.state.orderBy) {
             case "name":
-                index = this.getNameIndex();
                 var order = _.sortBy(members, "name");
                 if (index < 0) {
                     order.reverse();
                 }
                 return order;
-            //We could of couse do the reversal of the arrays by first sorting,
-            // and then just call reverse on it, but that isn't fun is it?
             case "blogposts":
-                index = this.getBPIndex();
                 return _.sortBy(members, (n)=> {
                     return index * n.blogposts.length;
                 });
             case "prs":
-                index = this.getPRIndex();
                 return _.sortBy(members, (n)=> {
                     return index * n.pullrequests.length;
                 });
@@ -49,19 +35,11 @@ var Roster = React.createClass({
     },
     setOrderBy(method){
         var options = {orderBy: method};
-        if(this.state.orderBy === method){
-            switch(method){
-                case "name":
-                    options.ni = this.state.ni * (-1);
-                case "blogposts":
-                    options.bi = this.state.bi * (-1);
-                case "prs":
-                    options.pi = this.state.pi * (-1);
-            }
-            this.setState(options);
-        } else {
-            this.setState(options);
+        var orderBy = this.state.orderBy;
+        if (orderBy === method) {
+            options[orderBy] = this.state[orderBy] * (-1);
         }
+        this.setState(options);
     },
     render: function () {
         var orderedMembers = this.getOrderedMembers();
@@ -78,15 +56,18 @@ var Roster = React.createClass({
         var nameTH = "Name";
         var blogpostTH = "Posts";
         var prTH = "PR:s";
-        switch (this.state.orderBy) {
+
+        var orderBy = this.state.orderBy;
+
+        switch (orderBy) {
             case "name":
-                nameTH = `Name${this.state.ni < 0 ? '↓' : '↑'}`;
+                nameTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
                 break;
             case "blogposts":
-                blogpostTH = `Posts${this.state.bi < 0 ? '↓' : '↑'}`;
+                blogpostTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
                 break;
             case "prs":
-                prTH = `PR:s${this.state.pi < 0 ? '↓' : '↑'}`;
+                prTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
                 break;
         }
 
