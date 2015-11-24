@@ -35,6 +35,12 @@ var Menu = React.createClass({
                     isIndexLink: false
                 },
                 {
+                    key: 'projects',
+                    path: '/projects/',
+                    linkText: 'Projects',
+                    isIndexLink: false
+                },
+                {
                     key: 'gallery',
                     path: '/gallery/all',
                     linkText: 'Gallery',

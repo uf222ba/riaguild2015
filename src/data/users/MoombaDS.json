@@ -68,6 +68,11 @@
             "when": "2015-11-19 18:10",
             "url": "https://github.com/krawaller/riaguild2015/pull/136",
             "description": "Added a silver tier of Heroes to the Heroes section"
+        },
+        {
+        	"when": "2015-11-24 21:00",
+        	"url": "https://github.com/krawaller/riaguild2015/pull/156",
+        	"description": "Added Projects page"
         }
     ]
 }
