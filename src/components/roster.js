@@ -7,21 +7,18 @@ var Roster = React.createClass({
     getInitialState(){
         return {
             orderBy: "name",
-            bi: 1,
-            ni: -1,
-            pi: 1
+            bi: -1,
+            ni: 1,
+            pi: -1
         };
     },
     getBPIndex(){
-        this.state.bi *= (-1);
         return this.state.bi;
     },
     getPRIndex(){
-        this.state.pi *= (-1);
         return this.state.pi;
     },
     getNameIndex(){
-        this.state.ni *= (-1);
         return this.state.ni;
     },
     getOrderedMembers(){
@@ -51,7 +48,20 @@ var Roster = React.createClass({
         }
     },
     setOrderBy(method){
-        this.setState({orderBy: method});
+        var options = {orderBy: method};
+        if(this.state.orderBy === method){
+            switch(method){
+                case "name":
+                    options.ni = this.state.ni * (-1);
+                case "blogposts":
+                    options.bi = this.state.bi * (-1);
+                case "prs":
+                    options.pi = this.state.pi * (-1);
+            }
+            this.setState(options);
+        } else {
+            this.setState(options);
+        }
     },
     render: function () {
         var orderedMembers = this.getOrderedMembers();
