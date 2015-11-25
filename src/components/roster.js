@@ -13,33 +13,35 @@ var Roster = React.createClass({
         };
     },
     getOrderedMembers(){
+        var filters = {
+            "name": "name",
+            "blogposts": (member)=> {
+                return member.blogposts.length;
+            },
+            "prs": (member)=> {
+                return member.pullrequests.length;
+            }
+        };
         var index = this.state[this.state.orderBy];
-        switch (this.state.orderBy) {
-            case "name":
-                var order = _.sortBy(members, "name");
-                if (index < 0) {
-                    order.reverse();
-                }
-                return order;
-            case "blogposts":
-                return _.sortBy(members, (n)=> {
-                    return index * n.blogposts.length;
-                });
-            case "prs":
-                return _.sortBy(members, (n)=> {
-                    return index * n.pullrequests.length;
-                });
-            default:
-                return members;
+        var order = _.sortBy(members, filters[this.state.orderBy]);
+
+        if (index === -1) {
+            order.reverse();
         }
+        return order;
     },
     setOrderBy(method){
         var options = {orderBy: method};
         var orderBy = this.state.orderBy;
+
         if (orderBy === method) {
             options[orderBy] = this.state[orderBy] * (-1);
         }
         this.setState(options);
+    },
+    getTHRow(headerTargets, orderBy, options){
+        return <th className="cursor-click" {...options}
+                   onClick={this.setOrderBy.bind(null, orderBy)}>{headerTargets[orderBy]}</th>;
     },
     render: function () {
         var orderedMembers = this.getOrderedMembers();
@@ -53,29 +55,19 @@ var Roster = React.createClass({
                 </tr>
             );
         });
-        var nameTH = "Name";
-        var blogpostTH = "Posts";
-        var prTH = "PR:s";
-
         var orderBy = this.state.orderBy;
 
-        switch (orderBy) {
-            case "name":
-                nameTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
-                break;
-            case "blogposts":
-                blogpostTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
-                break;
-            case "prs":
-                prTH += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
-                break;
-        }
+        var headerTargets = {
+            "name": "Name",
+            "blogposts": "Posts",
+            "prs": "PR:S"
+        };
 
-        var nameRow = <th className="cursor-click" style={{width: 25+"%"}}
-                          onClick={this.setOrderBy.bind(null, "name")}>{nameTH}</th>;
-        var blogpostRow = <th className="cursor-click" style={{width: 25+"%"}}
-                              onClick={this.setOrderBy.bind(null, "blogposts")}>{blogpostTH}</th>;
-        var prRow = <th className="cursor-click" onClick={this.setOrderBy.bind(null, "prs")}>{prTH}</th>;
+        headerTargets[orderBy] += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
+
+        var nameRow = this.getTHRow(headerTargets, "name", {style:{width: "25%"}});
+        var blogpostRow = this.getTHRow(headerTargets, "blogposts", {style:{width: "25%"}});
+        var prRow = this.getTHRow(headerTargets, "prs");
 
         return (
             <div>
