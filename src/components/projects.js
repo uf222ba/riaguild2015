@@ -78,7 +78,7 @@ var Projects = React.createClass({
 				<p>These are the projects of current guild members:</p>
 				<table className="table table-striped">
 					<thead>
-						<tr><th style={{width: 25+"%"}}>Name</th><th>Project</th><th>Collaborators</th></tr>
+						<tr><th style={{width: 25+"%"}}>Name</th><th style={{width: 50+"%"}}>Project</th><th>Collaborators</th></tr>
 						<tr>
 							<th><input type="text" placeholder="Filter..." value={this.state.filterName} onChange={this.handleNameFilterChange} /></th>
 							<th><input type="text" placeholder="Filter..." value={this.state.filterProject} onChange={this.handleProjectFilterChange} /></th>
