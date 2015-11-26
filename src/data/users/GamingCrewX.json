@@ -1,0 +1,18 @@
+{
+    "name": "Maciej Siwek",
+    "github": "GamingCrewX",
+    "projectrepo": "",
+    "projectdesc": "",
+    "slack": "maciek3221",
+    "presentation": "Hey! My name is Maciej and I'm halfway my last year on software engineering programme at LNU. Feel free to visit my website http://maciejsiwek.com and give some feedback :D",
+    "icon": "human-magi$elder-mage",
+    "blogposts": [
+        {
+            "when": "2015-11-08 15:35",
+            "url": "https://github.com/GamingCrewX/2DV607/blob/gh-pages/blog/blog.md",
+            "title": "First Entry"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

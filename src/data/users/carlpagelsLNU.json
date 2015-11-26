@@ -1,0 +1,18 @@
+{
+    "name": "Carl Pagels",
+    "github": "carlpagelsLNU",
+    "projectrepo": "n/a",
+    "projectdesc": "n/a",
+    "slack": "pagge123",
+    "presentation": "22 years old, from Växjö, studying Software Techonology",
+    "icon": "human-outlaws$assassin",
+    "blogposts": [
+        {
+            "when": "2015-11-12 16:15",
+            "url": "https://github.com/carlpagelsLNU/2DV607/blob/gh-pages/blog/entry01.md",
+            "title": "Blog entry 1"
+        }
+    ],
+    "pullrequests": [
+    ]
+}

@@ -22,7 +22,42 @@
       	"url": "https://rasmus.eneman.eu/continuous-integration-and-deployment-to-gh-pages/",
       	"title": "Continuous Integration and Deployment to gh-pages"
       },
+      {
+      	"when": "2015-11-10 22:33",
+      	"url": "https://rasmus.eneman.eu/the-dark-spots-in-typescript/",
+      	"title": "The dark spots in Typescript"
+      },
+      {
+      	"when": "2015-11-17 22:06",
+      	"url": "https://rasmus.eneman.eu/math-problems-and-reasuing-code/",
+      	"title": "Unexpected math problems and code reuse"
+      },
+      {
+      	"when": "2015-11-21 11:06",
+      	"url": "https://rasmus.eneman.eu/flux-vs-redux/",
+      	"title": "Flux vs Redux"
+      },
+      {
+      	"when": "2015-11-23 12:12",
+      	"url": "https://rasmus.eneman.eu/performance-and-react/",
+      	"title": "Performance and React"
+      },
     ],
     "pullrequests": [
+      {
+        "when": "2015-11-13 15:50",
+        "url": "https://github.com/drager/cetti/pull/15",
+        "description": "feat: Add initial dashboard component"
+      },
+      {
+        "when": "2015-11-16 12:15",
+        "url": "https://github.com/drager/cetti/pull/22",
+        "description": "feat: Add ChartWidget"
+      },
+      {
+        "when": "2015-11-17 12:50",
+        "url": "https://github.com/drager/cetti/pull/23",
+        "description": "feat: Add support for smoothing a line chart fix: Fix the axis calclulation and placement"
+      },
     ]
 }

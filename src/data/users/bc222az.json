@@ -1,7 +1,7 @@
 {
     "name": "Benny Carlsson",
     "github": "bc222az",
-    "projectrepo": "",
+    "projectrepo": "Ria-development-2dv607",
     "projectdesc": "",
     "slack": "benny",
     "presentation": "My name is benny, 22 years old living in kalmar. Giving javascript a chance..",
@@ -11,6 +11,21 @@
             "when": "2015-11-04 16:00",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry01.md",
             "title": "Entry01"
+        },
+	{
+            "when": "2015-11-12 17:00",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry02.md",
+            "title": "Entry02"
+        },
+	{
+            "when": "2015-11-17 16:30",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/3-Steps-Of-Hello-World.md",
+            "title": "3 Simple Steps of Hello World!"
+        },
+    {
+            "when": "2015-11-21 14:50",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry03.md",
+            "title": "Entry03"
         }
     ],
     "pullrequests": [

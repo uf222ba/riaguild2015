@@ -28,7 +28,7 @@ var Advice = React.createClass({
 				<p>
 These are the writings that have been deemed worthy of the title "sage advice", which means they are of extra value for others to read.
 				</p>
-				<table>
+				<table className="table table-striped">
 					<thead>
 						<tr><th>Who</th><th>When</th><th>What</th></tr>
 					</thead>

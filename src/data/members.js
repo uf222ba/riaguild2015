@@ -5,7 +5,7 @@ Check users/krawaller.json for an example on what your file should look like!
 
 var members = {
 	krawaller: require("./users/krawaller.json"),
-	Dagashi: require("./users/Dagashi.json"),
+	Dagashi: require("./users/dagashi.json"),
 	OskarKlintrot: require("./users/OskarKlintrot.json"),
 	MoombaDS: require("./users/MoombaDS.json"),
 	uf222ba: require("./users/uf222ba.json"),
@@ -25,22 +25,33 @@ var members = {
 	as223jx: require("./users/as223jx.json"),
 	swoot1: require("./users/swoot1.json"),
 	EleonorL: require("./users/EleonorL.json"),
-    	ViktorJ: require("./users/ViktorJ.json"),
-    	Eldraev: require("./users/Eldraev.json"),
+    ViktorJ: require("./users/ViktorJ.json"),
+    Eldraev: require("./users/Eldraev.json"),
 	bc222az: require("./users/bc222az.json"),
-    	js22gz: require("./users/js22gz.json")
+    js22gz: require("./users/js22gz.json"),
+	diggo16: require("./users/diggo16.json"),
+	Janste: require("./users/Janste.json"),
+	as223my: require("./users/as223my.json"),
+	mattiaslj: require("./users/mattiaslj.json"),
+	ea222pu: require("./users/ea222pu.json"),
+	weibinyu: require("./users/weibinyu.json"),
+	carlpagelsLNU: require("./users/carlpagelsLNU.json"),
+	GamingCrewX: require("./users/GamingCrewX.json"),
+	ch222kv: require("./users/ch222kv.json"),
+	spackis: require("./users/spackis.json"),
+	ludwigj: require("./users/ludwigj.json")
 };
 
 var _ = require("lodash");
 
 // add id and received pull requests to each member
 members = _.reduce(members,function(ret,data,id){
-	_.each(data.pullrequests || [],function(pr,n){
+	_.each(data.pullrequests || [],function(pr,n){
 		var target = (pr.url.match("^https:\/\/github\.com\/([^\/]*)\/") || [])[1];
 		pr.by = id;
 		if (ret[target]){
 			ret[id].pullrequests[n].target = target;
-			ret[target].received = (ret[target].received || []).concat(pr);
+			ret[target].received = (ret[target].received || []).concat(pr);
 		} else {
 			console.log(id,"Unknown PR target",target);
 		}
@@ -49,52 +60,82 @@ members = _.reduce(members,function(ret,data,id){
 	return ret;
 },members);
 
-// lift out action log
-
-var numposts = 0, numpr = 0;
-
-var actions = _.reduce(members,function(ret,data,id){
-	ret = ret.concat(_.map(data.blogposts,function(post,n){
-		numposts++;
-		return Object.assign({type:"post",description:post.title,by:id,number:n+1},post);
-	}));
-	ret = ret.concat(_.map(data.pullrequests || [],function(pr,n){
-		numpr++;
-		return Object.assign({type:"pr",by:id,number:n+1},pr);
-	}));
-	return ret;
-},[]);
-
 // fix sage advice;
 
-var sageadvice = [ ["uf222ba",1], ["afrxx09",1], ["Pajn",2], ["mw222rs",1] ] // David's divine opinion :P
+var sageadvice = [
+	["afrxx09",1], // Andreas, Redux example
+	["Pajn",2], // Rasmus, CI
+	["drager",3], // Jesper, TypeScript
+	["mw222rs",1], // Mattias W, ESLint
+	["swoot1",1], // Elin, build script
+	["swoot1",2], // Elin, ES6
+	["mw222rs",2], // Mattias W, Sublime
+	["swoot1",7], // Elin, state vs props vs static
+	["mw222rs",4], // Mattias, promises
+	["OskarKlintrot",3], // Oskar, bomber
+]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
-	return Object.assign({
-		sageadvice: sageadvice.filter(function(i){ return i[0] === data.id; })
-	},data);
+	var filtered = sageadvice.filter(function(i){ return i[0] === data.id; }),
+		plucked = _.pluck(filtered,1);
+	return Object.assign({},data,{
+		sageadvice: plucked,
+		blogposts: _.map(data.blogposts,function(post,n){
+			return Object.assign({
+				sageadvice: _.contains(plucked,n)
+			},post);
+		})
+	});
 });
+
+
+// lift out action log
+
+var counter = {post:0,pr:0,snippet:0},
+	typeToKey = {post:"blogposts",pr:"pullrequests",snippet:"snippets"}
+
+var actions = _.reduce(members,function(ret,data,id){
+	return _.reduce(typeToKey,function(mem,jsonkey,type){
+		return mem.concat(_.map(data[jsonkey]||[],function(obj,n){
+			counter[type]++;
+			return Object.assign({
+				type: type,
+				description: obj.description || obj.title,
+				by: id,
+				number: n+1
+			},obj);
+		}));
+	},ret);
+},[]);
+
 
 // find heroes
 
 var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
+		user[aspect] = user[aspect] || [];
 		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id]];
+			return [user[aspect].length,[user.id],current[0],current[1]];
 		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id)];
+			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
+		} else if (user[aspect].length === current[2]){
+			return [current[0],current[1],current[2],current[3].concat(user.id)];
+		} else if (user[aspect].length > current[2]) {
+			return [current[0],current[1],user[aspect].length,[user.id]];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]]});
+},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
 
+//console.log("MEMBERS",members);
 
 module.exports = {
 	members: members,
 	actions: _.sortBy(actions,"when").reverse(),
 	heroes: heroes,
 	sageadvice: sageadvice,
-	numberofposts: numposts,
-	numberofprs: numpr
+	numberofposts: counter.post,
+	numberofprs: counter.pr,
+	numberofsnippets: counter.snippet
 };

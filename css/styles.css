@@ -7,13 +7,39 @@ td {
 }
 
 .chosen {
-    opacity: 0.6;
-    background-color: red;
+	opacity: 0.6;
 }
 
 .badge {
 	position: relative;
+	margin-right: 10px;
 }
+
+.gold {
+	border: 3px solid;
+	border-color: gold;
+}
+
+.gold-text {
+	color: gold;
+	font-weight: bold;
+}
+
+.silver {
+	border: 3px solid;
+	border-color: silver;
+}
+
+.silver-text {
+	color: silver;
+	font-weight: bold;
+}
+
+.bronze {
+	border: 3px solid;
+	border-color: brown;
+}
+
 p.badge-name {
 	position: absolute;
 	left: 0;
@@ -27,20 +53,10 @@ p.badge-name:hover {
 	color: #666;
 }
 
-ul.nav > li > a.active {
-    font-weight: bold;
+form label {
+	margin-right: 10px;
 }
-ul.nav:after {
-    content: " ";
-    clear: both;
-    display: block;
-}
-ul.nav li {
-    float: left;
-    margin-left: 1em;
-}
-ul.nav {
-    list-style-type: none;
-    -webkit-padding-start: 0;
-    background-color: #CCC;
+form label input[type="radio"], 
+form label input[type="checkbox"] {
+	margin-left: 5px;
 }
