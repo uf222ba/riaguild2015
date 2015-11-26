@@ -42,6 +42,11 @@
       	"url": "https://rasmus.eneman.eu/performance-and-react/",
       	"title": "Performance and React"
       },
+      {
+      	"when": "2015-11-26 13:20",
+      	"url": "https://rasmus.eneman.eu/prerender-the-app-shell/",
+      	"title": "Prerender the app shell"
+      },
     ],
     "pullrequests": [
       {
