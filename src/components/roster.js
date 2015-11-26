@@ -9,14 +9,16 @@ var Roster = React.createClass({
             orderBy: "name",
             blogposts: -1,
             name: 1,
-            prs: -1
+            prs: -1,
+            snippets: 1
         };
     },
     getOrderedMembers(){
         var filters = {
             "name": "name",
             "blogposts": (member) => member.blogposts.length,
-            "prs": (member) => member.pullrequests.length
+            "prs": (member) => member.pullrequests.length,
+            "snippets": (member) => member.snippets.length
         };
         var index = this.state[this.state.orderBy];
         var order = _.sortBy(members, filters[this.state.orderBy]);
@@ -37,13 +39,14 @@ var Roster = React.createClass({
     },
     render: function () {
         var orderedMembers = this.getOrderedMembers();
-        var rows = _.map(orderedMembers, (info, n) => {
+        var rows = _.map(orderedMembers, (info) => {
             var id = info.id;
             return (
                 <tr key={id}>
                     <td><Badge id={id}/></td>
                     <td>{info.blogposts.length}</td>
                     <td>{info.pullrequests.length}</td>
+                    <td>{info.snippets.length}</td>
                 </tr>
             );
         });
@@ -51,13 +54,14 @@ var Roster = React.createClass({
         var headerTargets = {
             "name": "Name",
             "blogposts": "Posts",
-            "prs": "PR:s"
+            "prs": "PR:s",
+            "snippets": "Snippets"
         };
 
         headerTargets[this.state.orderBy] += `${this.state[this.state.orderBy] < 0 ? '↓' : '↑'}`;
 
-        var headers = ["name", "blogposts", "prs"].map((type, index) => <th className="cursor-click" style={{width: "25%"}}
-                   onClick={this.setOrderBy.bind(null, type)} key={index}>{headerTargets[type]}</th>);
+        var headers = ["name", "blogposts", "prs", "snippets"].map((type) => <th className="cursor-click" style={{width: "25%"}}
+                   onClick={this.setOrderBy.bind(null, type)} key={type}>{headerTargets[type]}</th>);
 
         return (
             <div>
