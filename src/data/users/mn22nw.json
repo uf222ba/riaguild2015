@@ -57,6 +57,16 @@
             "when": "2015-11-17 17:45",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/47/#hello-world",
             "title": "Hello World"
+        } ,  
+        {
+            "when": "2015-11-25 23:35",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/48/#react-router-webpack-and-css-modules-example",
+            "title": "React-router, webpack, and css-modules example"
+        } ,  
+        {
+            "when": "2015-11-16 12:40",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/48/#project-description",
+            "title": "Project Description"
         } 
 
     ],
