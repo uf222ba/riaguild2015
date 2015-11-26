@@ -15,12 +15,8 @@ var Roster = React.createClass({
     getOrderedMembers(){
         var filters = {
             "name": "name",
-            "blogposts": (member)=> {
-                return member.blogposts.length;
-            },
-            "prs": (member)=> {
-                return member.pullrequests.length;
-            }
+            "blogposts": (member) => member.blogposts.length,
+            "prs": (member) => member.pullrequests.length
         };
         var index = this.state[this.state.orderBy];
         var order = _.sortBy(members, filters[this.state.orderBy]);
@@ -39,13 +35,9 @@ var Roster = React.createClass({
         }
         this.setState(options);
     },
-    getTHRow(headerTargets, orderBy, options){
-        return <th className="cursor-click" {...options}
-                   onClick={this.setOrderBy.bind(null, orderBy)}>{headerTargets[orderBy]}</th>;
-    },
     render: function () {
         var orderedMembers = this.getOrderedMembers();
-        var rows = _.map(orderedMembers, function (info, n) {
+        var rows = _.map(orderedMembers, (info, n) => {
             var id = info.id;
             return (
                 <tr key={id}>
@@ -55,33 +47,29 @@ var Roster = React.createClass({
                 </tr>
             );
         });
-        var orderBy = this.state.orderBy;
 
         var headerTargets = {
             "name": "Name",
             "blogposts": "Posts",
-            "prs": "PR:S"
+            "prs": "PR:s"
         };
 
-        headerTargets[orderBy] += `${this.state[orderBy] < 0 ? '↓' : '↑'}`;
+        headerTargets[this.state.orderBy] += `${this.state[this.state.orderBy] < 0 ? '↓' : '↑'}`;
 
-        var nameRow = this.getTHRow(headerTargets, "name", {style:{width: "25%"}});
-        var blogpostRow = this.getTHRow(headerTargets, "blogposts", {style:{width: "25%"}});
-        var prRow = this.getTHRow(headerTargets, "prs");
+        var headers = ["name", "blogposts", "prs"].map((type, index) => <th className="cursor-click" style={{width: "25%"}}
+                   onClick={this.setOrderBy.bind(null, type)} key={index}>{headerTargets[type]}</th>);
 
         return (
             <div>
                 <p>These are the {rows.length} members of the RIA guild:</p>
                 <table className="table table-striped">
                     <thead>
-                    <tr>
-                        {nameRow}
-                        {blogpostRow}
-                        {prRow}
-                    </tr>
+                        <tr>
+                            {headers}
+                        </tr>
                     </thead>
                     <tbody>
-                    {rows}
+                        {rows}
                     </tbody>
                 </table>
             </div>
