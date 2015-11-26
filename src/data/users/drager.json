@@ -26,6 +26,11 @@
 		"when": "2015-11-05 22:50",
 		"url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
 		"title": "Why all you non-TypeScripters are non-enlightened fools"
+	},
+	{
+		"when": "2015-11-26 09:21",
+		"url": "https://jesperh.se/2015/11/26/material-design-and-react/",
+		"title": "Material design and React"
 	}
     ],
     "pullrequests": [
