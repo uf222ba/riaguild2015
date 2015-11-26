@@ -19,5 +19,10 @@
 		}
 	],
 	"pullrequests": [
-	],
+		{
+			"when": "2015-11-22 21:45",
+			"url": "https://github.com/krawaller/riaguild2015/pull/151",
+			"description": "Added sorting on roster page"
+		}
+	]
 }
