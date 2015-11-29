@@ -71,6 +71,11 @@
 			"when": "2015-11-24 20:23",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-24-status-report.markdown",
 			"title": "Status report"
+		},
+        {
+			"when": "2015-11-29 17:04",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-29-validation-with-firebase.markdown",
+			"title": "Validation With Firebase"
 		}
 	],
 	"pullrequests": [
