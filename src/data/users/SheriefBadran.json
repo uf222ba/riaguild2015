@@ -33,6 +33,11 @@
       "when": "2015-11-20",
       "url": "https://github.com/Pajn/Culinam/pull/11",
       "description": "feat: Creating logic for cashier, putting items from restaurant menu in cashier cart, and improvements on how cart handle items."
+    },
+    {
+      "when": "2015-11-29",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/2",
+      "description": "refactor: Changed store from createStore to a higher order store created with applyMiddleware. Currently authentication is done with a fake timeout async action creator (submitUser). Async actions now work thanks to thunk middleware, though next step could be replacing thunk with a promise middleware as a way to handle it the Redux-way."
     }
   ]
 }
