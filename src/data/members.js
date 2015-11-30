@@ -73,6 +73,9 @@ var sageadvice = [
 	["swoot1",7], // Elin, state vs props vs static
 	["mw222rs",4], // Mattias, promises
 	["OskarKlintrot",3], // Oskar, bomber
+	["swoot1",13], // Elin, validation in firebase
+	["Pajn",7], // Rasmus, prerender app shell
+	["afrxx09",4], // Andreas, how to make node module
 	["Dagashi",3] // David lamenting Redux :)
 ]; // David's divine opinion :P
 
