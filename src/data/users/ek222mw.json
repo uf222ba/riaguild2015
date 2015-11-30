@@ -26,6 +26,11 @@
             "when": "2015-11-19 14:17",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry04.md",
 			"title": "Can now answer multiple questions and get a score in quiz project."
+        },
+		{
+            "when": "2015-11-27 14:04",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry05.md",
+			"title": "Started to rebuild program to object instead of arrays."
         }
     ],
     "pullrequests": [
