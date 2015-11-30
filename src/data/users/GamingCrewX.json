@@ -1,8 +1,8 @@
 {
     "name": "Maciej Siwek",
     "github": "GamingCrewX",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "https://github.com/GamingCrewX/2DV607/tree/gh-pages/Project",
+    "projectdesc": "#NoIdeaYet",
     "slack": "maciek3221",
     "presentation": "Hey! My name is Maciej and I'm halfway my last year on software engineering programme at LNU. Feel free to visit my website http://maciejsiwek.com and give some feedback :D",
     "icon": "human-magi$elder-mage",
@@ -11,6 +11,11 @@
             "when": "2015-11-8 15:35",
             "url": "https://github.com/GamingCrewX/2DV607/blob/gh-pages/blog/blog.md",
             "title": "First Entry"
+        },
+        {
+            "when": "2015-11-30 04:30",
+            "url": "https://github.com/GamingCrewX/2DV607/blob/gh-pages/blog/blog2.md",
+            "title": "Step 1 Completion blogpost"
         }
     ],
     "pullrequests": [
