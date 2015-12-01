@@ -36,6 +36,10 @@
 			"when": "2015-11-13 15:25",
 			"url": "https://github.com/Dagashi/ria-2015/pull/4",
 			"description": "Fixed form default value population by delaying render until data received"
+		},{
+			"when": "2015-12-01 18:50",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/1",
+			"description": "Reorganized folders and made use of stateless component syntax"
 		}
 	],
 	"snippets": [
