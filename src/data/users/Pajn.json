@@ -32,6 +32,21 @@
       	"url": "https://rasmus.eneman.eu/math-problems-and-reasuing-code/",
       	"title": "Unexpected math problems and code reuse"
       },
+      {
+      	"when": "2015-11-21 11:06",
+      	"url": "https://rasmus.eneman.eu/flux-vs-redux/",
+      	"title": "Flux vs Redux"
+      },
+      {
+      	"when": "2015-11-23 12:12",
+      	"url": "https://rasmus.eneman.eu/performance-and-react/",
+      	"title": "Performance and React"
+      },
+      {
+      	"when": "2015-11-26 13:20",
+      	"url": "https://rasmus.eneman.eu/prerender-the-app-shell/",
+      	"title": "Prerender the app shell"
+      },
     ],
     "pullrequests": [
       {

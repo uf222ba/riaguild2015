@@ -16,6 +16,11 @@
 			"when": "2015-11-17 11:20",
 			"url": "https://youtu.be/pKJDVUyvXhg",
 			"title": "Vlog 2: Tools and snippets"
+		},
+		{
+			"when": "2015-11-20 12:25",
+			"url": "https://youtu.be/A4wgzfqGSGU",
+			"title": "Vlog 3: Redux + Firebase"
 		}
 	],
 	"pullrequests": [
@@ -48,6 +53,16 @@
 			"when": "2015-11-07 12:16",
 			"url": "https://jsbin.com/cimoke/edit?js,console",
 			"description": "Different syntaxes for defining a method"
+		},
+		{
+			"when": "2015-11-20 14:23",
+			"url": "http://jsbin.com/xunujo/edit?js,console",
+			"description": "Using bind for currying"
+		},
+		{
+			"when": "2015-11-23",
+			"url": "https://jsbin.com/foneri/edit?js,output",
+			"description": "React stateless component syntax"
 		}
 	]
 }

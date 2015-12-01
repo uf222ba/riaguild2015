@@ -14,6 +14,32 @@ td {
 	position: relative;
 	margin-right: 10px;
 }
+
+.gold {
+	border: 3px solid;
+	border-color: gold;
+}
+
+.gold-text {
+	color: gold;
+	font-weight: bold;
+}
+
+.silver {
+	border: 3px solid;
+	border-color: silver;
+}
+
+.silver-text {
+	color: silver;
+	font-weight: bold;
+}
+
+.bronze {
+	border: 3px solid;
+	border-color: brown;
+}
+
 p.badge-name {
 	position: absolute;
 	left: 0;
@@ -33,4 +59,7 @@ form label {
 form label input[type="radio"], 
 form label input[type="checkbox"] {
 	margin-left: 5px;
+}
+.cursor-click{
+	cursor: pointer;
 }

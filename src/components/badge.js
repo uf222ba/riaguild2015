@@ -15,7 +15,7 @@ var Badge = React.createClass({
 				Emil: 1
 			}[names[0]];
 			return (
-				<span className="badge">
+				<span className={"badge " + this.props.honour}>
 					<Link to={"/member/"+currentMember.github}>
 						<Icon icon={currentMember.icon} />
 						<p className="badge-name">{names[0]+(surnameletters ? " "+names[1].substr(0,surnameletters) : "")}</p>

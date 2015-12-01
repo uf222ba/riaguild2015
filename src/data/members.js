@@ -71,6 +71,12 @@ var sageadvice = [
 	["swoot1",2], // Elin, ES6
 	["mw222rs",2], // Mattias W, Sublime
 	["swoot1",7], // Elin, state vs props vs static
+	["mw222rs",4], // Mattias, promises
+	["OskarKlintrot",3], // Oskar, bomber
+	["swoot1",13], // Elin, validation in firebase
+	["Pajn",7], // Rasmus, prerender app shell
+	["afrxx09",4], // Andreas, how to make node module
+	["Dagashi",3] // David lamenting Redux :)
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
@@ -113,14 +119,18 @@ var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
 		user[aspect] = user[aspect] || [];
 		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id]];
+			return [user[aspect].length,[user.id],current[0],current[1]];
 		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id)];
+			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
+		} else if (user[aspect].length === current[2]){
+			return [current[0],current[1],current[2],current[3].concat(user.id)];
+		} else if (user[aspect].length > current[2]) {
+			return [current[0],current[1],user[aspect].length,[user.id]];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[]],pullrequests:[0,[]],sageadvice:[0,[]],snippets:[0,[]]});
+},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
 
 //console.log("MEMBERS",members);
 
