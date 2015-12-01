@@ -42,7 +42,7 @@
 		{
             "when": "2015-12-01 14:43",
             "url": "https://github.com/me222rs/RIA-Project/pull/1",
-			"title": "Changed randomize function to use lodash library instead."
+			"description": "Changed randomize function to use lodash library instead."
         },
 		
     ]
