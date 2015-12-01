@@ -31,10 +31,19 @@
             "when": "2015-11-27 14:04",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry05.md",
 			"title": "Started to rebuild program to object instead of arrays."
+        },
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry06.md",
+			"title": "Can now randomize quiz questions with lodash lib."
         }
     ],
     "pullrequests": [
-		
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/me222rs/RIA-Project/pull/1",
+			"title": "Changed randomize function to use lodash library instead of a whole randomize function i program."
+        }
 		
     ]
 }
