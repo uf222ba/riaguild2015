@@ -38,6 +38,16 @@
       "when": "2015-11-29",
       "url": "https://github.com/Grenmyr/2DV607-ria/pull/2",
       "description": "refactor: Changed store from createStore to a higher order store created with applyMiddleware. Currently authentication is done with a fake timeout async action creator (submitUser). Async actions now work thanks to thunk middleware, though next step could be replacing thunk with a promise middleware as a way to handle it the Redux-way."
+    },
+    {
+      "when": "2015-11-30",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/3",
+      "description": "feat: Firebase setup and auth now validates towards a firebase user."
+    },
+    {
+      "when": "2015-11-30",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/4",
+      "description": "refactor: All action-creators are now located in one file. The reducers are also adapted to that change. Application now make use of authentication state from both store and firebase. State is updated in userReducer and the submit component updates data according to state. Therefore some code setting state in the component was removed."
     }
   ]
 }
