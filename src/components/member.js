@@ -21,6 +21,9 @@ var Member = React.createClass({
 					</tr>
 				);
 			}),
+			snippets = (data.snippets || []).map(function(snippet,n){
+				return <li key={n}><a target="_blank" href={snippet.url}>{snippet.description+" ("+snippet.when+")"}</a></li>;
+			}),
 			received = (data.received || []).map(function(pr,n){
 				var authoruser = members[pr.by];
 				return (
@@ -29,7 +32,13 @@ var Member = React.createClass({
 						<td><a href={pr.url} target="_blank">{pr.description}</a></td>
 					</tr>
 				);
-			});
+			}),
+			pubappURL = (data.projectrepo === data.github+".github.io"
+				// using special personal gh-pages url
+				? data.projectrepo
+				// using normal repo
+				: data.github+".github.io/"+data.projectrepo+"/"+(data.projectentry||"")
+			);
 		return (
 			<div>
 				<h3>{data.name}</h3>
@@ -44,11 +53,17 @@ var Member = React.createClass({
 						<h3>Project</h3>
 						{(data.projectdesc || "<no description given>")+" "} 
 						  (<a href={"http://github.com/"+data.github+"/"+data.projectrepo}>code</a>) 
-						  (<a href={"http://"+data.github+".github.io/"+data.projectrepo+"/"+(data.projectentry||"")}>run</a>) 
+						  (<a href={"http://"+pubappURL}>run</a>) 
 					</div>
 				)}
 				<h3>Blog posts:</h3>
 				<ul>{posts}</ul>
+				{snippets.length && (
+					<div>
+						<h3>Code snippets</h3>
+						<ul>{snippets}</ul>
+					</div>
+				) || ""}
 				{pullrequests.length && (
 					<div>
 						<h3>Pull requests</h3>

@@ -16,10 +16,34 @@
             "when": "2015-11-11 15:07",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry02.md",
 			"title": "Created the hello world program"
+        },
+		{
+            "when": "2015-11-18 11:34",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry03.md",
+			"title": "Started with project which will be a quiz."
+        },
+		{
+            "when": "2015-11-19 14:17",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry04.md",
+			"title": "Can now answer multiple questions and get a score in quiz project."
+        },
+		{
+            "when": "2015-11-27 14:04",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry05.md",
+			"title": "Started to rebuild program to object instead of arrays."
+        },
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry06.md",
+			"title": "Can now randomize quiz questions with lodash lib."
         }
     ],
     "pullrequests": [
-		
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/me222rs/RIA-Project/pull/1",
+			"description": "Changed randomize function to use lodash library instead."
+        },
 		
     ]
 }

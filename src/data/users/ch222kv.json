@@ -1,0 +1,28 @@
+{
+	"name": "Christoffer Holmgren",
+	"github": "ch222kv",
+	"projectrepo": "ria-2015",
+	"projectdesc": "Hello-world-app, hacking at the hero battler code base. Hopefully getting the hang of React+Redux+Router soon.",
+	"slack": "christofferholmgren",
+	"presentation": "21 year old from Falun. I'm not usually late! :)",
+	"icon": "merfolk$hunter",
+	"blogposts": [
+		{
+			"when": "2015-11-13 18:31",
+			"url": "https://github.com/ch222kv/ria-2015/blob/master/blog/entry01.md",
+			"title": "Introduction" 
+		},
+		{
+			"when": "2015-11-22 13:02",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/Stage-1-Hacking-away-at-Redux.md",
+			"title": "Stage one"
+		}
+	],
+	"pullrequests": [
+		{
+			"when": "2015-11-22 21:45",
+			"url": "https://github.com/krawaller/riaguild2015/pull/151",
+			"description": "Added sorting on roster page"
+		}
+	]
+}

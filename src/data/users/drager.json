@@ -26,8 +26,18 @@
 		"when": "2015-11-05 22:50",
 		"url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
 		"title": "Why all you non-TypeScripters are non-enlightened fools"
+	},
+	{
+		"when": "2015-11-26 09:21",
+		"url": "https://jesperh.se/2015/11/26/material-design-and-react/",
+		"title": "Material design and React"
 	}
     ],
     "pullrequests": [
+	{
+		"when": "2015-12-01 12:51",
+		"url": "https://github.com/Grenmyr/2DV607-ria/pull/5",
+		"description": "Renamed Submit -> Auth as well as split the old submit component into two new compoenents: Login and Logout."
+	}
     ]
 }

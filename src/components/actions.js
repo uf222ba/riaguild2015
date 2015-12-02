@@ -23,6 +23,8 @@ var Actions = React.createClass({
 				return info.type === "post";
 			case "prs":
 				return info.type === "pr";
+			case "snippets":
+				return info.type === "snippet";
 			default:
 				return true;
 		}
@@ -48,7 +50,7 @@ var Actions = React.createClass({
 					<td><Badge id={user.github} /></td>
 					<td>{info.when.substr(0,10)}<br/>{info.when.substr(11)}</td>
 					<td>
-						{ {pr:"made",post:"wrote"}[info.type]+" "+ordernum(info.number)+" "+{pr:"PR",post:"post"}[info.type]+(info.sageadvice?" (sage advice!)":"")+": " }
+						{ {pr:"made",post:"wrote",snippet:"coded"}[info.type]+" "+ordernum(info.number)+" "+{pr:"PR",post:"post",snippet:"snippet"}[info.type]+(info.sageadvice?" (sage advice!)":"")+": " }
 						<br/>
 						<a href={info.url} target="_blank">{info.description}</a>
 					</td>
@@ -58,7 +60,7 @@ var Actions = React.createClass({
 		});
 		return (
 			<div>
-				<p>There's been {mem.numberofposts} posts and {mem.numberofprs} pull requests so far:</p>
+				<p>There's been {mem.numberofposts} posts, {mem.numberofprs} pull requests and {mem.numberofsnippets} code snippets so far:</p>
 				<table className="table table-striped">
 					<thead>
 						<tr><th>Who</th><th>When</th><th>What</th><th>Target (if PR)</th></tr>
@@ -82,6 +84,10 @@ var Actions = React.createClass({
 									<label>
 										Show PR:s
 										<input type="radio" name="filter" onClick={ this.handleTypeFilterChange.bind(this, "prs") } />
+									</label>
+									<label>
+										Show snippets
+										<input type="radio" name="filter" onClick={ this.handleTypeFilterChange.bind(this, "snippets") } />
 									</label>
 								</form>
 							</th>

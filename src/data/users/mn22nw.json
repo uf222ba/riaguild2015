@@ -1,6 +1,9 @@
 {
     "name": "Maria Nygren",
     "github": "mn22nw",
+    "projectrepo": "2DV607",
+    "projectentry": "hello-world/dist",
+    "projectdesc": "Not decided what I'm going to to yet.",
     "slack": "@mia",
     "presentation": "27 year old Örebro resident, love to learn new stuff, especially within the subjects of programming, music (piano/guitar/bass), 3D-modeling and design/art.",
     "icon": "ninjas$yohei",
@@ -12,23 +15,58 @@
         }, 
         {
             "when": "2015-11-03 23:44",
-            "url": "http://mianygren.nu/RIA/Blog/45/#the-guild-overview-etc",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/45/#the-guild-overview-etc",
             "title": "The guild, Overview, etc."
         },
          {
             "when": "2015-11-04 11:50",
-            "url": "http://mianygren.nu/RIA/Blog/45/#looking-at-the-demo-app-etc",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/45/#looking-at-the-demo-app-etc",
             "title": "Looking at the demo-app etc."
         },  
         {
             "when": "2015-11-05 18:15",
-            "url": "http://mianygren.nu/RIA/Blog/45/#webpack-and-reactjs-basics",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/45/#webpack-and-reactjs-basics",
             "title": "Webpack and React.js basics"
         },  
         {
             "when": "2015-11-06 22:50",
-            "url": "http://mianygren.nu/RIA/Blog/45/#webpack-jsx-problem-and-solution",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/45/#webpack-jsx-problem-and-solution",
             "title": "Webpack - jsx problem - and solution!"
+        } ,
+         {
+            "when": "2015-11-11 12:25",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/46/#redux-tutorial",
+            "title": "Redux-tutorial"
+        },  
+        {
+            "when": "2015-11-12 23:35",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/46/#inline-styles",
+            "title": "Inline Styles"
+        },  
+        {
+            "when": "2015-11-13 22:45",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/46/#demo-app-a-more-thorough-look",
+            "title": "Demo-app - A more thorough look"
+        } ,  
+        {
+            "when": "2015-11-16 04:35",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/47/#node_env-and-windows",
+            "title": "NODE_ENV and Windows"
+        },  
+        {
+            "when": "2015-11-17 17:45",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/47/#hello-world",
+            "title": "Hello World"
+        } ,  
+        {
+            "when": "2015-11-25 23:35",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/48/#react-router-webpack-and-css-modules-example",
+            "title": "React-router, webpack, and css-modules example"
+        } ,  
+        {
+            "when": "2015-11-26 12:40",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/48/#project-description",
+            "title": "Project Description"
         } 
 
     ],

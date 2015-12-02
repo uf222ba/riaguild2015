@@ -1,10 +1,10 @@
 {
     "name": "Oskar Klintrot",
     "github": "OskarKlintrot",
-    "projectrepo": "n/a",
-    "projectdesc": "n/a",
+    "projectrepo": "figurkoder.se",
+    "projectdesc": "An app (in Swedish, sorry) for training mnemonic images.",
     "slack": "oskarklintrot",
-    "presentation": "26 year old. Have a degree in marine engineer but fell in love with programming after a lot of PLC programming in school. Prefer C#, JavaScript novice but have done at least one small project in TypeScript; [figurkoder.se](http://figurkoder.se).",
+    "presentation": "26 year old. Have a degree in marine engineer but fell in love with programming after a lot of PLC programming in school. Prefer C#, JavaScript novice but not too shabby in Typescript. Have a soft spot for hardware. Would love to work with IoT in the future (I already know some C/C++, wohoo)!",
     "icon": "monsters$seaserpent",
     "blogposts": [
         {
@@ -16,6 +16,21 @@
             "when": "2015-11-11 17:20",
             "url": "http://2dv607.oskarklintrot.se/failure/",
             "title": "Failure is not an option, have to keep on trying"
+        },
+        {
+            "when": "2015-11-19 18:00",
+            "url": "http://2dv607.oskarklintrot.se/redux-devtools/",
+            "title": "Understanding Redux with Redux DevTools"
+        },
+        {
+            "when": "2015-11-20 16:00",
+            "url": "http://2dv607.oskarklintrot.se/BYOB/",
+            "title": "Adding bombs to the demo app"
+        },
+        {
+            "when": "2015-11-30 20:00",
+            "url": "http://2dv607.oskarklintrot.se/thinking-in-react/",
+            "title": "Thinking in React"
         }
     ],
     "pullrequests": [
