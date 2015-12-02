@@ -40,6 +40,10 @@
 			"when": "2015-12-01 18:50",
 			"url": "https://github.com/afrxx09/2dv607-project/pull/1",
 			"description": "Reorganized folders and made use of stateless component syntax"
+		},{
+			"when": "2015-12-02 10:50",
+			"url": "https://github.com/me222rs/RIA-Project/pull/2",
+			"description": "Added CSS animation and removed node_modules"
 		}
 	],
 	"snippets": [
