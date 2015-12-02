@@ -36,6 +36,11 @@
             "when": "2015-12-01 14:43",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry06.md",
 			"title": "Can now randomize quiz questions with lodash lib."
+        },
+		{
+            "when": "2015-12-02 12:27",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry07.md",
+			"title": "Can now restart quiz and get result after each game."
         }
     ],
     "pullrequests": [
