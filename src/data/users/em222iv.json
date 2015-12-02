@@ -1,8 +1,8 @@
 {
 	"name": "Erik Magnusson",
 	"github": "em222iv",
-	"projectrepo": "",
-	"projectdesc": "",
+	"projectrepo": "react-simple",
+	"projectdesc": "Simple React Redux Application",
 	"slack": "em222iv",
 	"presentation": "25 år från Norrtälje. Pluggar från Campus i Kalmar. I like turtles",
 	"icon": "drakes$slasher",
@@ -11,7 +11,17 @@
 			"when": "2015-11-02 12:00",
 			"url": "http://em222iv.blogspot.se",
 			"title": "Min första post"
-		}
+		},
+		{
+			"when": "2015-11-05 14:01",
+			"url": "http://em222iv.blogspot.se",
+			"title": "Captains log"
+		},
+        {
+			"when": "2015-11-13 15:30",
+			"url": "http://em222iv.blogspot.se",
+			"title": "Two weeks into react"
+        }
 	],
 	"pullrequests": [
 	]
