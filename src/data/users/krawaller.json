@@ -44,6 +44,10 @@
 			"when": "2015-12-02 10:50",
 			"url": "https://github.com/me222rs/RIA-Project/pull/2",
 			"description": "Added CSS animation and removed node_modules"
+		},{
+			"when": "2015-12-02 12:10",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/2",
+			"description": "Code review, stylistic changes to sleekify"
 		}
 	],
 	"snippets": [
