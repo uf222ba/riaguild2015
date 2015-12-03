@@ -48,6 +48,16 @@
       "when": "2015-11-30",
       "url": "https://github.com/Grenmyr/2DV607-ria/pull/4",
       "description": "refactor: All action-creators are now located in one file. The reducers are also adapted to that change. Application now make use of authentication state from both store and firebase. State is updated in userReducer and the submit component updates data according to state. Therefore some code setting state in the component was removed."
+    },
+    {
+      "when": "2015-12-03",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/6",
+      "description": "refactor: Making login and logout components dumber since they are in a smarter containter component auth. Login component does not know how to login, it just sends its form refs into the login handler function available via props. Its not possible to make login a functional presentational component since it contains refs. The logout component on the other hand should be as dumb as possible hence a presentational component."
+    },
+    {
+      "when": "2015-12-03",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/7",
+      "description": "feat: Implementing debouncing to prevent spamming on the login button which might cause unnecessary number of get-requests to firebase or any server api. Also first and tiny attempt for some functional javascript."
     }
   ]
 }
