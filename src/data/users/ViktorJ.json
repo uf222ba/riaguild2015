@@ -21,6 +21,16 @@
             "when": "2015-11-20 11:07",
             "url": "http://viktorj.github.io/notes/project/",
             "title": "The project"
+        },
+        {
+            "when": "2015-12-03 19:48",
+            "url": "http://viktorj.github.io/notes/procect_again/",
+            "title": "The project (again...)"
+        },
+        {
+            "when": "2015-12-03 19:48",
+            "url": "http://viktorj.github.io/notes/redux/",
+            "title": "Redux and ES2015"
         }
 	],
 	"pullrequests": [
