@@ -48,6 +48,10 @@
 			"when": "2015-12-02 12:10",
 			"url": "https://github.com/afrxx09/2dv607-project/pull/2",
 			"description": "Code review, stylistic changes to sleekify"
+		},{
+			"when": "2015-12-03 08:40",
+			"url": "https://github.com/MoombaDS/quest/pull/1",
+			"description": "Code review: ES2015, map vs forEach, dumb vs smart comps"
 		}
 	],
 	"snippets": [
