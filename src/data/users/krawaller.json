@@ -56,6 +56,10 @@
 			"when": "2015-12-03 20:05",
 			"url": "https://github.com/js22gz/no_direction_project/pull/1",
 			"description": "Helped make timer action creator"
+		},{
+			"when": "2015-12-03 21:00",
+			"url": "https://github.com/diggo16/jsProject/pull/2",
+			"description": "Revised state shape and fixed custom message authors"
 		}
 	],
 	"snippets": [
