@@ -40,6 +40,11 @@ td {
 	border-color: brown;
 }
 
+.bronze-text {
+	color: brown;
+	font-weight: bold;	
+}
+
 p.badge-name {
 	position: absolute;
 	left: 0;

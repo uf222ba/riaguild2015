@@ -118,20 +118,33 @@ var actions = _.reduce(members,function(ret,data,id){
 var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
 		user[aspect] = user[aspect] || [];
-		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id],current[0],current[1]];
-		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
-		} else if (user[aspect].length === current[2]){
-			return [current[0],current[1],current[2],current[3].concat(user.id)];
-		} else if (user[aspect].length > current[2]) {
-			return [current[0],current[1],user[aspect].length,[user.id]];
+		var score = user[aspect].length, id = user.id;
+		if (score === 0){
+			return current;
+		} else if (score > current[0][0]) {
+			return [ [score,[id]], current[0], current[1] ];
+		} else if (score === current[0][0]) {
+			return [ [current[0][0],current[0][1].concat(id)], current[1], current[2] ];
+		} else if (score > current[1][0]) {
+			return [ current[0], [score,[id]], current[1] ];
+		} else if (score === current[1][0]) {
+			return [ current[0], [current[1][0],current[1][1].concat(id)], current[2] ];
+		} else if (score > current[2][0]) {
+			return [ current[0], current[1], [score,[id]] ];
+		} else if (score === current[2][0]) {
+			return [ current[0], current[1], [current[2][0],current[2][1].concat(id)] ];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
+},{
+	blogposts:[[0,[]],[0,[]],[0,[]]],
+	pullrequests:[[0,[]],[0,[]],[0,[]]],
+	sageadvice:[[0,[]],[0,[]],[0,[]]],
+	snippets:[[0,[]],[0,[]],[0,[]]],
+});
 
+console.log("HEROES",heroes);
 //console.log("MEMBERS",members);
 
 module.exports = {
