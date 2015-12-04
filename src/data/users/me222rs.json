@@ -37,8 +37,7 @@
 				{
             "when": "2015-12-04 10:12",
             "url": "https://github.com/ek222mw/RiaProject/pull/2",
-			"description": "You should not add to the question array in the getInitialState(). You could
-			instead declare it in the initialstate.js which is better."
-        },
+			"description": "You should not add to the question array in the getInitialState(). You could instead declare it in the initialstate.js which is better."
+        }
 	]
 }
