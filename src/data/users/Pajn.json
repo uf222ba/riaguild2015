@@ -52,6 +52,11 @@
         "url": "https://rasmus.eneman.eu/its-a-matter-of-style/",
         "title": "It's a matter of style"
       },
+      {
+        "when": "2015-12-03 19:25",
+        "url": "https://rasmus.eneman.eu/debugging-with-devtools/",
+        "title": "Debugging with devtools"
+      },
     ],
     "pullrequests": [
       {
