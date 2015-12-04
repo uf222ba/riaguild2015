@@ -4,7 +4,10 @@ var React = require("react"),
 	Badge = require("./badge"),
 	mem = require("../data/members"),
 	members = mem.members,
-	actions = mem.actions;
+	actions = mem.actions,
+	Pagination = require("react-bootstrap").Pagination,
+	DropdownButton = require("react-bootstrap").DropdownButton,
+	MenuItem = require("react-bootstrap").MenuItem;
 
 function ordernum(n){
 	return n + ({1:"st",2:"nd",3:"rd"}[n % 10] || "th");
@@ -30,7 +33,7 @@ var Actions = React.createClass({
 		}
 	},
 	getInitialState: function() {
-		return { filterName: "", filterWhat: "", filterType: "all" };
+		return { filterName: "", filterWhat: "", filterType: "all", activePage: 1, itemsPerPage: 25 };
 	},
 	handleNameFilterChange: function(event) {
 		this.setState({ filterName: event.target.value });
@@ -40,6 +43,12 @@ var Actions = React.createClass({
 	},
 	handleTypeFilterChange: function(filterBy) {
 		this.setState({ filterType: filterBy });
+	},
+	handlePageSelect: function(event, selectedEvent) {
+		this.setState({ activePage: selectedEvent.eventKey });
+	},
+	handleItemsPerPageSelect: function(event, selectedEvent) {
+		this.setState({ itemsPerPage: selectedEvent });
 	},
 	render: function(){
 		var rows = _.map(actions.filter(this.nameFilterFunction).filter(this.whatFilterFunction).filter(this.typeFilterFunction),function(info,id){
@@ -58,6 +67,8 @@ var Actions = React.createClass({
 				</tr>
 			);
 		});
+		var resultsCount = rows.length;
+		rows = _.drop(rows, (this.state.activePage - 1)*this.state.itemsPerPage).slice(0, this.state.itemsPerPage);
 		return (
 			<div>
 				<p>There's been {mem.numberofposts} posts, {mem.numberofprs} pull requests and {mem.numberofsnippets} code snippets so far:</p>
@@ -97,6 +108,27 @@ var Actions = React.createClass({
 						{rows}
 					</tbody>
 				</table>
+				<div style={{textAlign:"left"}}>
+					Items per page: 
+					<DropdownButton 
+						dropup
+						bsStyle="primary" 
+						title={(this.state.itemsPerPage > 0) ? this.state.itemsPerPage : "All"} 
+						onSelect={this.handleItemsPerPageSelect}
+						id={"itemsPerPage"}>
+						<MenuItem eventKey="-1">All</MenuItem>
+						<MenuItem eventKey="25">25</MenuItem>
+						<MenuItem eventKey="50">50</MenuItem>
+					</DropdownButton>
+				</div>
+				<div style={{textAlign:"center"}}>
+					<Pagination
+						activePage={this.state.activePage}
+						bsSize="medium"
+						items={Math.ceil(resultsCount/this.state.itemsPerPage)}
+						onSelect={this.handlePageSelect}
+					/>
+				</div>
 			</div>
 		);
 	}
