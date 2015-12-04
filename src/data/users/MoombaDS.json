@@ -41,6 +41,11 @@
             "when": "2015-11-28 21:30",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry07.md",
             "title": "World Maps and Persistence"
+        },
+        {
+            "when": "2015-12-04 13:30",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry08.md",
+            "title": "Getting side-tracked: Unit Testing and Code Coverage"
         }
     ],
     "pullrequests": [
