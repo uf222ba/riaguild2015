@@ -67,8 +67,9 @@ var Actions = React.createClass({
 				</tr>
 			);
 		});
-		var resultsCount = rows.length;
-		rows = _.drop(rows, (this.state.activePage - 1)*this.state.itemsPerPage).slice(0, this.state.itemsPerPage);
+		var pagesCount = Math.ceil(rows.length/this.state.itemsPerPage);
+		var activePage = (this.state.activePage > pagesCount) ? pagesCount : this.state.activePage;
+		rows = (this.state.itemsPerPage > 0) ? _.drop(rows, (activePage - 1)*this.state.itemsPerPage).slice(0, this.state.itemsPerPage) : rows;
 		return (
 			<div>
 				<p>There's been {mem.numberofposts} posts, {mem.numberofprs} pull requests and {mem.numberofsnippets} code snippets so far:</p>
@@ -123,9 +124,9 @@ var Actions = React.createClass({
 				</div>
 				<div style={{textAlign:"center"}}>
 					<Pagination
-						activePage={this.state.activePage}
+						activePage={activePage}
 						bsSize="medium"
-						items={Math.ceil(resultsCount/this.state.itemsPerPage)}
+						items={pagesCount}
 						onSelect={this.handlePageSelect}
 					/>
 				</div>
