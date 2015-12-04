@@ -60,6 +60,10 @@
 			"when": "2015-12-03 21:00",
 			"url": "https://github.com/diggo16/jsProject/pull/2",
 			"description": "Revised state shape and fixed custom message authors"
+		},{
+			"when": "2015-12-04",
+			"url": "https://github.com/Grenmyr/2DV607-ria/pull/8",
+			"description": "Fixing wrapper component and nav"
 		}
 	],
 	"snippets": [
