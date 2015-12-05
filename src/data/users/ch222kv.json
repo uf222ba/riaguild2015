@@ -16,6 +16,11 @@
 			"when": "2015-11-22 13:02",
 			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/Stage-1-Hacking-away-at-Redux.md",
 			"title": "Stage one"
+		},
+		{
+			"when": "2015-12-05 20:00",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/a-discussion-on-timers.md",
+			"title": "A discussion on time(rs)"
 		}
 	],
 	"pullrequests": [
