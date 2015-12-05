@@ -76,6 +76,11 @@
 			"when": "2015-11-29 17:04",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-29-validation-with-firebase.markdown",
 			"title": "Validation With Firebase"
+		},
+        {
+			"when": "2015-12-05 15:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-05-why-skipping-source-maps-is-a-bad-idea.markdown",
+			"title": "Why skipping source maps is a bad idea."
 		}
 	],
 	"pullrequests": [
@@ -103,6 +108,11 @@
             "when": "2015-12-05 12:29",
             "url": "https://github.com/bc222az/Ria-development-2dv607/pull/3",
             "description": "Added a bad word sanitizer for the chat."
+ 		},
+        {
+            "when": "2015-12-05 15:07",
+            "url": "https://github.com/MoombaDS/quest/pull/2",
+            "description": "Made code that generates inventory columns more dynamic."
  		}
 	],
 	"snippets": [
