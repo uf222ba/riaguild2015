@@ -98,6 +98,11 @@
             "when": "2015-12-05 10:29",
             "url": "https://github.com/as223jx/2DV607/pull/1",
             "description": "Added dependencies in package.json. Replaced this reference with bind."
+ 		},
+        {
+            "when": "2015-12-05 12:29",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/pull/3",
+            "description": "Added a bad word sanitizer for the chat."
  		}
 	],
 	"snippets": [
