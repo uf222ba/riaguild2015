@@ -76,7 +76,8 @@ var sageadvice = [
 	["swoot1",13], // Elin, validation in firebase
 	["Pajn",7], // Rasmus, prerender app shell
 	["afrxx09",4], // Andreas, how to make node module
-	["Dagashi",3] // David lamenting Redux :)
+	["Dagashi",3], // David lamenting Redux :)
+	["ch222kv",2] // Christoffer on timers
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
