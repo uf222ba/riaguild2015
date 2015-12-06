@@ -152,7 +152,7 @@ module.exports = {
 	members: members,
 	actions: _.sortBy(actions,"when").reverse(),
 	heroes: heroes,
-	sageadvice: sageadvice,
+	sageadvice: _.sortBy(sageadvice, (advice)=>{ return members[advice[0]].blogposts[advice[1]].when; }).reverse(),
 	numberofposts: counter.post,
 	numberofprs: counter.pr,
 	numberofsnippets: counter.snippet
