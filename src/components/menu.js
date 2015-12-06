@@ -54,17 +54,18 @@ var Menu = React.createClass({
         
     var self = this,
         pathRoot,
+        url = './src/images/guild-logo.svg',
         menuItems = this.props.menuItems.map(function(menuItem){
             pathRoot = (/^(\/{1}(\w+)?)\/?/i).exec(menuItem.path)[0];
             return React.createElement(MenuItem, _.merge({isIndexLink: menuItem.isIndexLink}, menuItem))
         });
         
     return (
-            <NavBar>
-                <NavBrand><a className="navbar-brand" href="#">RIA course member guild 2015</a></NavBrand>
+            <NavBar>    
                 <Nav>
                     {menuItems}
                 </Nav>
+                <NavBrand><a className="navbar-brand" href="#"><img src={url} alt='guild-logo' /></a></NavBrand>
             </NavBar>
         );
 	}
