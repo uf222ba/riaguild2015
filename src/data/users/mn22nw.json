@@ -69,17 +69,17 @@
             "title": "Project Description"
         } ,  
         {
-            "when": "2015-12-4 15:50",
+            "when": "2015-12-04 15:50",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#problems-with-webpack-and-images-etc",
             "title": "Problems with webpack and images etc."
         } ,  
         {
-            "when": "2015-12-5 23:40",
+            "when": "2015-12-05 23:40",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#hot-reload-problem",
             "title": "Hot reload problem"
         } ,  
         {
-            "when": "2015-12-6 01:30",
+            "when": "2015-12-06 01:30",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#a-simple-start-of-my-app",
             "title": "A simple start of my App"
         } 
