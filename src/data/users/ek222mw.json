@@ -2,7 +2,7 @@
     "name": "Emil Karlsson",
     "github": "ek222mw",
     "projectrepo": "RiaProject",
-    "projectdesc": "The project repo for ria course",
+    "projectdesc": "Quiz game",
     "slack": "emilk",
     "presentation": "28 year old Blomstermåla resident, likes php.",
     "icon": "drakes$inferno",
@@ -41,6 +41,11 @@
             "when": "2015-12-02 12:27",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry07.md",
 			"title": "Can now restart quiz and get result after each game."
+        },
+		{
+            "when": "2015-12-07 12:26",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry08.md",
+			"title": "Refactored code and now able to play multiple quiz games."
         }
     ],
     "pullrequests": [
