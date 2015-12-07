@@ -8,7 +8,7 @@ var React = require("react"),
 
 var Advice = React.createClass({
 	render: function(){
-		var rows = _.map(mem.sageadvice.reverse(),function(advice,n){
+		var rows = _.map(mem.sageadvice,function(advice,n){
 			var user = members[advice[0]],
 				post = user.blogposts[advice[1]];
 			return (
