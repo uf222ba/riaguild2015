@@ -103,6 +103,11 @@
             "when": "2015-12-06 21:40",
             "url": "https://github.com/krawaller/riaguild2015/pull/204",
             "description": "Fixed a bug where the sage advice page would reverse every time you clicked on its tab + added proper sort function and page title"
+        },
+        {
+        	"when": "2015-12-07 23:50",
+        	"url": "https://github.com/ViktorJ/ria-project/pull/1",
+        	"description": "Removed node_modules, added dependencies to package, and added .gitignore"
         }
     ]
 }
