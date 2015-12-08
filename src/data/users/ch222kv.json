@@ -21,6 +21,16 @@
 			"when": "2015-12-05 20:00",
 			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/a-discussion-on-timers.md",
 			"title": "A discussion on time(rs)"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-app.md",
+			"title": "My Application"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/using-localstorage.md",
+			"title": "Using Localstorage"
 		}
 	],
 	"pullrequests": [
