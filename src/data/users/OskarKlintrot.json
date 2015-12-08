@@ -36,6 +36,11 @@
             "when": "2015-12-02 11:30",
             "url": "http://2dv607.oskarklintrot.se/thinking-in-react-pt2/",
             "title": "Thinking in React, part 2"
+        },
+        {
+            "when": "2015-12-08 21:00",
+            "url": "http://2dv607.oskarklintrot.se/thinking-in-react-pt3/",
+            "title": "Thinking in React, part 3"
         }
     ],
     "pullrequests": [
