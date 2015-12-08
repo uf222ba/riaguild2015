@@ -44,5 +44,10 @@
         }
     ],
     "pullrequests": [
+        {
+            "when": "2015-12-08 15:00",
+            "url": "https://github.com/Grenmyr/2DV607-ria/pull/12",
+            "description": "Mobile friendly and fullscreen"
+        }
     ]
 }
