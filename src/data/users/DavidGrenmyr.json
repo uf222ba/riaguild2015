@@ -48,6 +48,11 @@
       "when": "2015-11-06 13:02",
       "url": "https://github.com/afridlund85/React-Redux-example/pull/1",
       "description": "ES2015 example added to Andreas Fridlunds repo."
+    },
+    {
+      "when": "2015-12-10 13:10",
+      "url": "https://github.com/em222iv/react-simple/pull/2",
+      "description": "Changed to babelify for es2015 encoding and small fix in code to compile."
     }
   ]
 }
