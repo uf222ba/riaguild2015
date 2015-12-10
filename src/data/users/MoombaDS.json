@@ -108,6 +108,11 @@
         	"when": "2015-12-07 23:50",
         	"url": "https://github.com/ViktorJ/ria-project/pull/1",
         	"description": "Removed node_modules, added dependencies to package, and added .gitignore"
+        },
+        {
+        	"when": "2015-12-08 22:10",
+        	"url": "https://github.com/as223jx/2DV607/pull/2",
+        	"description": "Made score and table-cell dumb components since they don't handle any state"
         }
     ]
 }
