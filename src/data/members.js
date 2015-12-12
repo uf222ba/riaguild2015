@@ -35,7 +35,7 @@ var members = {
 	mattiaslj: require("./users/mattiaslj.json"),
 	ea222pu: require("./users/ea222pu.json"),
 	weibinyu: require("./users/weibinyu.json"),
-	// carlpagelsLNU: require("./users/carlpagelsLNU.json"), // Only 1 post, no skype contact
+	carlpagelsLNU: require("./users/carlpagelsLNU.json"), // Only 1 post, no skype contact
 	GamingCrewX: require("./users/GamingCrewX.json"),
 	ch222kv: require("./users/ch222kv.json"),
 	spackis: require("./users/spackis.json"),
