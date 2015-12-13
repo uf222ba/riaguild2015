@@ -21,6 +21,11 @@
       "when": "2015-11-21 20:56",
       "url": "http://sheriefbadran.blogspot.se/2015/11/react-framework-with-redux-and.html",
       "title": "React framework with Redux and Typescript"
+    },
+    {
+      "when": "2015-12-13 23:00",
+      "url": "http://sheriefbadran.blogspot.se/2015/12/functional-programming-with-javascript.html",
+      "title": "Functional programming with javascript"
     }
   ],
   "pullrequests": [
@@ -58,6 +63,16 @@
       "when": "2015-12-03",
       "url": "https://github.com/Grenmyr/2DV607-ria/pull/7",
       "description": "feat: Implementing debouncing to prevent spamming on the login button which might cause unnecessary number of get-requests to firebase or any server api. Also first and tiny attempt for some functional javascript."
+    },
+    {
+      "when": "2015-12-04",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/9",
+      "description": "fix: Commented the debounce function on request. refactor: changing login component property name just to clarify what it acctually does."
+    },
+    {
+      "when": "2015-12-06",
+      "url": "https://github.com/Pajn/Culinam/pull/16",
+      "description": "feat: 1. Improving how routing is done when navigating between dishes and drinks. 2. Bong an order of cart items from cashier to kitchen. A lot of lodgic remains in question of managing many cart orders including deletion of items from cart. refactor: 1. Attempt to make cart component slightly dumber, while cashier holds state and most of lodgic. 2. Created a Dish component used by cart, and will be used by others. Added some styles to cart component."
     }
   ]
 }
