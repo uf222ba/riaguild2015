@@ -46,6 +46,11 @@
             "when": "2015-12-07 12:26",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry08.md",
 			"title": "Refactored code and now able to play multiple quiz games."
+        },
+		{
+            "when": "2015-12-14 17:01",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry09.md",
+			"title": "Using Firebase to save highscore on mixed quiz."
         }
     ],
     "pullrequests": [
