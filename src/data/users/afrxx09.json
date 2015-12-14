@@ -36,6 +36,11 @@
             "when": "2015-12-10 14:45",
             "url": "http://afrxx09.blogspot.se/2015/12/warning-testing-react-stateless.html",
             "title": "Warning: Testing React Stateless Components"
+        },
+        {
+            "when": "2015-12-14 18:25",
+            "url": "http://afrxx09.blogspot.se/2015/12/how-to-develop-node-module-part-2.html",
+            "title": "How-to: develop a node module - part 2"
         }
     ],
     "pullrequests": [
