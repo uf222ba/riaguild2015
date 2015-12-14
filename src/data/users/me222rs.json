@@ -26,8 +26,18 @@
 			"when": "2015-11-27 10:42",
             		"url": "https://github.com/me222rs/blog/blob/master/entry04.md",
             		"title": "Had a busy week, so only minor changes have been made in the project."
+		},
+		{				
+			"when": "2015-12-04 10:12",
+            		"url": "https://github.com/me222rs/blog/blob/master/entry05.md",
+            		"title": "Improvements and a better points system"
 		}
 	],
 	"pullrequests": [
+				{
+            "when": "2015-12-04 10:12",
+            "url": "https://github.com/ek222mw/RiaProject/pull/2",
+			"description": "You should not add to the question array in the getInitialState(). You could instead declare it in the initialstate.js which is better."
+        }
 	]
 }

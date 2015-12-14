@@ -76,7 +76,8 @@ var sageadvice = [
 	["swoot1",13], // Elin, validation in firebase
 	["Pajn",7], // Rasmus, prerender app shell
 	["afrxx09",4], // Andreas, how to make node module
-	["Dagashi",3] // David lamenting Redux :)
+	["Dagashi",3], // David lamenting Redux :)
+	["ch222kv",2] // Christoffer on timers
 ]; // David's divine opinion :P
 
 members = _.mapValues(members,function(data){
@@ -118,27 +119,40 @@ var actions = _.reduce(members,function(ret,data,id){
 var heroes = _.reduce(members,function(ret,user){
 	return _.mapValues(ret,function(current,aspect){
 		user[aspect] = user[aspect] || [];
-		if (user[aspect].length > current[0]){
-			return [user[aspect].length,[user.id],current[0],current[1]];
-		} else if (user[aspect].length === current[0]){
-			return [user[aspect].length,current[1].concat(user.id),current[2],current[3]];
-		} else if (user[aspect].length === current[2]){
-			return [current[0],current[1],current[2],current[3].concat(user.id)];
-		} else if (user[aspect].length > current[2]) {
-			return [current[0],current[1],user[aspect].length,[user.id]];
+		var score = user[aspect].length, id = user.id;
+		if (score === 0){
+			return current;
+		} else if (score > current[0][0]) {
+			return [ [score,[id]], current[0], current[1] ];
+		} else if (score === current[0][0]) {
+			return [ [current[0][0],current[0][1].concat(id)], current[1], current[2] ];
+		} else if (score > current[1][0]) {
+			return [ current[0], [score,[id]], current[1] ];
+		} else if (score === current[1][0]) {
+			return [ current[0], [current[1][0],current[1][1].concat(id)], current[2] ];
+		} else if (score > current[2][0]) {
+			return [ current[0], current[1], [score,[id]] ];
+		} else if (score === current[2][0]) {
+			return [ current[0], current[1], [current[2][0],current[2][1].concat(id)] ];
 		} else {
 			return current;
 		}
 	});
-},{blogposts:[0,[],0,[]],pullrequests:[0,[],0,[]],sageadvice:[0,[],0,[]],snippets:[0,[],0,[]]});
+},{
+	blogposts:[[0,[]],[0,[]],[0,[]]],
+	pullrequests:[[0,[]],[0,[]],[0,[]]],
+	sageadvice:[[0,[]],[0,[]],[0,[]]],
+	snippets:[[0,[]],[0,[]],[0,[]]],
+});
 
+console.log("HEROES",heroes);
 //console.log("MEMBERS",members);
 
 module.exports = {
 	members: members,
 	actions: _.sortBy(actions,"when").reverse(),
 	heroes: heroes,
-	sageadvice: sageadvice,
+	sageadvice: _.sortBy(sageadvice, (advice)=>{ return members[advice[0]].blogposts[advice[1]].when; }).reverse(),
 	numberofposts: counter.post,
 	numberofprs: counter.pr,
 	numberofsnippets: counter.snippet

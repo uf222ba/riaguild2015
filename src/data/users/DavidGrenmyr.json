@@ -36,6 +36,11 @@
       "when": "2015-11-26 11:14",
       "url": "http://davidgrenmyr.blogspot.se/2015/11/webpack-superiority-compared-to.html",
       "title": "Webpack superiority compared to babelify/reactify and installation help"
+    },
+    {
+      "when": "2015-12-08 09:03",
+      "url": "http://davidgrenmyr.blogspot.se/2015/12/last-weeks-progress-and-bugs_8.html",
+      "title": "Last weeks progress and bugs"
     }
   ],
   "pullrequests": [
@@ -46,3 +51,4 @@
     }
   ]
 }
+

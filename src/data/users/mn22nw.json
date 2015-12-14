@@ -1,9 +1,8 @@
 {
     "name": "Maria Nygren",
     "github": "mn22nw",
-    "projectrepo": "2DV607",
-    "projectentry": "hello-world/dist",
-    "projectdesc": "Not decided what I'm going to to yet.",
+    "projectrepo": "favovid",
+    "projectdesc": "An app where you will be able to save your favourite youtube videos and sort them using tags.",
     "slack": "@mia",
     "presentation": "27 year old Örebro resident, love to learn new stuff, especially within the subjects of programming, music (piano/guitar/bass), 3D-modeling and design/art.",
     "icon": "ninjas$yohei",
@@ -67,9 +66,34 @@
             "when": "2015-11-26 12:40",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/48/#project-description",
             "title": "Project Description"
+        } ,  
+        {
+            "when": "2015-12-04 15:50",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#problems-with-webpack-and-images-etc",
+            "title": "Problems with webpack and images etc."
+        } ,  
+        {
+            "when": "2015-12-05 23:40",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#hot-reload-problem",
+            "title": "Hot reload problem"
+        } ,  
+        {
+            "when": "2015-12-06 01:30",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#a-simple-start-of-my-app",
+            "title": "A simple start of my App"
         } 
 
     ],
     "pullrequests": [
+    {
+        "when": "2015-12-04 16:51",
+        "url": "https://github.com/krawaller/riaguild2015/pull/197",
+        "description": "Added favicon"
+      },
+      {
+        "when": "2015-12-05 23:28",
+        "url": "https://github.com/krawaller/riaguild2015/pull/203",
+        "description": "Added responsive logo"
+      }
     ]
 }
