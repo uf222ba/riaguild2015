@@ -9,23 +9,33 @@
     "blogposts": [
         {
             "when": "2015-11-02 09:44",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry01.md",
+            "url": "http://uf222ba.github.io/first-post-presentation/",
             "title": "First post - Presentation"
         },
-	{
+		{
             "when": "2015-11-04 11:00",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry02.md",
+            "url": "http://uf222ba.github.io/developing-environment/",
             "title": "Developing environment"
         },
-        {
+		{
             "when": "2015-11-06 10:30",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry03.md",
+            "url": "http://uf222ba.github.io/the-installation/",
             "title": "The installation"
         },
-	{
+		{
             "when": "2015-11-06 11:00",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry04.md",
+            "url": "http://uf222ba.github.io/a-bit-overhwelmed/",
             "title": "A bit overhwelmed"
+        },
+		{
+            "when": "2015-12-11 11:26",
+            "url": "http://uf222ba.github.io/github/pages/and/jekyll/new-site-with-jekyll-on-github-pages/",
+            "title": "New site with Jekyll at Github pages"
+        },
+		{
+            "when": "2015-12-11 15:38",
+            "url": "http://uf222ba.github.io/javascript/catching-up-with-javascript-and-react/",
+            "title": "Catching up with JavaScript and React"
         }
     ],
     "pullrequests": [
