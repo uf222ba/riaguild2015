@@ -81,6 +81,11 @@
 			"when": "2015-12-05 15:33",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-05-why-skipping-source-maps-is-a-bad-idea.markdown",
 			"title": "Why skipping source maps is a bad idea."
+		},
+        {
+			"when": "2015-12-14 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-14-password-protect-your-routes.markdown",
+			"title": "Password protect your routes with React-Router"
 		}
 	],
 	"pullrequests": [
