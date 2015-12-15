@@ -46,6 +46,11 @@
             "when": "2015-12-04 13:30",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry08.md",
             "title": "Getting side-tracked: Unit Testing and Code Coverage"
+        },
+        {
+            "when": "2015-12-15 19:20",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry09.md",
+            "title": "Tidying code and creating a node module"
         }
     ],
     "pullrequests": [
