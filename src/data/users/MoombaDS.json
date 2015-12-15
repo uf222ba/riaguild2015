@@ -113,6 +113,11 @@
         	"when": "2015-12-08 22:10",
         	"url": "https://github.com/as223jx/2DV607/pull/2",
         	"description": "Made score and table-cell dumb components since they don't handle any state"
+        },
+        {
+        	"when": "2015-12-13 15:40",
+        	"url": "https://github.com/ch222kv/ria-2015/pull/1",
+        	"description": "Added some basic phone number validation via a port of Google's libphonenumber"
         }
     ]
 }
