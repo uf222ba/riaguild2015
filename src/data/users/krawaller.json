@@ -64,6 +64,10 @@
 			"when": "2015-12-04",
 			"url": "https://github.com/Grenmyr/2DV607-ria/pull/8",
 			"description": "Fixing wrapper component and nav"
+		},{
+			"when": "2015-12-15",
+			"url": "https://github.com/js22gz/no_direction_project/pull/2",
+			"description": "Made all three timer functions use the same tick"
 		}
 	],
 	"snippets": [
