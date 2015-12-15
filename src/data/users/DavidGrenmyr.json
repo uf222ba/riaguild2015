@@ -53,6 +53,11 @@
       "when": "2015-12-10 13:10",
       "url": "https://github.com/em222iv/react-simple/pull/2",
       "description": "Changed to babelify for es2015 encoding and small fix in code to compile."
+    },
+    {
+      "when": "2015-12-12 11:10",
+      "url": "https://github.com/em222iv/react-simple/pull/3",
+      "description": "At request changed environment to Webpack with hotload"
     }
   ]
 }
