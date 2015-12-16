@@ -21,6 +21,10 @@
 			"when": "2015-11-20 12:25",
 			"url": "https://youtu.be/A4wgzfqGSGU",
 			"title": "Vlog 3: Redux + Firebase"
+		},{
+			"when": "2015-12-07 13:20",
+			"url": "https://youtu.be/eX7Le39JaP4",
+			"title": "Vlog 4: Project contributions"
 		}
 	],
 	"pullrequests": [
