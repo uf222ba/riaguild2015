@@ -123,6 +123,11 @@
         	"when": "2015-12-13 15:40",
         	"url": "https://github.com/ch222kv/ria-2015/pull/1",
         	"description": "Added some basic phone number validation via a port of Google's libphonenumber"
+        },
+        {
+            "when": "2015-12-15 20:10",
+            "url": "https://github.com/Grenmyr/2DV607-ria/pull/13",
+            "description": "Made the two static components dumber since they're just render functions"
         }
     ]
 }
