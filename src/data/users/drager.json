@@ -63,6 +63,16 @@
         "when": "2015-12-10 08:47",
         "url": "https://github.com/em222iv/react-simple/pull/1",
         "description": "Updated .gitignore, removed node_modules and .idea folder from repository"
+      },
+      {
+        "when": "2015-12-16 16:52",
+        "url": "https://github.com/em222iv/react-simple/pull/6",
+        "description": "refactor: Changing to class syntax, removed unused"
+      },
+      {
+        "when": "2015-12-17 09:19",
+        "url": "https://github.com/em222iv/react-simple/pull/7",
+        "description": "refactor: Changing all of the components to ES6 classes, using ES6 export/import etc"
       }
     ]
 }
