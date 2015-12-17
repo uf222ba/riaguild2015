@@ -51,6 +51,11 @@
             "when": "2015-12-14 17:01",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry09.md",
 			"title": "Using Firebase to save highscore on mixed quiz."
+        },
+		{
+            "when": "2015-12-17 16:46",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry10.md",
+			"title": "Refactored code and next step is to fix highscore for other quiz."
         }
     ],
     "pullrequests": [
