@@ -58,6 +58,11 @@
         "when": "2015-12-07 15:41",
         "url": "https://github.com/Dagashi/ria-2015/pull/6",
         "description": "fix: Add auth actions to be exported and combine auth reducer"
+      },
+      {
+        "when": "2015-12-10 08:47",
+        "url": "https://github.com/em222iv/react-simple/pull/1",
+        "description": "Updated .gitignore, removed node_modules and .idea folder from repository"
       }
     ]
 }
