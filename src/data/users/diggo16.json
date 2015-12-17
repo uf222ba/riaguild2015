@@ -3,7 +3,7 @@
     "github": "diggo16",
     "projectrepo": "jsProject",
     "projectentry": "public_html",
-    "projectdesc": "Hello world",
+    "projectdesc": "A chat with author, text and time",
     "slack": "daniel_l",
     "presentation": "21 years old from Kalmar but currently living in Växjö. Have some basic knowledge in html, css, php and javascript",
     "icon": "drakes$burner",
@@ -25,5 +25,10 @@
         }
     ],
     "pullrequests": [
+		{
+			"when": "2015-12-17 16:27",
+			"url": "https://github.com/Janste/Janste.github.io/pull/1",
+			"description": "Updated search function by removing whitespaces and made it possible to search for a part of a word"
+		}
     ]
 }
