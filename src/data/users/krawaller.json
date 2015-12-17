@@ -76,6 +76,10 @@
 			"when": "2015-12-16 01:20",
 			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/1",
 			"description": "simplified API"
+		},{
+			"when": "2015-12-16 10:40",
+			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/2",
+			"description": "simplified API even more"
 		}
 	],
 	"snippets": [
