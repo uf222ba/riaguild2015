@@ -2,7 +2,7 @@
     "name": "Emil Karlsson",
     "github": "ek222mw",
     "projectrepo": "RiaProject",
-    "projectdesc": "The project repo for ria course",
+    "projectdesc": "Quiz game",
     "slack": "emilk",
     "presentation": "28 year old Blomstermåla resident, likes php.",
     "icon": "drakes$inferno",
@@ -26,10 +26,39 @@
             "when": "2015-11-19 14:17",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry04.md",
 			"title": "Can now answer multiple questions and get a score in quiz project."
+        },
+		{
+            "when": "2015-11-27 14:04",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry05.md",
+			"title": "Started to rebuild program to object instead of arrays."
+        },
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry06.md",
+			"title": "Can now randomize quiz questions with lodash lib."
+        },
+		{
+            "when": "2015-12-02 12:27",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry07.md",
+			"title": "Can now restart quiz and get result after each game."
+        },
+		{
+            "when": "2015-12-07 12:26",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry08.md",
+			"title": "Refactored code and now able to play multiple quiz games."
+        },
+		{
+            "when": "2015-12-14 17:01",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry09.md",
+			"title": "Using Firebase to save highscore on mixed quiz."
         }
     ],
     "pullrequests": [
-		
+		{
+            "when": "2015-12-01 14:43",
+            "url": "https://github.com/me222rs/RIA-Project/pull/1",
+			"description": "Changed randomize function to use lodash library instead."
+        },
 		
     ]
 }

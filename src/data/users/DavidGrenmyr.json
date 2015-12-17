@@ -2,9 +2,9 @@
   "name": "David Grenmyr",
   "github": "Grenmyr",
   "projectrepo": "2DV607-ria",
-  "projectdesc": "Not decided what to do yet. Just started to implement login functionality",
+  "projectdesc": "Application is a portfolio app, where an login system is implemented. I have a goal of using login to save new portfolio cards in future. Where a use logged out only can view portfolio cards.",
   "slack": "davidgrenmyr",
-  "presentation": "33 years old, 2 kids and 1 wife. I am campus student in Kalmar and i have really been looking foward to this course.",
+  "presentation": "33 years old, 2 kids and 1 wife. I am campus student in Kalmar and i have really been looking forward to this course.",
   "icon": "trolls$grunt",
   "blogposts": [
     {
@@ -36,6 +36,11 @@
       "when": "2015-11-26 11:14",
       "url": "http://davidgrenmyr.blogspot.se/2015/11/webpack-superiority-compared-to.html",
       "title": "Webpack superiority compared to babelify/reactify and installation help"
+    },
+    {
+      "when": "2015-12-08 09:03",
+      "url": "http://davidgrenmyr.blogspot.se/2015/12/last-weeks-progress-and-bugs_8.html",
+      "title": "Last weeks progress and bugs"
     }
   ],
   "pullrequests": [
@@ -43,6 +48,22 @@
       "when": "2015-11-06 13:02",
       "url": "https://github.com/afridlund85/React-Redux-example/pull/1",
       "description": "ES2015 example added to Andreas Fridlunds repo."
+    },
+    {
+      "when": "2015-12-10 13:10",
+      "url": "https://github.com/em222iv/react-simple/pull/2",
+      "description": "Changed to babel for es2015 encoding and small fix in code to compile."
+    },
+    {
+      "when": "2015-12-12 11:10",
+      "url": "https://github.com/em222iv/react-simple/pull/3",
+      "description": "At request changed environment to Webpack with hotload"
+    },
+    {
+      "when": "2015-12-16 13:00",
+      "url": "https://github.com/em222iv/react-simple/pull/5",
+      "description": "Readme said he wanted more ES2015 code, so i rewrote an component in his repository."
     }
   ]
 }
+

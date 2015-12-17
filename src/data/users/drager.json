@@ -2,37 +2,77 @@
     "name": "Jesper Håkansson",
     "github": "drager",
     "projectrepo": "cetti",
-    "projectdesc": "n/a",
+    "projectdesc": "Dashboard for monitoring data reported from applications. For example errors, logs, performance measures etc through configurable widgets.",
     "slack": "jesperhakansson",
     "presentation": "21 year old Nybro resident. Dart, JavaScript and opensource lover.",
     "icon": "monsters$yeti",
     "blogposts": [
-	{
-		"when": "2015-11-02 13:20",
-		"url": "https://jesperh.se/2015/11/02/ria-introduction/",
-		"title": "RIA introduction"
-	},
-	{
-		"when": "2015-11-04 16:43",
-		"url": "https://jesperh.se/2015/11/04/webpack-hot-reloading-with-react-and-typescript/",
-		"title": "Using Webpack with hot reload for React and TypeScript"
-	},
-	{
-		"when": "2015-11-04 21:57",
-		"url": "https://jesperh.se/2015/11/04/using-waffle-for-project-management/",
-		"title": "Using Waffle for project management"
-	},
-	{
-		"when": "2015-11-05 22:50",
-		"url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
-		"title": "Why all you non-TypeScripters are non-enlightened fools"
-	},
-	{
-		"when": "2015-11-26 09:21",
-		"url": "https://jesperh.se/2015/11/26/material-design-and-react/",
-		"title": "Material design and React"
-	}
+      {
+        "when": "2015-11-02 13:20",
+        "url": "https://jesperh.se/2015/11/02/ria-introduction/",
+        "title": "RIA introduction"
+      },
+      {
+        "when": "2015-11-04 16:43",
+        "url": "https://jesperh.se/2015/11/04/webpack-hot-reloading-with-react-and-typescript/",
+        "title": "Using Webpack with hot reload for React and TypeScript"
+      },
+      {
+        "when": "2015-11-04 21:57",
+        "url": "https://jesperh.se/2015/11/04/using-waffle-for-project-management/",
+        "title": "Using Waffle for project management"
+      },
+      {
+        "when": "2015-11-05 22:50",
+        "url": "https://jesperh.se/2015/11/05/why-all-you-non-typescripters-are-non-enlightened-fools/",
+        "title": "Why all you non-TypeScripters are non-enlightened fools"
+      },
+      {
+        "when": "2015-11-26 09:21",
+        "url": "https://jesperh.se/2015/11/26/material-design-and-react/",
+        "title": "Material design and React"
+      },
+      {
+        "when": "2015-12-07 18:59",
+        "url": "https://jesperh.se/2015/12/07/some-awesomeness-of-es7/",
+        "title": "Some awesomeness of ES7"
+      }
     ],
     "pullrequests": [
+      {
+        "when": "2015-12-01 12:51",
+        "url": "https://github.com/Grenmyr/2DV607-ria/pull/5",
+        "description": "Renamed Submit -> Auth as well as split the old submit component into two new compoenents: Login and Logout."
+      },
+      {
+        "when": "2015-12-07 09:51",
+        "url": "https://github.com/Grenmyr/2DV607-ria/pull/10",
+        "description": "fix: Fixing chrome refresh bug on login"
+      },
+      {
+        "when": "2015-12-07 10:11",
+        "url": "https://github.com/Grenmyr/2DV607-ria/pull/11",
+        "description": "refactor: Some minor refactoring"
+      },
+      {
+        "when": "2015-12-07 15:41",
+        "url": "https://github.com/Dagashi/ria-2015/pull/6",
+        "description": "fix: Add auth actions to be exported and combine auth reducer"
+      },
+      {
+        "when": "2015-12-10 08:47",
+        "url": "https://github.com/em222iv/react-simple/pull/1",
+        "description": "Updated .gitignore, removed node_modules and .idea folder from repository"
+      },
+      {
+        "when": "2015-12-16 16:52",
+        "url": "https://github.com/em222iv/react-simple/pull/6",
+        "description": "refactor: Changing to class syntax, removed unused"
+      },
+      {
+        "when": "2015-12-17 09:19",
+        "url": "https://github.com/em222iv/react-simple/pull/7",
+        "description": "refactor: Changing all of the components to ES6 classes, using ES6 export/import etc"
+      }
     ]
 }

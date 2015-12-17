@@ -21,6 +21,11 @@
             "when": "2015-11-22 13:25",
             "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry03.md",
             "title": "Third blog post"
+        },
+        {
+            "when": "2015-12-09 15:03",
+            "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry04.md",
+            "title": "Slow progress"
         }
     ],
     "pullrequests": [

@@ -8,44 +8,59 @@
     "icon": "monsters$direwolf",
     "blogposts": [
       {
-      	"when": "2015-11-02 14:00",
-      	"url": "https://rasmus.eneman.eu/ria-introduction/",
-      	"title": "RIA introduction"
+        "when": "2015-11-02 14:00",
+        "url": "https://rasmus.eneman.eu/ria-introduction/",
+        "title": "RIA introduction"
       },
       {
-      	"when": "2015-11-03 21:58",
-      	"url": "https://rasmus.eneman.eu/hot_loading_react_components_with_typescript/",
-      	"title": "Hot loading React components with Typescript"
+        "when": "2015-11-03 21:58",
+        "url": "https://rasmus.eneman.eu/hot_loading_react_components_with_typescript/",
+        "title": "Hot loading React components with Typescript"
       },
       {
-      	"when": "2015-11-04 19:33",
-      	"url": "https://rasmus.eneman.eu/continuous-integration-and-deployment-to-gh-pages/",
-      	"title": "Continuous Integration and Deployment to gh-pages"
+        "when": "2015-11-04 19:33",
+        "url": "https://rasmus.eneman.eu/continuous-integration-and-deployment-to-gh-pages/",
+        "title": "Continuous Integration and Deployment to gh-pages"
       },
       {
-      	"when": "2015-11-10 22:33",
-      	"url": "https://rasmus.eneman.eu/the-dark-spots-in-typescript/",
-      	"title": "The dark spots in Typescript"
+        "when": "2015-11-10 22:33",
+        "url": "https://rasmus.eneman.eu/the-dark-spots-in-typescript/",
+        "title": "The dark spots in Typescript"
       },
       {
-      	"when": "2015-11-17 22:06",
-      	"url": "https://rasmus.eneman.eu/math-problems-and-reasuing-code/",
-      	"title": "Unexpected math problems and code reuse"
+        "when": "2015-11-17 22:06",
+        "url": "https://rasmus.eneman.eu/math-problems-and-reasuing-code/",
+        "title": "Unexpected math problems and code reuse"
       },
       {
-      	"when": "2015-11-21 11:06",
-      	"url": "https://rasmus.eneman.eu/flux-vs-redux/",
-      	"title": "Flux vs Redux"
+        "when": "2015-11-21 11:06",
+        "url": "https://rasmus.eneman.eu/flux-vs-redux/",
+        "title": "Flux vs Redux"
       },
       {
-      	"when": "2015-11-23 12:12",
-      	"url": "https://rasmus.eneman.eu/performance-and-react/",
-      	"title": "Performance and React"
+        "when": "2015-11-23 12:12",
+        "url": "https://rasmus.eneman.eu/performance-and-react/",
+        "title": "Performance and React"
       },
       {
-      	"when": "2015-11-26 13:20",
-      	"url": "https://rasmus.eneman.eu/prerender-the-app-shell/",
-      	"title": "Prerender the app shell"
+        "when": "2015-11-26 13:20",
+        "url": "https://rasmus.eneman.eu/prerender-the-app-shell/",
+        "title": "Prerender the app shell"
+      },
+      {
+        "when": "2015-12-03 10:42",
+        "url": "https://rasmus.eneman.eu/its-a-matter-of-style/",
+        "title": "It's a matter of style"
+      },
+      {
+        "when": "2015-12-03 19:25",
+        "url": "https://rasmus.eneman.eu/debugging-with-devtools/",
+        "title": "Debugging with devtools"
+      },
+      {
+        "when": "2015-12-16 10:21",
+        "url": "https://rasmus.eneman.eu/i-dont-like-classes/",
+        "title": "I don't like classes"
       },
     ],
     "pullrequests": [
@@ -63,6 +78,33 @@
         "when": "2015-11-17 12:50",
         "url": "https://github.com/drager/cetti/pull/23",
         "description": "feat: Add support for smoothing a line chart fix: Fix the axis calclulation and placement"
+      },
+      {
+        "when": "2015-11-30 22:45",
+        "url": "https://github.com/drager/cetti/pull/29",
+        "description": "Design"
+      },
+      {
+        "when": "2015-12-01 09:00",
+        "url": "https://github.com/drager/cetti/pull/30",
+        "description": "feat: Add initial client feat: Add unit to NumberWidget"
+      },
+      {
+        "when": "2015-12-01 12:49",
+        "url": "https://github.com/drager/cetti/pull/31",
+        "description": "feat: Support widgets linking to other dashboards"
+      },
+      {
+        "when": "2015-12-03 16:13",
+        "url": "https://github.com/drager/cetti/pull/33",
+        "description": "refactor: Style using CSS modules"
+      },
+    ],
+    "snippets": [
+      {
+        "when": "2015-11-30 09:00",
+        "url": "https://jsbin.com/hegexe/edit?html,js,output",
+        "description": "Add new data at top of list"
       },
     ]
 }

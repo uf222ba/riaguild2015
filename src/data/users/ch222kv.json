@@ -16,8 +16,33 @@
 			"when": "2015-11-22 13:02",
 			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/Stage-1-Hacking-away-at-Redux.md",
 			"title": "Stage one"
+		},
+		{
+			"when": "2015-12-05 20:00",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/a-discussion-on-timers.md",
+			"title": "A discussion on time(rs)"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-app.md",
+			"title": "My Application"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/using-localstorage.md",
+			"title": "Using Localstorage"
 		}
 	],
 	"pullrequests": [
-	],
+		{
+			"when": "2015-11-22 21:45",
+			"url": "https://github.com/krawaller/riaguild2015/pull/151",
+			"description": "Added sorting on roster page"
+		},
+		{
+			"when": "2015-12-02 22:40",
+			"url": "https://github.com/me222rs/RIA-Project/pull/3",
+			"description": "Simplified rendering of quiz, naming, removed unused code."
+		}
+	]
 }
