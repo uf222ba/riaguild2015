@@ -58,6 +58,11 @@
           "when": "2015-12-16 13:20",
           "url": "https://github.com/OskarKlintrot/figurkoder.se/pull/1",
           "description": "Big refactor of webpack, cleanup of duplicate code and files."
+        },
+        {
+          "when": "2015-12-17 14:10",
+          "url": "https://github.com/OskarKlintrot/figurkoder.se/pull/2",
+          "description": "Same type of refactor as previous. Origin was updated so instead of owner fixing conflicts I did another update on the new code."
         }
     ]
 }
