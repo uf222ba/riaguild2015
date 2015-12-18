@@ -73,6 +73,11 @@
       "when": "2015-12-06",
       "url": "https://github.com/Pajn/Culinam/pull/16",
       "description": "feat: 1. Improving how routing is done when navigating between dishes and drinks. 2. Bong an order of cart items from cashier to kitchen. A lot of lodgic remains in question of managing many cart orders including deletion of items from cart. refactor: 1. Attempt to make cart component slightly dumber, while cashier holds state and most of lodgic. 2. Created a Dish component used by cart, and will be used by others. Added some styles to cart component."
+    },
+    {
+      "when": "2015-12-18",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/17",
+      "description": "refactor: inline styles now refer to objects initialized and declared in component file. To long strings are devided to multiple lines with string interpolation. fix: Spinner component is now running within the card. refactor: Frequently used css is imported from customStyles."
     }
   ]
 }
