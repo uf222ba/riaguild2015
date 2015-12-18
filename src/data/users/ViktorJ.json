@@ -2,7 +2,7 @@
 	"name": "Viktor Jansson",
 	"github": "ViktorJ",
 	"projectrepo": "ria-project",
-	"projectdesc": "tbd",
+	"projectdesc": "YetAnotherNoteApp, an app to write, read and editing notes",
 	"slack": "viktorjansson",
 	"presentation": "3rd year web-programming student living in Södertälje, Sweden.",
 	"icon": "undead-skeletal$skeleton",
@@ -31,6 +31,16 @@
             "when": "2015-12-03 19:48",
             "url": "http://viktorj.github.io/notes/redux/",
             "title": "Redux and ES2015"
+        },
+        {
+            "when": "2015-12-18 11:02",
+            "url": "http://viktorj.github.io/notes/functionality/",
+            "title": "We have functionality"
+        },
+        {
+            "when": "2015-12-18 11:02",
+            "url": "http://viktorj.github.io/notes/beauty_of_redux/",
+            "title": "The beauty of Redux"
         }
 	],
 	"pullrequests": [
