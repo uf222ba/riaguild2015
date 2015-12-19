@@ -43,6 +43,11 @@
 			"when": "2015-12-02 22:40",
 			"url": "https://github.com/me222rs/RIA-Project/pull/3",
 			"description": "Simplified rendering of quiz, naming, removed unused code."
+		},
+		{
+			"when": "2015-12-19 22:43",
+			"url": "https://github.com/diggo16/jsProject/pull/3",
+			"description": "Added redux thunk, constants and more"
 		}
 	]
 }
