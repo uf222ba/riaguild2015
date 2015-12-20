@@ -83,6 +83,11 @@
         "when": "2015-12-17 15:03",
         "url": "https://github.com/em222iv/react-simple/pull/9",
         "description": "refactor: Changing a reducer to ES6, removing duplicate property key"
+      },
+      {
+        "when": "2015-12-18 20:06",
+        "url": "https://github.com/afrxx09/2dv607-project/pull/3",
+        "description": "Fixing issues with imports in ES5, changing to ES6 classes, restructuring, ES5 examples"
       }
     ]
 }
