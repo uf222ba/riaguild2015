@@ -56,6 +56,11 @@
             "when": "2015-12-17 16:46",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry10.md",
 			"title": "Refactored code and next step is to fix highscore for other quiz."
+        },
+		{
+            "when": "2015-12-21 15:40",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry11.md",
+			"title": "NHL highcores now works with firebase."
         }
     ],
     "pullrequests": [
