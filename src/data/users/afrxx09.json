@@ -48,6 +48,21 @@
           "when": "2015-11-13 13:40",
           "url": "https://github.com/krawaller/riaguild2015/pull/92",
           "description": "Fixed issue where a guild members pull requests to repos from non-guild members caused guild to crach."
+        },
+        {
+          "when": "2015-12-16 13:20",
+          "url": "https://github.com/Grenmyr/2DV607-ria/pull/14",
+          "description": "Fixed HTML in index file."
+        },
+        {
+          "when": "2015-12-16 13:20",
+          "url": "https://github.com/OskarKlintrot/figurkoder.se/pull/1",
+          "description": "Big refactor of webpack, cleanup of duplicate code and files."
+        },
+        {
+          "when": "2015-12-17 14:10",
+          "url": "https://github.com/OskarKlintrot/figurkoder.se/pull/2",
+          "description": "Same type of refactor as previous. Origin was updated so instead of owner fixing conflicts I did another update on the new code."
         }
     ]
 }

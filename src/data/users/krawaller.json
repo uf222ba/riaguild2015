@@ -21,6 +21,10 @@
 			"when": "2015-11-20 12:25",
 			"url": "https://youtu.be/A4wgzfqGSGU",
 			"title": "Vlog 3: Redux + Firebase"
+		},{
+			"when": "2015-12-07 13:20",
+			"url": "https://youtu.be/eX7Le39JaP4",
+			"title": "Vlog 4: Project contributions"
 		}
 	],
 	"pullrequests": [
@@ -61,9 +65,21 @@
 			"url": "https://github.com/diggo16/jsProject/pull/2",
 			"description": "Revised state shape and fixed custom message authors"
 		},{
-			"when": "2015-12-04",
+			"when": "2015-12-04 14:20",
 			"url": "https://github.com/Grenmyr/2DV607-ria/pull/8",
 			"description": "Fixing wrapper component and nav"
+		},{
+			"when": "2015-12-15 10:40",
+			"url": "https://github.com/js22gz/no_direction_project/pull/2",
+			"description": "Made all three timer functions use the same tick"
+		},{
+			"when": "2015-12-16 01:20",
+			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/1",
+			"description": "simplified API"
+		},{
+			"when": "2015-12-16 10:40",
+			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/2",
+			"description": "simplified API even more"
 		}
 	],
 	"snippets": [

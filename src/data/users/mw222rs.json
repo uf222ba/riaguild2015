@@ -1,10 +1,10 @@
 {
 	"name": "Mattias Wikström",
 	"github": "mw222rs",
-	"projectrepo": "itendsinspace",
-	"projectdesc": "It's your choice.",
+	"projectrepo": "Suddenly_A_Project",
+	"projectdesc": "Proudly mapping traffic jams and reindeers since last week.",
 	"slack": "mattiaswikstroem",
-	"presentation": "28 year old person.",
+	"presentation": "28 year old bearded person.",
 	"icon": "ninjas$sumo",
 	"blogposts": [
 		{
@@ -41,8 +41,12 @@
 			"when": "2015-12-01 23:04:02",
 			"url": "http://mattias.rocks/dr-strangecode-or/",
 			"title": "How I Learned To Stop Worrying and Love ES2015"
+		},
+		{
+			"when": "2015-12-18 16:09:07",
+			"url": "http://mattias.rocks/tag-post/",
+			"title": "Tag!"
 		}
-
 	],
 	"pullrequests": [
 		{

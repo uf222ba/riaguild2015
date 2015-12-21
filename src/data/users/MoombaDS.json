@@ -46,6 +46,11 @@
             "when": "2015-12-04 13:30",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry08.md",
             "title": "Getting side-tracked: Unit Testing and Code Coverage"
+        },
+        {
+            "when": "2015-12-15 19:20",
+            "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry09.md",
+            "title": "Tidying code and creating a node module"
         }
     ],
     "pullrequests": [
@@ -113,6 +118,26 @@
         	"when": "2015-12-08 22:10",
         	"url": "https://github.com/as223jx/2DV607/pull/2",
         	"description": "Made score and table-cell dumb components since they don't handle any state"
+        },
+        {
+        	"when": "2015-12-13 15:40",
+        	"url": "https://github.com/ch222kv/ria-2015/pull/1",
+        	"description": "Added some basic phone number validation via a port of Google's libphonenumber"
+        },
+        {
+            "when": "2015-12-15 20:10",
+            "url": "https://github.com/Grenmyr/2DV607-ria/pull/13",
+            "description": "Made the two static components dumber since they're just render functions"
+        },
+        {
+        	"when": "2015-12-16 17:00",
+        	"url": "https://github.com/mn22nw/favovid/pull/2",
+        	"description": "Added react-youtube to make use of the Youtube API for video display plus fixed some bugs"
+        },
+        {
+        	"when": "2015-12-16 21:10",
+        	"url": "https://github.com/bc222az/Ria-development-2dv607/pull/8",
+        	"description": "Broke the chat module up into separate component files and fixed bugs"
         }
     ]
 }
