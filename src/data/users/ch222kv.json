@@ -48,6 +48,11 @@
 			"when": "2015-12-19 22:43",
 			"url": "https://github.com/diggo16/jsProject/pull/3",
 			"description": "Added redux thunk, constants and more"
+		},
+		{
+			"when": "2015-12-21 21:03",
+			"url": "https://github.com/ViktorJ/ria-project/pull/2",
+			"description": "Added editing of notes and fixed some bugs"
 		}
 	]
 }
