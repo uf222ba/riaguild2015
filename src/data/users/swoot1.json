@@ -86,6 +86,16 @@
 			"when": "2015-12-14 20:33",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-14-password-protect-your-routes.markdown",
 			"title": "Password protect your routes with React-Router"
+		},
+        {
+			"when": "2015-12-21 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-21-eslint.markdown",
+			"title": "Why you should use a linter and some other stuff"
+		},
+        {
+			"when": "2015-12-21 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-21-travis.markdown",
+			"title": "Travis you're way too easy"
 		}
 	],
 	"pullrequests": [
