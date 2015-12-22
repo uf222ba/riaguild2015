@@ -41,6 +41,11 @@
 			"when": "2015-12-18 11:44",
             		"url": "https://github.com/me222rs/blog/blob/master/entry07.md",
             		"title": "Firebase and refactoring"
+		},
+		{				
+			"when": "2015-12-22 14:18",
+            		"url": "https://github.com/me222rs/blog/blob/master/entry08.md",
+            		"title": "Refactoring, improvements and some small features"
 		}
 	],
 	"pullrequests": [
