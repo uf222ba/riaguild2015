@@ -61,6 +61,11 @@
             "when": "2015-12-21 15:40",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry11.md",
 			"title": "NHL highcores now works with firebase."
+        },
+		{
+            "when": "2015-12-22 21:44",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry12.md",
+			"title": "Refactored code in reducer and added FB in actions instead."
         }
     ],
     "pullrequests": [
