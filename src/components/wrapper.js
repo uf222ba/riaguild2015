@@ -4,12 +4,11 @@ contained in `this.props.children` and rendered out.
 */
 
 var React = require('react'),
-    //AsdNav = require('asd-nav'),
-    Menu = require("./menu");
+    AsdNav = require('asd-nav');
 
 var Wrapper = React.createClass({
 	render: function() {
-        /*var AsdNavConf = {
+        var AsdNavConf = {
             bootstrap: {
                 brand: {
                     href: '/',
@@ -18,11 +17,10 @@ var Wrapper = React.createClass({
                     }
                 }
             }
-        };*/
+        };
 		return (
 			<div className="wrapper">
-                <Menu />
-				{false && <AsdNav routes={this.props.routes} config={AsdNavConf} />}
+				<AsdNav routes={this.props.routes} config={AsdNavConf} />
                 {this.props.children}
 			</div>
 		);
