@@ -80,7 +80,11 @@
 			"when": "2015-12-16 10:40",
 			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/2",
 			"description": "simplified API even more"
-		}
+		},{
+			"when": "2015-12-21 18:20",
+			"url": "https://github.com/Dagashi/ria-2015/pull/8",
+			"description": "fixed loading firebase users"
+ 		}
 	],
 	"snippets": [
 		{
