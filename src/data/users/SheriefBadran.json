@@ -78,6 +78,11 @@
       "when": "2015-12-18",
       "url": "https://github.com/Grenmyr/2DV607-ria/pull/17",
       "description": "refactor: inline styles now refer to objects initialized and declared in component file. To long strings are devided to multiple lines with string interpolation. fix: Spinner component is now running within the card. refactor: Frequently used css is imported from customStyles."
+    },
+    {
+      "when": "2015-12-22",
+      "url": "https://github.com/MoombaDS/quest/pull/7",
+      "description": "refactor: replacing two functions attemptEquip and attemptLookAt with one function runAttempt. Code in the two functions are extracted to a few other smaller in inputvalidationHelper.js. Tried to keep those new functions pure, with an additional function composing the smaller functions in order to obtain the desired behaviour."
     }
   ]
 }
