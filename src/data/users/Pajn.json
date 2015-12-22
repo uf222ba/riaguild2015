@@ -2,7 +2,7 @@
     "name": "Rasmus Eneman",
     "github": "Pajn",
     "projectrepo": "Culinam",
-    "projectdesc": "n/a",
+    "projectdesc": "A system for placing orders and display them in a kitchen",
     "slack": "rasmus",
     "presentation": "21 year old from Nyköping, Dart and JavaScript lover.",
     "icon": "monsters$direwolf",
@@ -98,6 +98,16 @@
         "when": "2015-12-03 16:13",
         "url": "https://github.com/drager/cetti/pull/33",
         "description": "refactor: Style using CSS modules"
+      },
+      {
+        "when": "2015-12-16 12:58",
+        "url": "https://github.com/Grenmyr/2DV607-ria/pull/15",
+        "description": "Use source maps for sane stacktraces"
+      },
+      {
+        "when": "2015-12-22 12:36",
+        "url": "https://github.com/afrxx09/2dv607-project/pull/4",
+        "description": "Add support for overriding the components"
       },
     ],
     "snippets": [
