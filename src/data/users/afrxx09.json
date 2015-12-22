@@ -73,8 +73,11 @@
           "when": "2015-12-21 20:40",
           "url": "https://github.com/krawaller/riaguild2015/pull/254",
           "description": "I took the freedom to implement my own component for the navigation, now that I have enough confidence in it."
+        },
+        {
+          "when": "2015-12-22 14:15",
+          "url": "https://github.com/krawaller/riaguild2015/pull/261",
+          "description": "Re-implemented asd-nav"
         }
-        
-        
     ]
 }

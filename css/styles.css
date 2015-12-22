@@ -69,67 +69,30 @@ form label input[type="checkbox"] {
 	cursor: pointer;
 }
 
-/*----------------------------------------------------
-	[Navigation]
-----------------------------------------------------*/
+/**
+*	Navigation
+*/
+.navbar-header {
+	float:right;
+}
 @media screen and (min-width: 768px) {
-    .container {
-    	padding-left:0;
-    }
-    .navbar {
-    	margin-bottom:30px;
-    }
-    .navbar-default , .navbar-header{
+	.navbar-default , .navbar-header{
 		height:100px;
-	}
-	.navbar-header {
-		float:right;
 	}
 	.navbar-nav>li>a {
 		line-height: 100px;
-		padding-top:0;
-		padding-bottom:0;
 		padding: 0 25px;
 	}
-	.navbar-brand {
-		height:100px;
-		padding:3px 40px;
+	.navbar-brand img {
+		height:75px;	
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-header {
+		float:none;
 	}
 	.navbar-brand img {
-		height:90px;	
+		width:25px;
 	}
 }
-
-@media screen and (max-width: 767px) { 
-	.navbar-nav {
-		width:60%;
-		float:left;
-	}
-	.navbar-brand {
-		height:auto;
-		padding-right: 5%;
-	}
-	.navbar-header {
-		float:right;
-	}
-}
-
-@media screen and (max-width: 475px) { 
-	.navbar-nav {
-		width:50%;
-	}
-	.navbar-brand {
-		width:150px;
-	}
-	.navbar-header {
-		width:38%;
-		float:left;
-		padding-left:7%;
-	}
-	.navbar-brand img {
-		width:150px;
-	}
-
-}
-
-
