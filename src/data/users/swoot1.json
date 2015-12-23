@@ -133,6 +133,11 @@
             "when": "2015-12-22 21:07",
             "url": "https://github.com/me222rs/RIA-Project/pull/4",
             "description": "Refactoring and ux."
+ 		},
+        {
+            "when": "2015-12-23 16:07",
+            "url": "https://github.com/krawaller/riaguild2015/pull/268",
+            "description": "Added issue tracker."
  		}
 	],
 	"snippets": [
