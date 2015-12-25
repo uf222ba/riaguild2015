@@ -63,6 +63,11 @@
             "when": "2015-12-17 19:20",
             "url": "https://github.com/Pajn/Culinam/pull/18",
             "description": "Tiny refactoring"
+        },
+        {
+            "when": "2015-12-25 12:00",
+            "url": "https://github.com/afridlund85/React-Redux-example/pull/2",
+            "description": "Clean up of inconsistency in code and change of syntax to ES2015 and React 0.14"
         }
     ]
 }
