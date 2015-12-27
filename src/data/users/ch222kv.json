@@ -2,9 +2,9 @@
 	"name": "Christoffer Holmgren",
 	"github": "ch222kv",
 	"projectrepo": "ria-2015",
-	"projectdesc": "Hello-world-app, hacking at the hero battler code base. Hopefully getting the hang of React+Redux+Router soon.",
+	"projectdesc": "Contact and \"chatting\" application",
 	"slack": "christofferholmgren",
-	"presentation": "21 year old from Falun. I'm not usually late! :)",
+	"presentation": "21 year old from Falun.",
 	"icon": "merfolk$hunter",
 	"blogposts": [
 		{
@@ -31,6 +31,11 @@
 			"when": "2015-12-08 20:40",
 			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/using-localstorage.md",
 			"title": "Using Localstorage"
+		},
+		{
+			"when": "2015-12-27 22:16",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-project.md",
+			"title": "My project"
 		}
 	],
 	"pullrequests": [
