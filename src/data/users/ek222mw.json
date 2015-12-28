@@ -66,6 +66,11 @@
             "when": "2015-12-22 21:44",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry12.md",
 			"title": "Refactored code in reducer and added FB in actions instead."
+        },
+		{
+            "when": "2015-12-28 12:39",
+            "url": "https://github.com/ek222mw/ria2015/blob/master/entry13.md",
+			"title": "Added more questions to the quiz games."
         }
     ],
     "pullrequests": [
