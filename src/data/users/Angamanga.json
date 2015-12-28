@@ -41,6 +41,11 @@
       "when": "2015-12-23 17-00",
       "url": "http://blog.angamanga.se/2015/12/23/Long-time-no-see.html",
       "title": "Long time no see"
+    },
+    {
+      "when": "2015-12-28 20-00",
+      "url": "http://blog.angamanga.se/2015/12/28/Listing-stuff-and-logging-in.html"
+      "title": "Listing stuff and logging in"
     }
   ],
   "pullrequests": [
