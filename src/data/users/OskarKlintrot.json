@@ -56,6 +56,11 @@
             "when": "2015-12-28 12:20",
             "url": "http://2dv607.oskarklintrot.se/exclude-modules-when-building-for-production/",
             "title": "Exclude Modules When Building For Production"
+        },
+        {
+            "when": "2016-01-01 23:30",
+            "url": "http://2dv607.oskarklintrot.se/finishing-the-app/",
+            "title": "Finishing the app"
         }
     ],
     "pullrequests": [
