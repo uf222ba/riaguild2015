@@ -46,7 +46,13 @@
       "when": "2016-01-01 11:31",
       "url": "http://davidgrenmyr.blogspot.se/2016/01/so-what-have-i-done-in-december-and.html",
       "title": "So, what have i done in December? And what will i do in January? "
+    },
+    {
+      "when": "2016-01-03 14:02",
+      "url": "http://davidgrenmyr.blogspot.se/2016/01/browsify-and-webpack-comparision.html",
+      "title": "Experiment between Webpack and Browserify."
     }
+
   ],
   "pullrequests": [
     {
