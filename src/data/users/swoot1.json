@@ -96,7 +96,12 @@
 			"when": "2015-12-21 20:33",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-21-travis.markdown",
 			"title": "Travis you're way too easy"
-		}
+		},
+        {
+            "when": "2016-01-03 21:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-03-typescript.markdown",
+            "title": "Why I'm not making TypeScript My Final Project"
+ 		}
 	],
 	"pullrequests": [
 		{
@@ -138,11 +143,6 @@
             "when": "2015-12-23 16:07",
             "url": "https://github.com/krawaller/riaguild2015/pull/268",
             "description": "Added issue tracker."
- 		},
-        {
-            "when": "2016-01-03 21:31",
-            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-03-typescript.markdown",
-            "description": "Why I'm not making TypeScript My Final Project"
  		}
 	],
 	"snippets": [
