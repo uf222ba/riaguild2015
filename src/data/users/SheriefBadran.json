@@ -6,6 +6,10 @@
   "slack": "sherief",
   "presentation": "Sherief Badran, 36 years old.",
   "icon": "goblins$knight",
+  "deepdive": {
+    "description": "Currying and function composition",
+    "url": "https://youtu.be/dEhN1ZCaCQg"
+  },
   "blogposts": [
     {
       "when": "2015-11-01 15:45",
@@ -28,9 +32,9 @@
       "title": "Functional programming with javascript"
     },
     {
-      "when": "2016-01-03 20:00",
-      "url": "https://youtu.be/dEhN1ZCaCQg",
-      "title": "Currying and function composition"
+      "when": "2016-01-04 12:10",
+      "url": "http://sheriefbadran.blogspot.se/2016/01/currying-and-function-composition.html",
+      "title": "Currying and function composition interwined"
     }
   ],
   "pullrequests": [
