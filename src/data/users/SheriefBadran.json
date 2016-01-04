@@ -97,6 +97,11 @@
       "when": "2016-01-04",
       "url": "https://github.com/Pajn/Culinam/pull/21",
       "description": "This branch is created for some experiments and learning. The chaining of map and reduce over the cart array is moved to a separate file were instead the map and reduce functions are composed and the result is returned to the cart component. It is my first attempt to make currying and function composition play together."
+    },
+    {
+      "when": "2016-01-04",
+      "url": "https://github.com/MoombaDS/quest/pull/9",
+      "description": "fix: Invariant violation err fixed. Sometimes the part object has the key text but the value is an empty string, in those cases part.text was accidently validated to false."
     }
   ]
 }
