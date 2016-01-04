@@ -6,6 +6,10 @@
   "slack": "sherief",
   "presentation": "Sherief Badran, 36 years old.",
   "icon": "goblins$knight",
+  "deepdive": {
+    "description": "Currying and function composition",
+    "url": "https://youtu.be/dEhN1ZCaCQg"
+  },
   "blogposts": [
     {
       "when": "2015-11-01 15:45",
@@ -26,6 +30,11 @@
       "when": "2015-12-13 23:00",
       "url": "http://sheriefbadran.blogspot.se/2015/12/functional-programming-with-javascript.html",
       "title": "Functional programming with javascript"
+    },
+    {
+      "when": "2016-01-04 12:10",
+      "url": "http://sheriefbadran.blogspot.se/2016/01/currying-and-function-composition.html",
+      "title": "Currying and function composition interwined"
     }
   ],
   "pullrequests": [
@@ -83,6 +92,11 @@
       "when": "2015-12-22",
       "url": "https://github.com/MoombaDS/quest/pull/7",
       "description": "refactor: replacing two functions attemptEquip and attemptLookAt with one function runAttempt. Code in the two functions are extracted to a few other smaller in inputvalidationHelper.js. Tried to keep those new functions pure, with an additional function composing the smaller functions in order to obtain the desired behaviour."
+    },
+    {
+      "when": "2016-01-04",
+      "url": "https://github.com/Pajn/Culinam/pull/21",
+      "description": "This branch is created for some experiments and learning. The chaining of map and reduce over the cart array is moved to a separate file were instead the map and reduce functions are composed and the result is returned to the cart component. It is my first attempt to make currying and function composition play together."
     }
   ]
 }
