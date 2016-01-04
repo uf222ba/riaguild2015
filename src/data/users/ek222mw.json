@@ -71,7 +71,8 @@
             "when": "2015-12-28 12:39",
             "url": "https://github.com/ek222mw/ria2015/blob/master/entry13.md",
 			"title": "Added more questions to the quiz games."
-        }
+        },
+		
     ],
     "pullrequests": [
 		{
@@ -80,5 +81,11 @@
 			"description": "Changed randomize function to use lodash library instead."
         },
 		
-    ]
+		
+    ],
+	"deepdive": {
+				"description": "Blogpost about lodash",
+				"url": "https://docs.google.com/document/d/1KowMc6gK8t_BscvlKyRdQ1CEfdMRd9XDdNAhWvo8Nbk/edit?usp=sharing"
+		}
+	
 }
