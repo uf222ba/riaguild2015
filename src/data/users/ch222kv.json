@@ -36,6 +36,11 @@
 			"when": "2015-12-27 22:16",
 			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-project.md",
 			"title": "My project"
+		},
+		{
+			"when": "2016-01-04 09:46",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-deep-dive.md",
+			"title": "My Deep Dive"
 		}
 	],
 	"pullrequests": [
