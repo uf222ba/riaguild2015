@@ -1,31 +1,41 @@
 {
     "name": "Ulrika Falk",
     "github": "uf222ba",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "DognameApp",
+    "projectdesc": "An app for helping kennel owners to decide names for their puppies.",
     "slack": "ulrika_falk",
     "presentation": "I'm 41 year old with husband, daughter, house and small zoo. Two dogs, two tame cockatiels and an aquarium. I'm passionate about programming and have been working as developer for some years. Right now on leave from my employment as a Systems Engineer at Saab AB to be able to get my bachelor degree.",
     "icon": "goblins$pillager",
     "blogposts": [
         {
             "when": "2015-11-02 09:44",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry01.md",
+            "url": "http://uf222ba.github.io/first-post-presentation/",
             "title": "First post - Presentation"
         },
-	{
+		{
             "when": "2015-11-04 11:00",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry02.md",
+            "url": "http://uf222ba.github.io/developing-environment/",
             "title": "Developing environment"
         },
-        {
+		{
             "when": "2015-11-06 10:30",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry03.md",
+            "url": "http://uf222ba.github.io/the-installation/",
             "title": "The installation"
         },
-	{
+		{
             "when": "2015-11-06 11:00",
-            "url": "https://github.com/uf222ba/blog/blob/master/entry04.md",
+            "url": "http://uf222ba.github.io/a-bit-overhwelmed/",
             "title": "A bit overhwelmed"
+        },
+		{
+            "when": "2015-12-11 11:26",
+            "url": "http://uf222ba.github.io/github/pages/and/jekyll/new-site-with-jekyll-on-github-pages/",
+            "title": "New site with Jekyll at Github pages"
+        },
+		{
+            "when": "2015-12-11 15:38",
+            "url": "http://uf222ba.github.io/javascript/catching-up-with-javascript-and-react/",
+            "title": "Catching up with JavaScript and React"
         }
     ],
     "pullrequests": [

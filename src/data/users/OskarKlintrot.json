@@ -46,6 +46,16 @@
             "when": "2015-12-14 19:00",
             "url": "http://2dv607.oskarklintrot.se/my-thoughts-on-react-and-es2015-so-far/",
             "title": "My thoughts on React and ES2015 so far"
+        },
+        {
+            "when": "2015-12-23 17:40",
+            "url": "http://2dv607.oskarklintrot.se/my-minimal-state/",
+            "title": "My minimal state"
+        },
+        {
+            "when": "2015-12-28 12:20",
+            "url": "http://2dv607.oskarklintrot.se/exclude-modules-when-building-for-production/",
+            "title": "Exclude Modules When Building For Production"
         }
     ],
     "pullrequests": [
@@ -58,6 +68,11 @@
             "when": "2015-12-17 19:20",
             "url": "https://github.com/Pajn/Culinam/pull/18",
             "description": "Tiny refactoring"
+        },
+        {
+            "when": "2015-12-25 12:00",
+            "url": "https://github.com/afridlund85/React-Redux-example/pull/2",
+            "description": "Clean up of inconsistency in code and change of syntax to ES2015 and React 0.14"
         }
     ]
 }
