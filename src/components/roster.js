@@ -25,7 +25,7 @@ var Roster = React.createClass({
     },
     getOrderedMembers(){
         var filters = {
-            "name": "name",
+            "name": (member) => member.name,
             "issuesHeader": (member) => this.state.issues[member.github] ? this.state.issues[member.github].length : 0,
             "blogposts": (member) => member.blogposts.length,
             "prs": (member) => member.pullrequests.length,
