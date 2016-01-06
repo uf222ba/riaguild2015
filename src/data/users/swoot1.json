@@ -101,6 +101,11 @@
             "when": "2016-01-03 21:31",
             "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-03-typescript.markdown",
             "title": "Why I'm not making TypeScript My Final Project"
+ 		},
+        {
+            "when": "2016-01-06 21:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-06-angular2.markdown",
+            "title": "Thoughts on Angular 2"
  		}
 	],
 	"pullrequests": [
