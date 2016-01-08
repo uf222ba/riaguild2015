@@ -143,6 +143,11 @@
             "when": "2016-01-05 13:00",
             "url": "https://github.com/krawaller/riaguild2015/pull/297",
             "description": "Fixed roster ordering by name"
+        },
+        {
+        	"when": "2016-01-06 17:50",
+        	"url": "https://github.com/krawaller/riaguild2015/pull/299",
+        	"description": "Added deep dives to member page, ordered received PRs by date, and added a column to the roster page for deep dives"
         }
     ],
     "deepdive": {
