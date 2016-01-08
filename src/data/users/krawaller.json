@@ -96,6 +96,10 @@
  			"when": "2016-01-06 15:15",
  			"url": "https://github.com/as223jx/2DV607/pull/4",
  			"description": "adultified game a bit"
+ 		},{
+ 			"when": "2016-01-08 01:20",
+ 			"url": "https://github.com/uf222ba/2DV607/pull/1",
+ 			"description": "made dog name description vary with singular/plural characters"
  		}
 	],
 	"snippets": [
