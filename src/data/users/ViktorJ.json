@@ -49,8 +49,10 @@
         }
 	],
 	"pullrequests": [
-        "when": "2016-01-06 12:25",
+        {
+            "when": "2016-01-06 12:25",
 			"url": "https://github.com/Angamanga/RIA-project/pull/15",
 			"description": "Modified navbar"
+        }
 	]
 }
