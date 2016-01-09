@@ -6,6 +6,10 @@
     "slack": "jansteczko",
     "presentation": "A student at LNU from Vaxjo.",
     "icon": "dwarves$gryphon-master",
+    "deepdive": {
+        "description": "Deep dive into AngularJS",
+        "url": "https://www.youtube.com/watch?v=hAXKJqOrzVE"
+    },
     "blogposts": [
         {
             "when": "2015-11-07 11:35",
