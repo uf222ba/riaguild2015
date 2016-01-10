@@ -6,6 +6,10 @@
 	"slack": "en222by",
 	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
 	"icon": "human-outlaws$thief",
+      "deepdive": {
+        "description": "Looking in to Angular 2",
+        "url": "https://www.youtube.com/watch?v=vX9ftlkBGVA"
+      },
 	"blogposts": [
 		{
 			"when": "2015-11-03 21:20",
