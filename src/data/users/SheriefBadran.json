@@ -102,6 +102,11 @@
       "when": "2016-01-04",
       "url": "https://github.com/MoombaDS/quest/pull/9",
       "description": "fix: Invariant violation err fixed. Sometimes the part object has the key text but the value is an empty string, in those cases part.text was accidently validated to false."
+    },
+    {
+      "when": "2016-01-11",
+      "url": "https://github.com/MoombaDS/quest/pull/10",
+      "description": "refactor: Rxjs streams handling command input, the observeCommand function is central in this work. Functions execuded with respect to expectedInput are now in a separate file, they are also pure and we know that all data (pretty much) they are working with is passed into them. The switch statement is also in a function that is close to pure, the only reference from outside is the constants."
     }
   ]
 }
