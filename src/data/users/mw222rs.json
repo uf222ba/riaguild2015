@@ -6,6 +6,11 @@
 	"slack": "mattiaswikstroem",
 	"presentation": "28 year old bearded person.",
 	"icon": "ninjas$sumo",
+	"deepdive": 
+		{
+        	"description": "Promises",
+        	"url": "http://mattias.rocks/promises-an-introduction/"
+      	},
 	"blogposts": [
 		{
 			"when": "2015-11-02 16:59",
