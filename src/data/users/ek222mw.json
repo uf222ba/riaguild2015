@@ -85,6 +85,11 @@
             "url": "https://github.com/me222rs/RIA-Project/pull/1",
 			"description": "Changed randomize function to use lodash library instead."
         },
+		{
+            "when": "2016-01-12 15:46",
+            "url": "https://github.com/me222rs/RIA-Project/pull/5",
+			"description": "Changed floor function to use lodash library function _.floor instead."
+        }
 		
 		
     ],
