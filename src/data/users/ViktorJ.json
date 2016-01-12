@@ -43,9 +43,14 @@
             "title": "The beauty of Redux"
         },
         {
-            "when": "2016-01-8 18:06",
+            "when": "2016-01-08 18:06",
             "url": "http://viktorj.github.io/notes/project_update/",
             "title": "Project update"
+        },
+        {
+            "when": "2016-01-12 13:55",
+            "url": "http://viktorj.github.io/notes/bug-fixed/",
+            "title": "Bug fixed"
         }
 	],
 	"pullrequests": [
