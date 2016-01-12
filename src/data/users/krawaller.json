@@ -84,6 +84,22 @@
 			"when": "2015-12-21 18:20",
 			"url": "https://github.com/Dagashi/ria-2015/pull/8",
 			"description": "fixed loading firebase users"
+ 		},{
+ 			"when": "2016-01-05 13:30",
+ 			"url": "https://github.com/mn22nw/favovid/pull/5",
+ 			"description": "fix context bug"
+ 		},{
+ 			"when": "2016-01-06 09:45",
+ 			"url": "https://github.com/as223jx/2DV607/pull/3",
+ 			"description": "added mole graphic"
+ 		},{
+ 			"when": "2016-01-06 15:15",
+ 			"url": "https://github.com/as223jx/2DV607/pull/4",
+ 			"description": "adultified game a bit"
+ 		},{
+ 			"when": "2016-01-08 01:20",
+ 			"url": "https://github.com/uf222ba/2DV607/pull/1",
+ 			"description": "made dog name description vary with singular/plural characters"
  		}
 	],
 	"snippets": [

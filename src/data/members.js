@@ -32,14 +32,14 @@ var members = {
 	diggo16: require("./users/diggo16.json"),
 	Janste: require("./users/Janste.json"),
 	as223my: require("./users/as223my.json"),
-	mattiaslj: require("./users/mattiaslj.json"),
-	ea222pu: require("./users/ea222pu.json"),
+	// mattiaslj: require("./users/mattiaslj.json"), // No action after 1st contact
+	// ea222pu: require("./users/ea222pu.json"), // Got 2nd chance, didn't take it
 	weibinyu: require("./users/weibinyu.json"),
-	carlpagelsLNU: require("./users/carlpagelsLNU.json"), // Only 1 post, no skype contact
-	GamingCrewX: require("./users/GamingCrewX.json"),
-	ch222kv: require("./users/ch222kv.json"),
-	spackis: require("./users/spackis.json"),
-	ludwigj: require("./users/ludwigj.json")
+	// carlpagelsLNU: require("./users/carlpagelsLNU.json"), // Got 2nd chance, didn't take it
+	// GamingCrewX: require("./users/GamingCrewX.json"), // Not much after 1st contact
+	ch222kv: require("./users/ch222kv.json") //,
+	// spackis: require("./users/spackis.json"), // No activity beyond 1st post
+	// ludwigj: require("./users/ludwigj.json") // No activity after 1st contact
 };
 
 var _ = require("lodash");

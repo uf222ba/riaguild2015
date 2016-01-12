@@ -1,7 +1,7 @@
 {
     "name": "Ioseff Griffith",
     "github": "MoombaDS",
-    "projectrepo": "2DV607",
+    "projectrepo": "quest",
     "projectdesc": "Procedural Text-Based Roguelike RPG (name still TBD)",
     "slack": "ioseff",
     "presentation": "Programmer/composer hailing from the UK with a strong love for video games.",
@@ -138,6 +138,20 @@
         	"when": "2015-12-16 21:10",
         	"url": "https://github.com/bc222az/Ria-development-2dv607/pull/8",
         	"description": "Broke the chat module up into separate component files and fixed bugs"
+        },
+        {
+            "when": "2016-01-05 13:00",
+            "url": "https://github.com/krawaller/riaguild2015/pull/297",
+            "description": "Fixed roster ordering by name"
+        },
+        {
+        	"when": "2016-01-06 17:50",
+        	"url": "https://github.com/krawaller/riaguild2015/pull/299",
+        	"description": "Added deep dives to member page, ordered received PRs by date, and added a column to the roster page for deep dives"
         }
-    ]
+    ],
+    "deepdive": {
+        "description": "Unit-testing JavaScript applications",
+        "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/deepdive.md"
+    }
 }

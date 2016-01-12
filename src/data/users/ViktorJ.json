@@ -41,8 +41,23 @@
             "when": "2015-12-18 11:02",
             "url": "http://viktorj.github.io/notes/beauty_of_redux/",
             "title": "The beauty of Redux"
+        },
+        {
+            "when": "2016-01-08 18:06",
+            "url": "http://viktorj.github.io/notes/project_update/",
+            "title": "Project update"
+        },
+        {
+            "when": "2016-01-12 13:55",
+            "url": "http://viktorj.github.io/notes/bug-fixed/",
+            "title": "Bug fixed"
         }
 	],
 	"pullrequests": [
+        {
+            "when": "2016-01-06 12:25",
+			"url": "https://github.com/Angamanga/RIA-project/pull/15",
+			"description": "Modified navbar"
+        }
 	]
 }

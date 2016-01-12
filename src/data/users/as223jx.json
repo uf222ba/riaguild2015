@@ -39,5 +39,10 @@
         }
     ],
     "pullrequests": [
+		{
+			"when": "2016-01-06 11:32",
+			"url": "https://github.com/diggo16/jsProject/pull/4",
+			"description": "Added headers for the message list"
+		}
     ]
 }

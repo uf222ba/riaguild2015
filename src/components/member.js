@@ -28,7 +28,7 @@ var Member = React.createClass({
 			snippets = (data.snippets || []).map(function(snippet,n){
 				return <li key={n}><a target="_blank" href={snippet.url}>{snippet.description+" ("+snippet.when+")"}</a></li>;
 			}),
-			received = (data.received || []).map(function(pr,n){
+			received = _.sortBy((data.received || []), "when").map(function(pr,n){
 				var authoruser = members[pr.by];
 				return (
 					<tr key={n}>
@@ -58,6 +58,12 @@ var Member = React.createClass({
 						{(data.projectdesc || "<no description given>")+" "}
 						  (<a href={"http://github.com/"+data.github+"/"+data.projectrepo}>code</a>)
 						  (<a href={"http://"+pubappURL}>run</a>)
+					</div>
+				)}
+				{data.deepdive && (
+					<div>
+						<h3>Deep Dive</h3>
+						<a href={data.deepdive.url}>{(data.deepdive.description || "<no description given>")}</a>
 					</div>
 				)}
 				<h3>Blog posts:</h3>

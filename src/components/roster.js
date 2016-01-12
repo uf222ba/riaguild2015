@@ -2,7 +2,8 @@ var React = require("react"),
     _ = require("lodash"),
     Badge = require("./badge"),
     members = require("../data/members").members,
-    issueTracker = require("../utils/issueTracker");
+    issueTracker = require("../utils/issueTracker"),
+    Glyphicon = require("react-bootstrap").Glyphicon;
 
 var Roster = React.createClass({
     getInitialState(){
@@ -13,6 +14,7 @@ var Roster = React.createClass({
             prs: -1,
             snippets: 1,
             issuesHeader: 1,
+            deepdive: 1,
             issues: {}
         };
     },
@@ -25,11 +27,12 @@ var Roster = React.createClass({
     },
     getOrderedMembers(){
         var filters = {
-            "name": "name",
+            "name": (member) => member.name,
             "issuesHeader": (member) => this.state.issues[member.github] ? this.state.issues[member.github].length : 0,
             "blogposts": (member) => member.blogposts.length,
             "prs": (member) => member.pullrequests.length,
-            "snippets": (member) => member.snippets.length
+            "snippets": (member) => member.snippets.length,
+            "deepdive": (member) => member.deepdive
         };
         var index = this.state[this.state.orderBy];
         var order = _.sortBy(members, filters[this.state.orderBy], this);
@@ -65,6 +68,7 @@ var Roster = React.createClass({
                     <td>{info.blogposts.length}</td>
                     <td>{info.pullrequests.length}</td>
                     <td>{info.snippets.length}</td>
+                    <td style={{color: "green"}}>{info.deepdive ? <Glyphicon glyph="thumbs-up" /> : ""}</td>
                 </tr>
             );
         }, this);
@@ -74,12 +78,13 @@ var Roster = React.createClass({
             "issuesHeader": "Issues",
             "blogposts": "Posts",
             "prs": "PR:s",
-            "snippets": "Snippets"
+            "snippets": "Snippets",
+            "deepdive": "Deep Dive"
         };
 
         headerTargets[this.state.orderBy] += `${this.state[this.state.orderBy] < 0 ? '↓' : '↑'}`;
 
-        var headers = ["name", "issuesHeader", "blogposts", "prs", "snippets"].map((type) => <th className="cursor-click" style={{width: "20%"}}
+        var headers = ["name", "issuesHeader", "blogposts", "prs", "snippets", "deepdive"].map((type) => <th className="cursor-click" style={{width: "17%"}}
                    onClick={this.setOrderBy.bind(null, type)} key={type}>{headerTargets[type]}</th>);
 
         return (
