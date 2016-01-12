@@ -36,7 +36,13 @@
             "when": "2015-12-02 17:08",
             "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry06.md",
             "title": "Entry 06 - Timers and actions/state confusion"
+        },
+		{
+            "when": "2016-01-12 15:48",
+            "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry07.md",
+            "title": "Entry 07 - Final thoughts"
         }
+		
     ],
     "pullrequests": [
 		{
