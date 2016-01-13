@@ -55,5 +55,13 @@
 			"description": "You should not add to the question array in the getInitialState(). You could
 			instead declare it in the initialstate.js which is better."
         },
+		{
+			"when": "2015-01-13 12:47",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/pull/9",
+			"description": "When hoovering above a name it shows when the user arrived and left. But
+			on majority on mobile phones there is no hoover function and it is then
+			not possible to get this information. The change i made now shows the
+			arrival and leaving after the name on mobile devices."
+		},
 	]
 }
