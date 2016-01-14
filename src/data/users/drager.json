@@ -36,6 +36,11 @@
         "when": "2015-12-07 18:59",
         "url": "https://jesperh.se/2015/12/07/some-awesomeness-of-es7/",
         "title": "Some awesomeness of ES7"
+      },
+      {
+        "when": "2016-01-14 22:11",
+        "url": "https://jesperh.se/2016/01/14/reactive-extensions-in-javascript/",
+        "title": "Reactive extensions in Javascript"
       }
     ],
     "pullrequests": [
@@ -89,5 +94,9 @@
         "url": "https://github.com/afrxx09/2dv607-project/pull/3",
         "description": "Fixing issues with imports in ES5, changing to ES6 classes, restructuring, ES5 examples"
       }
-    ]
+    ],
+    "deepdive": {
+      "description": "Reactive extensions in Javascript",
+      "url": "https://jesperh.se/2016/01/14/reactive-extensions-in-javascript/"
+    }
 }
