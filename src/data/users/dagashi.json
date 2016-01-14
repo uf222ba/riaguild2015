@@ -33,6 +33,10 @@
 			"title": "React with Firebase Auth"
 		}
 	],
+	"deepdive": {
+    	"description": "Cloud IDE for developing RIA",
+    	"url": "http://www.2dv607.davidstrombom.se/information/cloud-ide-for-developing-ria/"
+	},
 	"pullrequests": [
 		{
 			"when": "2015-11-11 07:25",
