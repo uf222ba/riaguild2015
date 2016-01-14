@@ -6,6 +6,10 @@
     "slack": "@mia",
     "presentation": "27 year old Örebro resident, love to learn new stuff, especially within the subjects of programming, music (piano/guitar/bass), 3D-modeling and design/art.",
     "icon": "ninjas$yohei",
+    "deepdive": {
+            "description": "CSS Modules VS Inline Styles",
+            "url": "https://youtu.be/IoRGTwIuX3Y"
+        },
     "blogposts": [
         {
             "when": "2015-11-03 14:50",
