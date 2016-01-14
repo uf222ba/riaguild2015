@@ -62,6 +62,11 @@
         "url": "https://rasmus.eneman.eu/i-dont-like-classes/",
         "title": "I don't like classes"
       },
+      {
+        "when": "2016-01-14 10:30",
+        "url": "https://rasmus.eneman.eu/fullstack-redux/",
+        "description": "Fullstack Redux"
+      },
     ],
     "pullrequests": [
       {
