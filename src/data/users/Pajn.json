@@ -109,6 +109,11 @@
         "url": "https://github.com/afrxx09/2dv607-project/pull/4",
         "description": "Add support for overriding the components"
       },
+      {
+        "when": "2015-12-23 10:03",
+        "url": "https://github.com/afrxx09/2dv607-project/pull/5",
+        "description": "Move initialization of config object to a new file"
+      },
     ],
     "snippets": [
       {
@@ -116,5 +121,9 @@
         "url": "https://jsbin.com/hegexe/edit?html,js,output",
         "description": "Add new data at top of list"
       },
-    ]
+    ],
+    "deepdive": {
+      "description": "Fullstack Redux",
+      "url": "https://rasmus.eneman.eu/fullstack-redux/"
+    }
 }
