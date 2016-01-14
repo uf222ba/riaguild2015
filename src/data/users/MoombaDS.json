@@ -51,6 +51,11 @@
             "when": "2015-12-15 19:20",
             "url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry09.md",
             "title": "Tidying code and creating a node module"
+        },
+        {
+        	"when": "2016-01-14 10:50",
+        	"url": "https://github.com/MoombaDS/2DV607/blob/gh-pages/blog/entry10.md",
+        	"title": "Conclusion"
         }
     ],
     "pullrequests": [
