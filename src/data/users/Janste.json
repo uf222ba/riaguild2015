@@ -43,5 +43,10 @@
         }
     ],
     "pullrequests": [
+        {
+			"when": "2015-01-14 19:20",
+			"url": "https://github.com/diggo16/jsProject/pull/6",
+			"description": "Refactored code that displays chat window contents"
+		}
     ]
 }
