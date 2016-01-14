@@ -37,7 +37,18 @@
             "when": "2015-12-11 15:38",
             "url": "http://uf222ba.github.io/javascript/catching-up-with-javascript-and-react/",
             "title": "Catching up with JavaScript and React"
+        },
+        	{
+            "when": "2016-01-14 16:00",
+            "url": "http://uf222ba.github.io/react/redux/modern-react-with-redux/",
+            "title": "Modern React with Redux"
+        },
+        	{
+            "when": "2016-01-14 17:00",
+            "url": "http://uf222ba.github.io/react/redux/project/app/project-mockup/",
+            "title": "Project Mockup"
         }
+        
     ],
     "pullrequests": [
     ]
