@@ -81,6 +81,16 @@
             "when": "2015-12-06 01:30",
             "url": "http://mianygren.nu/RIA/Blog/posts-2015/49/#a-simple-start-of-my-app",
             "title": "A simple start of my App"
+        }  ,  
+        {
+            "when": "2016-01-14 12:50",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/investigation",
+            "title": "Investigation"
+        }  ,  
+        {
+            "when": "2016-01-14 18:30",
+            "url": "http://mianygren.nu/RIA/Blog/posts-2015/summary/",
+            "title": "A summary of the course and my efforts"
         } 
 
     ],
