@@ -9,8 +9,13 @@
   "blogposts": [
     {
       "when": "2015-11-12 13:58",
-      "url": "https://github.com/weibinyu/RIA-with-Javascripte/blob/master/blog/entry01.md",
+      "url": "https://github.com/weibinyu/RIAJS/blob/master/blog/entry01.md",
       "title": "First Blog"
+    },
+    {
+      "when": "2015-11-17 15:37",
+      "url": "https://github.com/weibinyu/RIAJS/blob/master/blog/entry02.md",
+      "title": "hello world done"
     }
   ],
   "pullrequests": [

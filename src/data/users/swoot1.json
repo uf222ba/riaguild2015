@@ -2,10 +2,14 @@
 	"name": "Elin Nilsson",
 	"github": "swoot1",
 	"projectrepo": "ria2015",
-	"projectdesc": "Magic",
+	"projectdesc": "A co-worker tracker that shows you where your co-workers are located.",
 	"slack": "en222by",
 	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
 	"icon": "human-outlaws$thief",
+      "deepdive": {
+        "description": "Looking into Angular 2",
+        "url": "https://www.youtube.com/watch?v=vX9ftlkBGVA"
+      },
 	"blogposts": [
 		{
 			"when": "2015-11-03 21:20",
@@ -36,13 +40,130 @@
 			"when": "2015-11-08 21:43",
 			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-08-added-watches.markdown",
 			"title": "Watch .css and .js files"
-		}
+		},
+        {
+			"when": "2015-11-14 16:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-active-menu-item-in-react-bootstrap.markdown",
+			"title": "Active menu item in react-bootstrap"
+		},
+        {
+			"when": "2015-11-14 19:32",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-static-and-the-difference-between-props-and-state.markdown",
+			"title": "Static and the difference between props and state"
+		},
+        {
+			"when": "2015-11-14 21:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-14-a-simple-redirect-how-hard-can-it-be.markdown",
+			"title": "A Simple Redirect, How Hard Can It Be"
+		},
+        {
+			"when": "2015-11-16 21:37",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-16-two-way-form-binding.markdown",
+			"title": "Two-way form binding"
+		},
+        {
+			"when": "2015-11-17 21:57",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-17-the-project.markdown",
+			"title": "The Project"
+		},
+        {
+			"when": "2015-11-18 22:23",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-18-active-links-y-all.markdown",
+			"title": "Active links ya'll"
+		},
+        {
+			"when": "2015-11-24 20:23",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-24-status-report.markdown",
+			"title": "Status report"
+		},
+        {
+			"when": "2015-11-29 17:04",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-11-29-validation-with-firebase.markdown",
+			"title": "Validation With Firebase"
+		},
+        {
+			"when": "2015-12-05 15:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-05-why-skipping-source-maps-is-a-bad-idea.markdown",
+			"title": "Why skipping source maps is a bad idea."
+		},
+        {
+			"when": "2015-12-14 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-14-password-protect-your-routes.markdown",
+			"title": "Password protect your routes with React-Router"
+		},
+        {
+			"when": "2015-12-21 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-21-eslint.markdown",
+			"title": "Why you should use a linter and some other stuff"
+		},
+        {
+			"when": "2015-12-21 20:33",
+			"url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2015-12-21-travis.markdown",
+			"title": "Travis you're way too easy"
+		},
+        {
+            "when": "2016-01-03 21:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-03-typescript.markdown",
+            "title": "Why I'm not making TypeScript My Final Project"
+ 		},
+        {
+            "when": "2016-01-06 21:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-06-angular2.markdown",
+            "title": "Thoughts on Angular 2"
+ 		},
+        {
+            "when": "2016-01-09 18:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-09-final-thoughts.markdown",
+            "title": "Final thoughts"
+ 		}
 	],
 	"pullrequests": [
 		{
 			"when": "2015-11-09 21:00",
 			"url": "https://github.com/krawaller/riaguild2015/pull/62",
 			"description": "Added filter function for gallery."
+		},
+        {
+			"when": "2015-11-14 15:37",
+			"url": "https://github.com/krawaller/riaguild2015/pull/100",
+			"description": "Changed the menu to the react bootstrap menu."
+		},
+        {
+            "when": "2015-11-14 21:23",
+            "url": "https://github.com/krawaller/riaguild2015/pull/104",
+            "description": "Changed the filtering of the gallery to be part of the url."
+ 		},
+        {
+            "when": "2015-12-05 10:29",
+            "url": "https://github.com/as223jx/2DV607/pull/1",
+            "description": "Added dependencies in package.json. Replaced this reference with bind."
+ 		},
+        {
+            "when": "2015-12-05 12:29",
+            "url": "https://github.com/bc222az/Ria-development-2dv607/pull/3",
+            "description": "Added a bad word sanitizer for the chat."
+ 		},
+        {
+            "when": "2015-12-05 15:07",
+            "url": "https://github.com/MoombaDS/quest/pull/2",
+            "description": "Made code that generates inventory columns more dynamic."
+ 		},
+        {
+            "when": "2015-12-22 21:07",
+            "url": "https://github.com/me222rs/RIA-Project/pull/4",
+            "description": "Refactoring and ux."
+ 		},
+        {
+            "when": "2015-12-23 16:07",
+            "url": "https://github.com/krawaller/riaguild2015/pull/268",
+            "description": "Added issue tracker."
+ 		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-16 15:55",
+			"url": "https://jsbin.com/soyobe/edit?html,js,output",
+			"description": "2-way databinding in React"
 		}
 	]
 }

@@ -1,11 +1,16 @@
 {
 	"name": "Mattias Wikström",
 	"github": "mw222rs",
-	"projectrepo": "itendsinspace",
-	"projectdesc": "It's your choice.",
+	"projectrepo": "Suddenly_A_Project",
+	"projectdesc": "Proudly mapping traffic jams and reindeers since last week.",
 	"slack": "mattiaswikstroem",
-	"presentation": "28 year old person.",
+	"presentation": "28 year old bearded person.",
 	"icon": "ninjas$sumo",
+	"deepdive": 
+		{
+        	"description": "Promises",
+        	"url": "http://mattias.rocks/promises-an-introduction/"
+      	},
 	"blogposts": [
 		{
 			"when": "2015-11-02 16:59",
@@ -20,7 +25,32 @@
 		{
 			"when": "2015-11-09 00:22:17",
 			"url": "http://mattias.rocks/setting-up-sublime/",
-			"title": "Setting up Sublime Text for React developmentt"
+			"title": "Setting up Sublime Text for React development"
+		},
+		{
+			"when": "2015-11-18 15:00:44",
+			"url": "http://mattias.rocks/automatic-pre-build-linting/",
+			"title": "Automatic pre-build linting with npm scripts"
+		},
+		{
+			"when": "2015-11-19 13:59:35",
+			"url": "http://mattias.rocks/promises-an-introduction/",
+			"title": "Promises, an introduction"
+		},
+		{
+			"when": "2015-11-23 14:09:47",
+			"url": "http://mattias.rocks/exchanging-browserify-for-webpack/",
+			"title": "Exchanging Browserify for Webpack in the Superhero Demo app"
+		},
+		{
+			"when": "2015-12-01 23:04:02",
+			"url": "http://mattias.rocks/dr-strangecode-or/",
+			"title": "How I Learned To Stop Worrying and Love ES2015"
+		},
+		{
+			"when": "2015-12-18 16:09:07",
+			"url": "http://mattias.rocks/tag-post/",
+			"title": "Tag!"
 		}
 	],
 	"pullrequests": [
@@ -38,6 +68,16 @@
 			"when": "2015-11-03 20:06",
 		    "url": "https://github.com/krawaller/riaguild2015/pull/24",
 		    "description": "Badger badger!"
+		},
+		{
+			"when": "2015-12-28 14:40",
+			"url": "https://github.com/Angamanga/RIA-project/pull/13",
+			"description": "webpack, eslint + refactor of register-form"
+		},
+		{
+			"when": "2015-12-29 08:46",
+			"url": "https://github.com/Angamanga/RIA-project/pull/14",
+			"description": "simple flash message implementation"
 		}
 	]
 }

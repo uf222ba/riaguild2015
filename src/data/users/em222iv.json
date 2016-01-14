@@ -1,18 +1,58 @@
 {
 	"name": "Erik Magnusson",
 	"github": "em222iv",
-	"projectrepo": "",
-	"projectdesc": "",
+	"projectrepo": "react-simple",
+	"projectdesc": "Simple React Redux Application",
 	"slack": "em222iv",
 	"presentation": "25 år från Norrtälje. Pluggar från Campus i Kalmar. I like turtles",
 	"icon": "drakes$slasher",
 	"blogposts": [
 		{
 			"when": "2015-11-02 12:00",
-			"url": "http://em222iv.blogspot.se",
+			"url": "http://em222iv.blogspot.se/2015/11/blog-post.html",
 			"title": "Min första post"
+		},
+		{
+			"when": "2015-11-05 14:01",
+			"url": "http://em222iv.blogspot.se/2015/11/captains-log-day-three.html",
+			"title": "Captains log"
+		},
+		{
+			"when": "2015-11-13 15:30",
+			"url": "http://em222iv.blogspot.se/2015/11/two-weeks-into-react-i-havent-had-lot.html",
+			"title": "Two weeks into react"
+		},
+		{
+			"when": "2015-12-02 14:01",
+			"url": "http://em222iv.blogspot.se/2015/12/finally-yes-finally-have-gotten-in-to.html",
+			"title": "Finally!"
+		},
+		{
+			"when": "2015-12-08 15:30",
+			"url": "http://em222iv.blogspot.se/2015/12/made-up-my-mind-one-final-time-ive.html",
+			"title": "Changed my mind, yet again"
+		},
+		{
+			"when": "2015-12-23 11.58",
+			"url": "http://em222iv.blogspot.se/2015/12/restructuring-last-couple-of-week-has.html",
+			"title": "Restructuring!"
+		},
+		{
+			"when": "2015-01-04 13.32",
+			"url": "http://em222iv.blogspot.se/2016/01/react-vs-meteor-pre-ria-course-i-had.html",
+			"title": "React vs Meteor"
 		}
 	],
 	"pullrequests": [
+		{
+			"when": "2016-01-07 11:00",
+			"url": "https://github.com/Grenmyr/2DV607-ria/pull/18",
+			"description": "Used Davids customStyling to add list styles for his Card components"
+		},
+		{
+			"when": "2016-01-08 13:30",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/8",
+			"description": "Added a Nav example of the Materialize framework to Andreas Project"
+		}
 	]
 }

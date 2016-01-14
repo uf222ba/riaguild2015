@@ -1,8 +1,8 @@
 {
     "name": "Emil Axelsson",
     "github": "ea222pu",
-    "projectrepo": "n/a",
-    "projectdesc": "n/a",
+    "projectrepo": "https://github.com/ea222pu/2DV607/tree/master/Quiz",
+    "projectdesc": "Quiz",
     "slack": "emil",
     "presentation": "25 years old. Currently living in Växjö. From Ystad.",
     "icon": "undead-necromancers$lich",
@@ -11,6 +11,26 @@
             "when": "2015-11-11 12:40",
             "url": "https://github.com/ea222pu/2DV607/blob/master/Blog/entry01.md",
             "title": "First!"
+        },
+        {
+            "when": "2015-11-22 16:30",
+            "url": "https://github.com/ea222pu/2DV607/blob/master/Blog/entry02.md",
+            "title": "Second"
+        },
+        {
+            "when": "2015-12-15 19:20",
+            "url": "https://github.com/ea222pu/2DV607/blob/master/Blog/entry03.md",
+            "title": "Entry 3"
+        },
+        {
+            "when": "2015-12-16 15:10",
+            "url": "https://github.com/ea222pu/2DV607/blob/master/Blog/entry04.md",
+            "title": "initialState()"
+        },
+        {
+            "when": "2015-12-16 16:30",
+            "url": "https://github.com/ea222pu/2DV607/blob/master/Blog/entry05.md",
+            "title": "Reducer"
         }
     ],
     "pullrequests": [

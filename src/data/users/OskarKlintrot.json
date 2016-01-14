@@ -1,10 +1,10 @@
 {
     "name": "Oskar Klintrot",
     "github": "OskarKlintrot",
-    "projectrepo": "n/a",
-    "projectdesc": "n/a",
+    "projectrepo": "figurkoder.se",
+    "projectdesc": "An app (in Swedish, sorry) for training mnemonic images.",
     "slack": "oskarklintrot",
-    "presentation": "26 year old. Have a degree in marine engineer but fell in love with programming after a lot of PLC programming in school. Prefer C#, JavaScript novice but have done at least one small project in TypeScript; [figurkoder.se](http://figurkoder.se).",
+    "presentation": "26 year old. Have a degree in marine engineer but fell in love with programming after a lot of PLC programming in school. Prefer C#, JavaScript novice but not too shabby in Typescript. Have a soft spot for hardware. Would love to work with IoT in the future (I already know some C/C++, wohoo)!",
     "icon": "monsters$seaserpent",
     "blogposts": [
         {
@@ -16,8 +16,73 @@
             "when": "2015-11-11 17:20",
             "url": "http://2dv607.oskarklintrot.se/failure/",
             "title": "Failure is not an option, have to keep on trying"
+        },
+        {
+            "when": "2015-11-19 18:00",
+            "url": "http://2dv607.oskarklintrot.se/redux-devtools/",
+            "title": "Understanding Redux with Redux DevTools"
+        },
+        {
+            "when": "2015-11-20 16:00",
+            "url": "http://2dv607.oskarklintrot.se/BYOB/",
+            "title": "Adding bombs to the demo app"
+        },
+        {
+            "when": "2015-11-30 20:00",
+            "url": "http://2dv607.oskarklintrot.se/thinking-in-react/",
+            "title": "Thinking in React"
+        },
+        {
+            "when": "2015-12-02 11:30",
+            "url": "http://2dv607.oskarklintrot.se/thinking-in-react-pt2/",
+            "title": "Thinking in React, part 2"
+        },
+        {
+            "when": "2015-12-08 21:00",
+            "url": "http://2dv607.oskarklintrot.se/thinking-in-react-pt3/",
+            "title": "Thinking in React, part 3"
+        },
+        {
+            "when": "2015-12-14 19:00",
+            "url": "http://2dv607.oskarklintrot.se/my-thoughts-on-react-and-es2015-so-far/",
+            "title": "My thoughts on React and ES2015 so far"
+        },
+        {
+            "when": "2015-12-23 17:40",
+            "url": "http://2dv607.oskarklintrot.se/my-minimal-state/",
+            "title": "My minimal state"
+        },
+        {
+            "when": "2015-12-28 12:20",
+            "url": "http://2dv607.oskarklintrot.se/exclude-modules-when-building-for-production/",
+            "title": "Exclude Modules When Building For Production"
+        },
+        {
+            "when": "2016-01-01 23:30",
+            "url": "http://2dv607.oskarklintrot.se/finishing-the-app/",
+            "title": "Finishing the app"
         }
     ],
     "pullrequests": [
+        {
+            "when": "2015-12-08 15:00",
+            "url": "https://github.com/Grenmyr/2DV607-ria/pull/12",
+            "description": "Mobile friendly and fullscreen"
+        },
+        {
+            "when": "2015-12-17 19:20",
+            "url": "https://github.com/Pajn/Culinam/pull/18",
+            "description": "Tiny refactoring"
+        },
+        {
+            "when": "2015-12-25 12:00",
+            "url": "https://github.com/afridlund85/React-Redux-example/pull/2",
+            "description": "Clean up of inconsistency in code and change of syntax to ES2015 and React 0.14"
+        },
+        {
+            "when": "2015-12-28 15:00",
+            "url": "https://github.com/krawaller/riaguild2015/pull/278",
+            "description": "Giving the badges some air"
+        }
     ]
 }

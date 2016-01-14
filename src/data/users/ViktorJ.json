@@ -2,7 +2,7 @@
 	"name": "Viktor Jansson",
 	"github": "ViktorJ",
 	"projectrepo": "ria-project",
-	"projectdesc": "tbd",
+	"projectdesc": "YetAnotherNoteApp, an app to write, read and editing notes",
 	"slack": "viktorjansson",
 	"presentation": "3rd year web-programming student living in Södertälje, Sweden.",
 	"icon": "undead-skeletal$skeleton",
@@ -16,8 +16,48 @@
             "when": "2015-11-12 20:10",
             "url": "http://viktorj.github.io/notes/react/",
             "title": "Getting to know React"
+        },
+        {
+            "when": "2015-11-20 11:07",
+            "url": "http://viktorj.github.io/notes/project/",
+            "title": "The project"
+        },
+        {
+            "when": "2015-12-03 19:48",
+            "url": "http://viktorj.github.io/notes/procect_again/",
+            "title": "The project (again...)"
+        },
+        {
+            "when": "2015-12-03 19:48",
+            "url": "http://viktorj.github.io/notes/redux/",
+            "title": "Redux and ES2015"
+        },
+        {
+            "when": "2015-12-18 11:02",
+            "url": "http://viktorj.github.io/notes/functionality/",
+            "title": "We have functionality"
+        },
+        {
+            "when": "2015-12-18 11:02",
+            "url": "http://viktorj.github.io/notes/beauty_of_redux/",
+            "title": "The beauty of Redux"
+        },
+        {
+            "when": "2016-01-08 18:06",
+            "url": "http://viktorj.github.io/notes/project_update/",
+            "title": "Project update"
+        },
+        {
+            "when": "2016-01-12 13:55",
+            "url": "http://viktorj.github.io/notes/bug-fixed/",
+            "title": "Bug fixed"
         }
 	],
 	"pullrequests": [
+        {
+            "when": "2016-01-06 12:25",
+			"url": "https://github.com/Angamanga/RIA-project/pull/15",
+			"description": "Modified navbar"
+        }
 	]
 }

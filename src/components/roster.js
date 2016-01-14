@@ -1,37 +1,108 @@
-
 var React = require("react"),
-	_ = require("lodash"),
-	Icon = require("./icon"),
-	Badge = require("./badge"),
-	// transform to array and sort by name
-	members = _.sortBy(_.map(require("../data/members").members,_.identity),"name");
+    _ = require("lodash"),
+    Badge = require("./badge"),
+    members = require("../data/members").members,
+    issueTracker = require("../utils/issueTracker"),
+    Glyphicon = require("react-bootstrap").Glyphicon;
 
 var Roster = React.createClass({
-	render: function(){
-		var rows = _.map(members,function(info,n){
-			var id = info.id;
-			return (
-				<tr key={id}>
-					<td><Badge id={id} /></td>
-					<td>{info.blogposts.length}</td>
-					<td>{info.pullrequests.length}</td>
-				</tr>
-			);
-		});
-		return (
-			<div>
-				<p>These are the {rows.length} members of the RIA guild:</p>
-				<table className="table table-striped">
-					<thead>
-						<tr><th style={{width: 25+"%"}}>Name</th><th style={{width: 25+"%"}}>Posts</th><th>PR:s</th></tr>
-					</thead>
-					<tbody>
-						{rows}
-					</tbody>
-				</table>
-			</div>
-		);
-	}
+    getInitialState(){
+        return {
+            orderBy: "name",
+            blogposts: -1,
+            name: 1,
+            prs: -1,
+            snippets: 1,
+            issuesHeader: 1,
+            deepdive: 1,
+            issues: {}
+        };
+    },
+    componentDidMount(){
+        _.each(members, function(member){
+            if(member.github && member.projectrepo){
+                issueTracker.getIssues(member.github, member.projectrepo, this.setIssues);    
+            }    
+        }, this);
+    },
+    getOrderedMembers(){
+        var filters = {
+            "name": (member) => member.name,
+            "issuesHeader": (member) => this.state.issues[member.github] ? this.state.issues[member.github].length : 0,
+            "blogposts": (member) => member.blogposts.length,
+            "prs": (member) => member.pullrequests.length,
+            "snippets": (member) => member.snippets.length,
+            "deepdive": (member) => member.deepdive
+        };
+        var index = this.state[this.state.orderBy];
+        var order = _.sortBy(members, filters[this.state.orderBy], this);
+
+        if (index === -1) {
+            order.reverse();
+        }
+        return order;
+    },
+    setOrderBy(method){
+        var options = {orderBy: method};
+        var orderBy = this.state.orderBy;
+
+        if (orderBy === method) {
+            options[orderBy] = this.state[orderBy] * (-1);
+        }
+        this.setState(options);
+    },
+    setIssues: function(userName, response){
+        this.state.issues[userName] = response;
+        this.setState(this.state);
+    },
+    render: function () {
+        var orderedMembers = this.getOrderedMembers();
+        var rows = _.map(orderedMembers, (info) => {
+            var id = info.id;
+            var issuesLink = 'https://github.com/' + info.github + '/' + info.projectrepo + '/issues';
+            var issueTag = info.github && info.projectrepo && this.state.issues[info.github] && this.state.issues[info.github].length ? <a href={issuesLink}> {this.state.issues[info.github].length}</a> : '';
+            return (
+                <tr key={id}>
+                    <td><Badge id={id}/></td>
+                    <td>{issueTag}</td>
+                    <td>{info.blogposts.length}</td>
+                    <td>{info.pullrequests.length}</td>
+                    <td>{info.snippets.length}</td>
+                    <td style={{color: "green"}}>{info.deepdive ? <Glyphicon glyph="thumbs-up" /> : ""}</td>
+                </tr>
+            );
+        }, this);
+
+        var headerTargets = {
+            "name": "Name",
+            "issuesHeader": "Issues",
+            "blogposts": "Posts",
+            "prs": "PR:s",
+            "snippets": "Snippets",
+            "deepdive": "Deep Dive"
+        };
+
+        headerTargets[this.state.orderBy] += `${this.state[this.state.orderBy] < 0 ? '↓' : '↑'}`;
+
+        var headers = ["name", "issuesHeader", "blogposts", "prs", "snippets", "deepdive"].map((type) => <th className="cursor-click" style={{width: "17%"}}
+                   onClick={this.setOrderBy.bind(null, type)} key={type}>{headerTargets[type]}</th>);
+
+        return (
+            <div>
+                <p>These are the {rows.length} members of the RIA guild:</p>
+                <table className="table table-striped">
+                    <thead>
+                        <tr>
+                            {headers}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {rows}
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
 });
 
 module.exports = Roster;

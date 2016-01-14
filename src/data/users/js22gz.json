@@ -1,16 +1,36 @@
 {
     "name": "Jonatan Skäryd",
     "github": "js22gz",
-    "projectrepo": "2DV607",
-    "projectdesc": "No direction yet",
+    "projectrepo": "no_direction_project",
+    "projectdesc": "I'm thinking about time",
     "slack": "jonatan.skaryd",
     "presentation": "31 year old teacher from Kalmar. Knowing only basics of Javascript I'm eager to get going in this course",
     "icon": "human-loyalists$master-at-arms",
     "blogposts": [
         {
             "when": "2015-11-04 19:00",
-            "url": "https://github.com/js22gz/2DV607/blob/master/blog/entry01.md",
+            "url": "https://github.com/js22gz/2DV607/blob/gh-pages/blog/entry01.md",
             "title": "Introduction"
+        },
+        {
+            "when": "2015-11-13 10:30",
+            "url": "https://github.com/js22gz/2DV607/blob/gh-pages/blog/entry02.md",
+            "title": "Out of the frying pan, into the fire"
+        },
+        {
+            "when": "2015-11-15 22:30",
+            "url": "https://github.com/js22gz/2DV607/blob/gh-pages/blog/entry03.md",
+            "title": "Understanding the fundamentals"
+        },
+        {
+            "when": "2015-11-29 10:00",
+            "url": "https://github.com/js22gz/2DV607/blob/gh-pages/blog/entry04.md",
+            "title": "Past two weeks"
+        },
+        {
+            "when": "2015-11-29 12:00",
+            "url": "https://github.com/js22gz/2DV607/blob/gh-pages/blog/entry05.md",
+            "title": "No direction project"
         }
     ],
     "pullrequests": [

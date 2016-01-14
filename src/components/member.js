@@ -6,6 +6,10 @@ var React = require("react"),
 	Badge = require("./badge"),
 	markdown = require("markdown").markdown;
 
+var Style = {
+	paddingBottom: '10px'
+};
+
 var Member = React.createClass({
 	render: function(){
 		var data = members[this.props.params.name],
@@ -13,28 +17,37 @@ var Member = React.createClass({
 				return <li key={n}><a target="_blank" href={post.url}>{post.title+" ("+post.when+(post.sageadvice ? ", sage advice!":"")+")"}</a></li>;
 			}),
 			pullrequests = (data.pullrequests || []).map(function(pr,n){
-				var targetuser = members[pr.target];
+				var targetuser = members[pr.target] || {github: null};
 				return (
 					<tr key={n}>
-						<td><Badge id={targetuser.github} /></td>
-						<td><a href={pr.url} target="_blank">{pr.description}</a></td>
+						<td style={Style}><Badge id={targetuser.github} /></td>
+						<td style={Style}><a href={pr.url} target="_blank">{pr.description}</a></td>
 					</tr>
 				);
 			}),
-			received = (data.received || []).map(function(pr,n){
+			snippets = (data.snippets || []).map(function(snippet,n){
+				return <li key={n}><a target="_blank" href={snippet.url}>{snippet.description+" ("+snippet.when+")"}</a></li>;
+			}),
+			received = _.sortBy((data.received || []), "when").map(function(pr,n){
 				var authoruser = members[pr.by];
 				return (
 					<tr key={n}>
-						<td><Badge id={authoruser.github} /></td>
-						<td><a href={pr.url} target="_blank">{pr.description}</a></td>
+						<td style={Style}><Badge id={authoruser.github} /></td>
+						<td style={Style}><a href={pr.url} target="_blank">{pr.description}</a></td>
 					</tr>
 				);
-			});
+			}),
+			pubappURL = (data.projectrepo === data.github+".github.io"
+				// using special personal gh-pages url
+				? data.projectrepo
+				// using normal repo
+				: data.github+".github.io/"+data.projectrepo+"/"+(data.projectentry||"")
+			);
 		return (
 			<div>
 				<h3>{data.name}</h3>
 
-				<p><Icon icon={data.icon} /></p>				
+				<p><Icon icon={data.icon} /></p>
 
 				<div dangerouslySetInnerHTML={{__html:markdown.toHTML(data.presentation)}}/>
 				<h3>Contact</h3>
@@ -42,13 +55,25 @@ var Member = React.createClass({
 				{data.projectrepo && (
 					<div>
 						<h3>Project</h3>
-						{(data.projectdesc || "<no description given>")+" "} 
-						  (<a href={"http://github.com/"+data.github+"/"+data.projectrepo}>code</a>) 
-						  (<a href={"http://"+data.github+".github.io/"+data.projectrepo+"/"+(data.projectentry||"")}>run</a>) 
+						{(data.projectdesc || "<no description given>")+" "}
+						  (<a href={"http://github.com/"+data.github+"/"+data.projectrepo}>code</a>)
+						  (<a href={"http://"+pubappURL}>run</a>)
+					</div>
+				)}
+				{data.deepdive && (
+					<div>
+						<h3>Deep Dive</h3>
+						<a href={data.deepdive.url}>{(data.deepdive.description || "<no description given>")}</a>
 					</div>
 				)}
 				<h3>Blog posts:</h3>
 				<ul>{posts}</ul>
+				{snippets.length && (
+					<div>
+						<h3>Code snippets</h3>
+						<ul>{snippets}</ul>
+					</div>
+				) || ""}
 				{pullrequests.length && (
 					<div>
 						<h3>Pull requests</h3>

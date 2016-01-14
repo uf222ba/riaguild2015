@@ -1,18 +1,34 @@
 {
     "name": "Daniel Lundström",
     "github": "diggo16",
-    "projectrepo": "",
-    "projectdesc": "",
+    "projectrepo": "jsProject",
+    "projectentry": "public_html",
+    "projectdesc": "A chat with author, text and time",
     "slack": "daniel_l",
     "presentation": "21 years old from Kalmar but currently living in Växjö. Have some basic knowledge in html, css, php and javascript",
-    "icon": "human-magi$elder-mage",
+    "icon": "drakes$burner",
     "blogposts": [
         {
             "when": "2015-11-06 20:42",
             "url": "https://github.com/diggo16/jsProject/blob/master/public_html/blog/introduction.md",
             "title": "Introduction"
+        },
+		{
+            "when": "2015-11-12 15:11",
+            "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/React_redux_and_router.md",
+            "title": "React, Redux, and React router"
+        },
+		{
+            "when": "2015-11-26 16:51",
+            "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/Start%20with%20the%20project.md",
+            "title": "Start with the project"
         }
     ],
     "pullrequests": [
+		{
+			"when": "2015-12-17 16:27",
+			"url": "https://github.com/Janste/Janste.github.io/pull/1",
+			"description": "Updated search function by removing whitespaces and made it possible to search for a part of a word"
+		}
     ]
 }

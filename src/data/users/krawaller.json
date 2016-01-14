@@ -8,9 +8,23 @@
 	"icon": "human-magi$elder-mage",
 	"blogposts": [
 		{
-			"when": "2015-10-29 20:30",
-			"url": "https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/",
-			"title": "Course page"
+			"when": "2015-11-16 10:30",
+			"url": "https://youtu.be/E8jHa5J4o74",
+			"title": "Vlog 1: Starting the project"
+		},
+		{
+			"when": "2015-11-17 11:20",
+			"url": "https://youtu.be/pKJDVUyvXhg",
+			"title": "Vlog 2: Tools and snippets"
+		},
+		{
+			"when": "2015-11-20 12:25",
+			"url": "https://youtu.be/A4wgzfqGSGU",
+			"title": "Vlog 3: Redux + Firebase"
+		},{
+			"when": "2015-12-07 13:20",
+			"url": "https://youtu.be/eX7Le39JaP4",
+			"title": "Vlog 4: Project contributions"
 		}
 	],
 	"pullrequests": [
@@ -22,6 +36,97 @@
 			"when": "2015-11-12 09:50",
 			"url": "https://github.com/Dagashi/ria-2015/pull/2",
 			"description": "Made component work before Firebase data received"
+		},{
+			"when": "2015-11-13 15:25",
+			"url": "https://github.com/Dagashi/ria-2015/pull/4",
+			"description": "Fixed form default value population by delaying render until data received"
+		},{
+			"when": "2015-12-01 18:50",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/1",
+			"description": "Reorganized folders and made use of stateless component syntax"
+		},{
+			"when": "2015-12-02 10:50",
+			"url": "https://github.com/me222rs/RIA-Project/pull/2",
+			"description": "Added CSS animation and removed node_modules"
+		},{
+			"when": "2015-12-02 12:10",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/2",
+			"description": "Code review, stylistic changes to sleekify"
+		},{
+			"when": "2015-12-03 08:40",
+			"url": "https://github.com/MoombaDS/quest/pull/1",
+			"description": "Code review: ES2015, map vs forEach, dumb vs smart comps"
+		},{
+			"when": "2015-12-03 20:05",
+			"url": "https://github.com/js22gz/no_direction_project/pull/1",
+			"description": "Helped make timer action creator"
+		},{
+			"when": "2015-12-03 21:00",
+			"url": "https://github.com/diggo16/jsProject/pull/2",
+			"description": "Revised state shape and fixed custom message authors"
+		},{
+			"when": "2015-12-04 14:20",
+			"url": "https://github.com/Grenmyr/2DV607-ria/pull/8",
+			"description": "Fixing wrapper component and nav"
+		},{
+			"when": "2015-12-15 10:40",
+			"url": "https://github.com/js22gz/no_direction_project/pull/2",
+			"description": "Made all three timer functions use the same tick"
+		},{
+			"when": "2015-12-16 01:20",
+			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/1",
+			"description": "simplified API"
+		},{
+			"when": "2015-12-16 10:40",
+			"url": "https://github.com/MoombaDS/redux-simple-localstorage/pull/2",
+			"description": "simplified API even more"
+		},{
+			"when": "2015-12-21 18:20",
+			"url": "https://github.com/Dagashi/ria-2015/pull/8",
+			"description": "fixed loading firebase users"
+ 		},{
+ 			"when": "2016-01-05 13:30",
+ 			"url": "https://github.com/mn22nw/favovid/pull/5",
+ 			"description": "fix context bug"
+ 		},{
+ 			"when": "2016-01-06 09:45",
+ 			"url": "https://github.com/as223jx/2DV607/pull/3",
+ 			"description": "added mole graphic"
+ 		},{
+ 			"when": "2016-01-06 15:15",
+ 			"url": "https://github.com/as223jx/2DV607/pull/4",
+ 			"description": "adultified game a bit"
+ 		},{
+ 			"when": "2016-01-08 01:20",
+ 			"url": "https://github.com/uf222ba/2DV607/pull/1",
+ 			"description": "made dog name description vary with singular/plural characters"
+ 		}
+	],
+	"snippets": [
+		{
+			"when": "2015-11-06 18:32",
+			"url": "https://jsbin.com/niwumu/edit?js,console",
+			"description": "Understanding JS function context"
+		},
+		{
+			"when": "2015-11-06 18:32",
+			"url": "http://jsbin.com/vapomo/edit?js,output",
+			"description": "React component rendering depending on prop values"
+		},
+		{
+			"when": "2015-11-07 12:16",
+			"url": "https://jsbin.com/cimoke/edit?js,console",
+			"description": "Different syntaxes for defining a method"
+		},
+		{
+			"when": "2015-11-20 14:23",
+			"url": "http://jsbin.com/xunujo/edit?js,console",
+			"description": "Using bind for currying"
+		},
+		{
+			"when": "2015-11-23",
+			"url": "https://jsbin.com/foneri/edit?js,output",
+			"description": "React stateless component syntax"
 		}
 	]
 }

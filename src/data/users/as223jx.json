@@ -10,19 +10,45 @@
         {
             "when": "2015-11-03 20:26",
             "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry01.md",
-            "title": "Entry 01"
+            "title": "Entry 01 - Hello!"
         },
 		{
             "when": "2015-11-11 20:13",
             "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry02.md",
-            "title": "Entry 02"
+            "title": "Entry 02 - Lots of theory and repetition"
         },
 		{
             "when": "2015-11-12 15:35",
             "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry03.md",
-            "title": "Entry 03"
+            "title": "Entry 03 - A table"
+        },
+		{
+            "when": "2015-11-20 15:08",
+            "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry04.md",
+            "title": "Entry 04 - Click!"
+        },
+		{
+            "when": "2015-11-25 17:04",
+            "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry05.md",
+            "title": "Entry 05 - Redux"
+        },
+		{
+            "when": "2015-12-02 17:08",
+            "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry06.md",
+            "title": "Entry 06 - Timers and actions/state confusion"
+        },
+		{
+            "when": "2016-01-12 15:48",
+            "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/entry07.md",
+            "title": "Entry 07 - Final thoughts"
         }
+		
     ],
     "pullrequests": [
+		{
+			"when": "2016-01-06 11:32",
+			"url": "https://github.com/diggo16/jsProject/pull/4",
+			"description": "Added headers for the message list"
+		}
     ]
 }

@@ -2,7 +2,7 @@
 	"name": "David Strömbom",
 	"github": "Dagashi",
 	"projectrepo": "ria-2015",
-	"projectdesc": "Unknown",
+	"projectdesc": "This is the start of a Project management system to try all the different features of ReactJS and Redux with Firebase.",
 	"slack": "david.strombom",
 	"presentation": "28 year old father of 3, living the life in Italy. Programming is da bomb! Nice to meet you.",
 	"icon": "drakes$blademaster",
@@ -16,8 +16,33 @@
 			"when": "2015-11-05 17:40",
 			"url": "http://www.2dv607.davidstrombom.se/react/react-with-bootstrap/",
 			"title": "React with Bootstrap"
+		},
+		{
+			"when": "2015-11-13 22:07",
+			"url": "http://www.2dv607.davidstrombom.se/react/my-reaction-to-react-so-far/",
+			"title": "My reaction to react so far"
+		},
+		{
+			"when": "2015-11-28 20:30",
+			"url": "http://www.2dv607.davidstrombom.se/react/the-story-of-blood-sweat-and-tears/",
+			"title": "The story of blood, sweat and tears"
+		},
+		{
+			"when": "2015-12-10 03:27",
+			"url": "http://www.2dv607.davidstrombom.se/react/react-with-firebase-auth/",
+			"title": "React with Firebase Auth"
 		}
 	],
 	"pullrequests": [
+		{
+			"when": "2015-11-11 07:25",
+			"url": "https://github.com/krawaller/riaguild2015/pull/70",
+			"description": "Added react-bootstrap to the guild-page. with basic styling."
+		},
+		{
+			"when": "2015-11-11 07:30",
+			"url": "https://github.com/krawaller/riaguild2015/pull/71",
+			"description": "Removed red background on badges."
+		}
 	]
 }

@@ -1,0 +1,69 @@
+{
+	"name": "Christoffer Holmgren",
+	"github": "ch222kv",
+	"projectrepo": "ria-2015",
+	"projectdesc": "Contact and \"chatting\" application",
+	"projectentry": "app-for-real",
+	"slack": "christofferholmgren",
+	"presentation": "21 year old from Falun.",
+	"icon": "merfolk$hunter",
+	"blogposts": [
+		{
+			"when": "2015-11-13 18:31",
+			"url": "https://github.com/ch222kv/ria-2015/blob/master/blog/entry01.md",
+			"title": "Introduction" 
+		},
+		{
+			"when": "2015-11-22 13:02",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/Stage-1-Hacking-away-at-Redux.md",
+			"title": "Stage one"
+		},
+		{
+			"when": "2015-12-05 20:00",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/a-discussion-on-timers.md",
+			"title": "A discussion on time(rs)"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-app.md",
+			"title": "My Application"
+		},
+		{
+			"when": "2015-12-08 20:40",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/using-localstorage.md",
+			"title": "Using Localstorage"
+		},
+		{
+			"when": "2015-12-27 22:16",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-project.md",
+			"title": "My project"
+		},
+		{
+			"when": "2016-01-04 09:46",
+			"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/my-deep-dive.md",
+			"title": "My Deep Dive"
+		}
+	],
+	"pullrequests": [
+		{
+			"when": "2015-11-22 21:45",
+			"url": "https://github.com/krawaller/riaguild2015/pull/151",
+			"description": "Added sorting on roster page"
+		},
+		{
+			"when": "2015-12-02 22:40",
+			"url": "https://github.com/me222rs/RIA-Project/pull/3",
+			"description": "Simplified rendering of quiz, naming, removed unused code."
+		},
+		{
+			"when": "2015-12-19 22:43",
+			"url": "https://github.com/diggo16/jsProject/pull/3",
+			"description": "Added redux thunk, constants and more"
+		},
+		{
+			"when": "2015-12-21 21:03",
+			"url": "https://github.com/ViktorJ/ria-project/pull/2",
+			"description": "Added editing of notes and fixed some bugs"
+		}
+	]
+}

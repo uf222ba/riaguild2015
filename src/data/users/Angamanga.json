@@ -1,6 +1,8 @@
 {
   "name": "Anna Iosif",
   "github": "Angamanga",
+  "projectrepo": "RIA-project",
+  "projectdesc": "-",
   "slack": "annaiosif",
   "presentation": "37 year old, two kids, one husband, live in Uppsala. JavaScript is my favourite programming language and my secret skill is flipping pancakes in the air. ",
   "icon": "demons$hellbent-tide",
@@ -14,6 +16,36 @@
       "when": "2015-11-07 18:40",
       "url": "http://blog.angamanga.se/2015/11/06/first-week.html",
       "title": "First week!"
+    },
+    {
+      "when": "2015-11-14 23-20",
+      "url": "http://blog.angamanga.se/2015/11/14/HelloWorld.html",
+      "title": "Hello World!"
+    },
+    {
+      "when": "2015-11-19 12-10",
+      "url": "http://blog.angamanga.se/2015/11/19/Conquering-the-world.html",
+      "title": "Conquering the world!!"
+    },
+    {
+      "when": "2015-11-19 21-45",
+      "url": "http://blog.angamanga.se/2015/11/19/Baby-steps.html",
+      "title": "Baby steps"
+    },
+    {
+      "when": "2015-11-23 16-05",
+      "url": "http://blog.angamanga.se/2015/11/23/Playing-around-with-react-and-firebase.html",
+      "title": "Playing around with react and firebase"
+    },
+      {
+      "when": "2015-12-23 17-00",
+      "url": "http://blog.angamanga.se/2015/12/23/Long-time-no-see.html",
+      "title": "Long time no see"
+    },
+    {
+      "when": "2015-12-28 20-00",
+      "url": "http://blog.angamanga.se/2015/12/28/Listing-stuff-and-logging-in.html",
+      "title": "Listing stuff and logging in"
     }
   ],
   "pullrequests": [

@@ -1,8 +1,8 @@
 {
     "name": "Carl Pagels",
     "github": "carlpagelsLNU",
-    "projectrepo": "n/a",
-    "projectdesc": "n/a",
+    "projectrepo": "2DV607_project",
+    "projectdesc": "A simple game of memory",
     "slack": "pagge123",
     "presentation": "22 years old, from Växjö, studying Software Techonology",
     "icon": "human-outlaws$assassin",
@@ -11,6 +11,11 @@
             "when": "2015-11-12 16:15",
             "url": "https://github.com/carlpagelsLNU/2DV607/blob/gh-pages/blog/entry01.md",
             "title": "Blog entry 1"
+        },
+        {
+            "when": "2015-12-14",
+            "url": "https://github.com/carlpagelsLNU/2DV607/blob/gh-pages/blog/entry02.md",
+            "title": "My hello world application"
         }
     ],
     "pullrequests": [
