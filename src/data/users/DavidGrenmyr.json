@@ -51,6 +51,11 @@
       "when": "2016-01-03 14:02",
       "url": "http://davidgrenmyr.blogspot.se/2016/01/browsify-and-webpack-comparision.html",
       "title": "Experiment between Webpack and Browserify."
+    },
+    {
+      "when": "2016-01-14 11:32",
+      "url": "http://davidgrenmyr.blogspot.se/2016/01/restarted-implementing-more.html",
+      "title": "Restarted implementing more functionality to my project "
     }
 
   ],
@@ -75,6 +80,10 @@
       "url": "https://github.com/em222iv/react-simple/pull/5",
       "description": "Readme said he wanted more ES2015 code, so i rewrote an component in his repository."
     }
-  ]
+  ],
+  "deepdive": {
+    "description": "Experiment comparing webpack with browsify.",
+    "url": "http://davidgrenmyr.blogspot.se/2016/01/browsify-and-webpack-comparision.html"
+  }
 }
 
