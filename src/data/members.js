@@ -15,7 +15,7 @@ var members = {
 	SheriefBadran: require("./users/SheriefBadran"),
 	Grenmyr: require("./users/DavidGrenmyr.json"),
 	mw222rs: require("./users/mw222rs.json"),
-	jn222na: require("./users/jn222na.json"),
+	//jn222na: require("./users/jn222na.json"), // jumped ship early on
 	Pajn: require("./users/Pajn.json"),
 	//JesperHolmstrom: require("./users/JesperHolmstrom.json"), // Only 1 post, no skype contact
 	ek222mw: require("./users/ek222mw.json"),
