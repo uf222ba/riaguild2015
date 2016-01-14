@@ -46,7 +46,12 @@
 			"when": "2015-12-22 14:18",
             		"url": "https://github.com/me222rs/blog/blob/master/entry08.md",
             		"title": "Refactoring, improvements and some small features"
-		}
+		},
+		{				
+			"when": "2016-01-14 11:52",
+            		"url": "https://docs.google.com/document/d/1E75WuQZbbb6MBUhRIh9CnWtifKyn5LtyqT8cONkLb_w/edit?usp=sharing",
+            		"title": "Deepdive - Web Audio API"
+		},
 	],
 	"pullrequests": [
 				{
@@ -59,5 +64,9 @@
             "url": "https://github.com/bc222az/Ria-development-2dv607/pull/9",
 			"description": "When hoovering above a name it shows when the user arrived and left. But on majority on mobile phones there is no hoover function and it is then not possible to get this information. The change i made now shows the arrival and leaving after the name on mobile devices."
 		}
-	]
+	],
+	"deepdive": {
+		"description": "Web Audio API",
+		"url": "https://docs.google.com/document/d/1E75WuQZbbb6MBUhRIh9CnWtifKyn5LtyqT8cONkLb_w/edit?usp=sharing"
+	}
 }
