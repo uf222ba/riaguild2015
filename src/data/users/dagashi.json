@@ -31,8 +31,17 @@
 			"when": "2015-12-10 03:27",
 			"url": "http://www.2dv607.davidstrombom.se/react/react-with-firebase-auth/",
 			"title": "React with Firebase Auth"
+		},
+		{
+			"when": "2016-01-02 15:45",
+			"url": "http://www.2dv607.davidstrombom.se/information/cloud-ide-for-developing-ria/",
+			"title": "Cloud IDE for developing RIA"
 		}
 	],
+	"deepdive": {
+    	"description": "Cloud IDE for developing RIA",
+    	"url": "http://www.2dv607.davidstrombom.se/information/cloud-ide-for-developing-ria/"
+	},
 	"pullrequests": [
 		{
 			"when": "2015-11-11 07:25",
