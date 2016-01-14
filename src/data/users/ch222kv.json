@@ -3,6 +3,7 @@
 	"github": "ch222kv",
 	"projectrepo": "ria-2015",
 	"projectdesc": "Contact and \"chatting\" application",
+	"projectentry": "app-for-real",
 	"slack": "christofferholmgren",
 	"presentation": "21 year old from Falun.",
 	"icon": "merfolk$hunter",
@@ -64,5 +65,10 @@
 			"url": "https://github.com/ViktorJ/ria-project/pull/2",
 			"description": "Added editing of notes and fixed some bugs"
 		}
-	]
+	],
+	"deepdive": {
+		"description": "Flux vs Redux",
+		"url": "https://github.com/ch222kv/ria-2015/blob/gh-pages/blog/deep-dive.md"
+	}
+
 }

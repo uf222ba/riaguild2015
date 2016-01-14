@@ -48,6 +48,11 @@
 			"when": "2016-01-07 11:00",
 			"url": "https://github.com/Grenmyr/2DV607-ria/pull/18",
 			"description": "Used Davids customStyling to add list styles for his Card components"
+		},
+		{
+			"when": "2016-01-08 13:30",
+			"url": "https://github.com/afrxx09/2dv607-project/pull/8",
+			"description": "Added a Nav example of the Materialize framework to Andreas Project"
 		}
 	]
 }

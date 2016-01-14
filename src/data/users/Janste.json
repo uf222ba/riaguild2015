@@ -6,6 +6,10 @@
     "slack": "jansteczko",
     "presentation": "A student at LNU from Vaxjo.",
     "icon": "dwarves$gryphon-master",
+    "deepdive": {
+        "description": "Deep dive into AngularJS",
+        "url": "https://www.youtube.com/watch?v=hAXKJqOrzVE"
+    },
     "blogposts": [
         {
             "when": "2015-11-07 11:35",
@@ -31,8 +35,18 @@
             "when": "2015-12-26 11:05",
             "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry05.md",
             "title": "5th blog post"
+        },
+        {
+            "when": "2015-01-09 20:50",
+            "url": "https://github.com/Janste/RIA-Development-with-Javascript/blob/master/blog/entry06.md",
+            "title": "Deep dive into AngularJS"
         }
     ],
     "pullrequests": [
+        {
+			"when": "2015-01-14 19:20",
+			"url": "https://github.com/diggo16/jsProject/pull/6",
+			"description": "Refactored code that displays chat window contents"
+		}
     ]
 }

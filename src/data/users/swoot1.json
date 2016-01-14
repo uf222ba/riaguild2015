@@ -6,6 +6,10 @@
 	"slack": "en222by",
 	"presentation": "25 årig programmerare i Göteborg f.d. värmlänning. Gillar [Codewars](https://www.codewars.com/users/sign_in) och böcker.",
 	"icon": "human-outlaws$thief",
+      "deepdive": {
+        "description": "Looking into Angular 2",
+        "url": "https://www.youtube.com/watch?v=vX9ftlkBGVA"
+      },
 	"blogposts": [
 		{
 			"when": "2015-11-03 21:20",
@@ -106,6 +110,11 @@
             "when": "2016-01-06 21:31",
             "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-06-angular2.markdown",
             "title": "Thoughts on Angular 2"
+ 		},
+        {
+            "when": "2016-01-09 18:31",
+            "url": "https://github.com/Swoot1/ria2015/blob/gh-pages/blog/2016-01-09-final-thoughts.markdown",
+            "title": "Final thoughts"
  		}
 	],
 	"pullrequests": [
