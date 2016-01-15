@@ -41,6 +41,11 @@
 			"when": "2015-01-04 13.32",
 			"url": "http://em222iv.blogspot.se/2016/01/react-vs-meteor-pre-ria-course-i-had.html",
 			"title": "React vs Meteor"
+		},
+		{
+			"when": "2015-01-15 15.35",
+			"url": "http://em222iv.blogspot.se/2016/01/http://em222iv.blogspot.se/2016/01/last-blog-post-hands-down-one-of-my.html",
+			"title": "Last blog post"
 		}
 	],
 	"pullrequests": [
@@ -54,5 +59,9 @@
 			"url": "https://github.com/afrxx09/2dv607-project/pull/8",
 			"description": "Added a Nav example of the Materialize framework to Andreas Project"
 		}
-	]
+	],
+	"deepdive": {
+		"description": "React vs Meteor",
+		"url": "http://em222iv.blogspot.se/2016/01/react-vs-meteor-pre-ria-course-i-had.html"
+	}
 }
