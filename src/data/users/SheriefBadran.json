@@ -35,6 +35,11 @@
       "when": "2016-01-04 12:10",
       "url": "http://sheriefbadran.blogspot.se/2016/01/currying-and-function-composition.html",
       "title": "Currying and function composition interwined"
+    },
+    {
+      "when": "2016-01-15 16:24",
+      "url": "http://sheriefbadran.blogspot.se/2016/01/the-end.html",
+      "title": "The end"
     }
   ],
   "pullrequests": [
