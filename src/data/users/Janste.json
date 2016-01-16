@@ -2,9 +2,9 @@
     "name": "Jan Steczko",
     "github": "Janste",
     "projectrepo": "Janste.github.io",
-    "projectdesc": "Not available yet",
+    "projectdesc": "My own Wiki webpage",
     "slack": "jansteczko",
-    "presentation": "A student at LNU from Vaxjo.",
+    "presentation": "A student at Linnaeus University in Vaxjo.",
     "icon": "dwarves$gryphon-master",
     "deepdive": {
         "description": "Deep dive into AngularJS",
@@ -57,6 +57,16 @@
 		"when": "2015-01-15 19:10",
 		"url": "https://github.com/js22gz/no_direction_project/pull/3",
 		"description": "New component that shows current date on home page"
+	},
+	{
+		"when": "2015-01-16 14:00",
+		"url": "https://github.com/me222rs/RIA-Project/pull/6",
+		"description": "Switched to webpack, did some minor syntax errors fixes and changed some styles"
+	},
+	{
+		"when": "2015-01-15 14:20",
+		"url": "https://github.com/ek222mw/RiaProject/pull/3",
+		"description": "Added buttons that reset the quiz game, switched to webpack and fixed some errors"
 	}
     ]
 }
