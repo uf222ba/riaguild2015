@@ -7,6 +7,10 @@
     "slack": "daniel_l",
     "presentation": "21 years old from Kalmar but currently living in Växjö. Have some basic knowledge in html, css, php and javascript",
     "icon": "drakes$burner",
+	"deepdive": {
+		description: "Node.js",
+		url: "https://youtu.be/C4dnv7KurhY"
+	},
     "blogposts": [
         {
             "when": "2015-11-06 20:42",
@@ -22,6 +26,16 @@
             "when": "2015-11-26 16:51",
             "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/Start%20with%20the%20project.md",
             "title": "Start with the project"
+        },
+		{
+            "when": "2016-01-16 16:00",
+            "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/Nodejs.md",
+            "title": "Node.js deepdive"
+        },
+		{
+            "when": "2016-01-16 16:30",
+            "url": "https://github.com/diggo16/jsProject/blob/gh-pages/public_html/blog/final_post.md",
+            "title": "Final post"
         }
     ],
     "pullrequests": [
