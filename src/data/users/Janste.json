@@ -44,9 +44,19 @@
     ],
     "pullrequests": [
         {
-			"when": "2015-01-14 19:20",
-			"url": "https://github.com/diggo16/jsProject/pull/6",
-			"description": "Refactored code that displays chat window contents"
-		}
+		"when": "2015-01-14 19:20",
+		"url": "https://github.com/diggo16/jsProject/pull/6",
+		"description": "Refactored code that displays chat window contents"
+	},
+	{
+		"when": "2015-01-15 19:00",
+		"url": "https://github.com/Angamanga/RIA-project/pull/16",
+		"description": "Improved adding new articles function, created component that shows all articles, refactored"
+	},
+	{
+		"when": "2015-01-15 19:10",
+		"url": "https://github.com/js22gz/no_direction_project/pull/3",
+		"description": "New component that shows current date on home page"
+	}
     ]
 }
