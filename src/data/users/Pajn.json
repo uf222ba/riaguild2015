@@ -67,6 +67,11 @@
         "url": "https://rasmus.eneman.eu/fullstack-redux/",
         "description": "Fullstack Redux"
       },
+      {
+        "when": "2016-01-15 15:30",
+        "url": "https://rasmus.eneman.eu/concluding-remarks/",
+        "description": "Concluding Remarks"
+      },
     ],
     "pullrequests": [
       {
