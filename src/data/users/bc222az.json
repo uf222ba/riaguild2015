@@ -35,8 +35,8 @@
     ],
     "pullrequests": [
     ],
-deepdive: {
-    description: "Firebase",
-    url: "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/Deep-Dive%20Firebase.md"
+"deepdive": {
+    "description": "Firebase",
+    "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/Deep-Dive%20Firebase.md"
 }
 }
