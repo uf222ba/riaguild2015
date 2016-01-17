@@ -12,12 +12,12 @@
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry01.md",
             "title": "Entry01"
         },
-	{
+       {
             "when": "2015-11-12 17:00",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry02.md",
             "title": "Entry02"
         },
-	{
+       {
             "when": "2015-11-17 16:30",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/3-Steps-Of-Hello-World.md",
             "title": "3 Simple Steps of Hello World!"
@@ -27,17 +27,31 @@
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry03.md",
             "title": "Entry03"
         },
-	{
+       {
             "when": "2015-12-18 15:00",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry04.md",
             "title": "Entry04"
         }
     ],
     "pullrequests": [
-	
+        {
+              "when": "2016-01-17 23.00",
+              "url": "https://github.com/me222rs/RIA-Project/pull/7",
+              "description": "Only show top 10 highscores and added 2 questions"
+          },
+          {
+            "when": "2016-01-17 23.01",
+            "url": "https://github.com/ek222mw/RiaProject/pull/4",
+            "description": "Fixed error"
+        },
+        {
+          "when": "2016-01-17 23.02",
+          "url": "https://github.com/as223jx/2DV607/pull/6",
+          "description": "ugly but quick solution for hitting 'animation'"
+        }
     ],
-		deepdive: {
-    description: "Firebase",
-    url: "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/Deep-Dive%20Firebase.md"
-}
+    "deepdive": {
+        "description": "Firebase",
+        "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/Deep-Dive%20Firebase.md"
+    }
 }
