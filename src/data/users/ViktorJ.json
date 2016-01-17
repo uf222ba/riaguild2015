@@ -51,6 +51,11 @@
             "when": "2016-01-12 13:55",
             "url": "http://viktorj.github.io/notes/bug-fixed/",
             "title": "Bug fixed"
+        },
+        {
+            "when": "2016-01-17 21:39",
+            "url": "http://viktorj.github.io/notes/deepdive/",
+            "title": "React vs Angular"
         }
 	],
 	"pullrequests": [
@@ -59,5 +64,9 @@
 			"url": "https://github.com/Angamanga/RIA-project/pull/15",
 			"description": "Modified navbar"
         }
-	]
+	],
+  "deepdive": {
+    "description": "React vs Angular",
+    "url": "http://viktorj.github.io/notes/deepdive/"
+  }
 }
