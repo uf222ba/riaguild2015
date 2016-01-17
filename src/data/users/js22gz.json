@@ -34,5 +34,15 @@
         }
     ],
     "pullrequests": [
-    ]
+        		{
+			"when": "2015-12-01 21:00",
+			"url": "https://github.com/mw222rs/riastart2015/pull/1",
+			"description": "Added dependencies"
+		},
+    ],
+    	"deepdive": {
+		"description": "Testing the Electron library",
+		"url": "https://www.youtube.com/watch?v=HeWj9STRIgE"
+	}
+
 }
