@@ -41,6 +41,11 @@
         "when": "2016-01-14 22:11",
         "url": "https://jesperh.se/2016/01/14/reactive-extensions-in-javascript/",
         "title": "Reactive extensions in Javascript"
+      },
+      {
+        "when": "2016-01-18 10:42",
+        "url": "https://jesperh.se/2016/01/18/the-end-of-ria/",
+        "title": "The end of RIA"
       }
     ],
     "pullrequests": [
