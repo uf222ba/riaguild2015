@@ -31,7 +31,12 @@
             "when": "2015-12-18 15:00",
             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry04.md",
             "title": "Entry04"
-        }
+        },
+        {
+             "when": "2015-01-18 12:50",
+             "url": "https://github.com/bc222az/Ria-development-2dv607/blob/gh-pages/blog/entry05.md",
+             "title": "Entry05"
+         }
     ],
     "pullrequests": [
         {
