@@ -112,6 +112,11 @@
       "when": "2016-01-11",
       "url": "https://github.com/MoombaDS/quest/pull/10",
       "description": "refactor: Rxjs streams handling command input, the observeCommand function is central in this work. Functions execuded with respect to expectedInput are now in a separate file, they are also pure and we know that all data (pretty much) they are working with is passed into them. The switch statement is also in a function that is close to pure, the only reference from outside is the constants."
+    },
+    {
+      "when": "2016-01-19",
+      "url": "https://github.com/Grenmyr/2DV607-ria/pull/20",
+      "description": "feat: Making use of the debounce function on newPortfolioCard form."
     }
   ]
 }
