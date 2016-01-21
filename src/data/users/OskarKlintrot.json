@@ -61,6 +61,11 @@
             "when": "2016-01-01 23:30",
             "url": "http://2dv607.oskarklintrot.se/finishing-the-app/",
             "title": "Finishing the app"
+        },
+        {
+            "when": "2016-01-21 20:30",
+            "url": "http://2dv607.oskarklintrot.se/comparison-between-the-old-and-new-app-architecture/",
+            "title": "Comparison Between The Old And New App Architecture"
         }
     ],
     "deepdive": {
