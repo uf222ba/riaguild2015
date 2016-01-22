@@ -64,6 +64,11 @@
 			"when": "2015-12-21 21:03",
 			"url": "https://github.com/ViktorJ/ria-project/pull/2",
 			"description": "Added editing of notes and fixed some bugs"
+		},
+		{
+			"when": "2016-01-22 19:28",
+			"url": "https://github.com/ek222mw/RiaProject/pull/5",
+			"description": "Changes galore"
 		}
 	],
 	"deepdive": {
