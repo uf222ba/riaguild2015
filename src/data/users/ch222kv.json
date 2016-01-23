@@ -69,6 +69,11 @@
 			"when": "2016-01-22 19:28",
 			"url": "https://github.com/ek222mw/RiaProject/pull/5",
 			"description": "Changes galore"
+		},
+		{
+			"when": "2016-01-23 18:45",
+			"url": "https://github.com/em222iv/react-simple/pull/11",
+			"description": "Another one, changes galore, and implemented registering"
 		}
 	],
 	"deepdive": {
