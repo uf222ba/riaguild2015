@@ -50,5 +50,9 @@
 			"url": "https://github.com/diggo16/jsProject/pull/4",
 			"description": "Added headers for the message list"
 		}
-    ]
+    ],
+	"deepdive": {
+      "description": "Simple UI using Webix",
+      "url": "https://github.com/as223jx/2DV607/blob/gh-pages/blog/deepdive.md"
+    }
 }
