@@ -74,6 +74,11 @@
 			"when": "2016-01-23 18:45",
 			"url": "https://github.com/em222iv/react-simple/pull/11",
 			"description": "Another one, changes galore, and implemented registering"
+		},
+		{
+			"when": "2016-01-24 10:51",
+			"url": "https://github.com/mn22nw/favovid/pull/6",
+			"description": "Added sign in with email and password, also a cleanup"
 		}
 	],
 	"deepdive": {
