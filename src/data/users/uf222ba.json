@@ -57,6 +57,11 @@
             "when": "2016-01-19 19:00",
             "url": "http://uf222ba.github.io/react/redux/project/app/break-the-ui-into-a-component-hierarchy/",
             "title": "Break the UI into a component hierarchy"
+        },
+        	{
+            "when": "2016-01-26 11:36",
+            "url": "http://uf222ba.github.io/react/redux/project/app/redux-and-the-library-react-bootstrap/",
+            "title": "Redux and the library react-bootstrap"
         }
         
     ],
